@@ -2,22 +2,19 @@ import argparse
 from collections import defaultdict
 import json
 import re
+from tokenizer import tokenize
 
-def tw(w):
-  regex = re.compile('[^a-zA-Z0-9\'-/]')
-  return regex.sub('', w)
-
-def split_string(s):
-  return [tw(w) for w in s.split()]
+def tokenize_string(s):
+  return [t.txt for t in tokenize(s) if t.kind != 1 and t.txt]
 
 def string_wc(s):
   word_count = defaultdict(int)
-  for w in split_string(s):
+  for w in tokenize_string(s):
     word_count[w] += 1
   return word_count
 
 def generate_new_queation(all_wc, context_wc, original_question, num_words):
-  original_question_words = split_string(original_question)
+  original_question_words = tokenize_string(original_question)
   score_index = []
   for i in range(len(original_question_words)):
     w = original_question_words[i]
@@ -35,7 +32,7 @@ def generate_new_dataset(dataset_json, num_words):
   dataset = dataset_json['data']
   for data in dataset:
     for p in data['paragraphs']:
-      for w in split_string(p['context']):
+      for w in tokenize_string(p['context']):
         all_wc[w] += 1
 
   for data in dataset:
