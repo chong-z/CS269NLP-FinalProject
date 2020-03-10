@@ -1,0 +1,471 @@
+{
+  "cmd": "python3 sample-correct-incorrect.py dev-v1.1.json albert-results/new-dev-3.json albert-results/predictions-original.json albert-results/predictions-3.json 10 interesting_data/albert-3-word-sample-10.json",
+  "original_exact_match": 83.53831598864711,
+  "original_f1": 90.6009470053024,
+  "new_exact_match": 17.1996215704825,
+  "new_f1": 33.639504924850314,
+  "new_incorrect_contexts": {
+    "56beb4343aeaaa14008c925f": {
+      "context": "The Panthers defense gave up just 308 points, ranking sixth in the league, while also leading the NFL in interceptions with 24 and boasting four Pro Bowl selections. Pro Bowl defensive tackle Kawann Short led the team in sacks with 11, while also forcing three fumbles and recovering two. Fellow lineman Mario Addison added 6½ sacks. The Panthers line also featured veteran defensive end Jared Allen, a 5-time pro bowler who was the NFL's active career sack leader with 136, along with defensive end Kony Ealy, who had 5 sacks in just 9 starts. Behind them, two of the Panthers three starting linebackers were also selected to play in the Pro Bowl: Thomas Davis and Luke Kuechly. Davis compiled 5½ sacks, four forced fumbles, and four interceptions, while Kuechly led the team in tackles (118) forced two fumbles, and intercepted four passes of his own. Carolina's secondary featured Pro Bowl safety Kurt Coleman, who led the team with a career high seven interceptions, while also racking up 88 tackles and Pro Bowl cornerback Josh Norman, who developed into a shutdown corner during the season and had four interceptions, two of which were returned for touchdowns.",
+      "answers": [
+        {
+          "answer_start": 192,
+          "text": "Kawann Short"
+        },
+        {
+          "answer_start": 192,
+          "text": "Kawann Short"
+        },
+        {
+          "answer_start": 199,
+          "text": "Short"
+        }
+      ],
+      "original_question": "Who registered the most sacks on the team this season?",
+      "new_question": "registered sacks team",
+      "original_prediction": "Kawann Short",
+      "new_prediction": "11"
+    },
+    "571c8198dd7acb1400e4c0d2": {
+      "context": "Highly combustible materials that leave little residue, such as wood or coal, were thought to be made mostly of phlogiston; whereas non-combustible substances that corrode, such as iron, contained very little. Air did not play a role in phlogiston theory, nor were any initial quantitative experiments conducted to test the idea; instead, it was based on observations of what happens when something burns, that most common objects appear to become lighter and seem to lose something in the process. The fact that a substance like wood gains overall weight in burning was hidden by the buoyancy of the gaseous combustion products. Indeed, one of the first clues that the phlogiston theory was incorrect was that metals, too, gain weight in rusting (when they were supposedly losing phlogiston).",
+      "answers": [
+        {
+          "answer_start": 441,
+          "text": "become lighter"
+        },
+        {
+          "answer_start": 431,
+          "text": "appear to become lighter"
+        },
+        {
+          "answer_start": 431,
+          "text": "appear to become lighter"
+        },
+        {
+          "answer_start": 431,
+          "text": "appear to become lighter and seem to lose something in the process"
+        },
+        {
+          "answer_start": 448,
+          "text": "lighter"
+        }
+      ],
+      "original_question": "What characteristic due most items display after burning?",
+      "new_question": "What characteristic burning",
+      "original_prediction": "lighter",
+      "new_prediction": "most common objects appear to become lighter and seem to lose something in the process"
+    },
+    "571cc8815efbb31900334dee": {
+      "context": "Free oxygen also occurs in solution in the world's water bodies. The increased solubility of O\n2 at lower temperatures (see Physical properties) has important implications for ocean life, as polar oceans support a much higher density of life due to their higher oxygen content. Water polluted with plant nutrients such as nitrates or phosphates may stimulate growth of algae by a process called eutrophication and the decay of these organisms and other biomaterials may reduce amounts of O\n2 in eutrophic water bodies. Scientists assess this aspect of water quality by measuring the water's biochemical oxygen demand, or the amount of O\n2 needed to restore it to a normal concentration.",
+      "answers": [
+        {
+          "answer_start": 51,
+          "text": "water"
+        },
+        {
+          "answer_start": 24,
+          "text": "in solution in the world's water bodies"
+        },
+        {
+          "answer_start": 39,
+          "text": "the world's water bodies"
+        }
+      ],
+      "original_question": "Where on Earth is free oxygen found?",
+      "new_question": "Where Earth free",
+      "original_prediction": "world's water bodies",
+      "new_prediction": "oxygen also occurs in solution in the world's water bodies"
+    },
+    "5726a3c6f1498d1400e8e5b0": {
+      "context": "The Social Chapter is a chapter of the 1997 Treaty of Amsterdam covering social policy issues in European Union law. The basis for the Social Chapter was developed in 1989 by the \"social partners\" representatives, namely UNICE, the employers' confederation, the European Trade Union Confederation (ETUC) and CEEP, the European Centre of Public Enterprises. A toned down version was adopted as the Social Charter at the 1989 Strasbourg European Council. The Social Charter declares 30 general principles, including on fair remuneration of employment, health and safety at work, rights of disabled and elderly, the rights of workers, on vocational training and improvements of living conditions. The Social Charter became the basis for European Community legislation on these issues in 40 pieces of legislation.",
+      "answers": [
+        {
+          "answer_start": 167,
+          "text": "1989"
+        },
+        {
+          "answer_start": 167,
+          "text": "1989"
+        },
+        {
+          "answer_start": 167,
+          "text": "1989"
+        }
+      ],
+      "original_question": "When was the basis for the Social Chapter developed?",
+      "new_question": "basis Social Chapter",
+      "original_prediction": "1989",
+      "new_prediction": "The basis for the Social Chapter"
+    },
+    "5725c95f38643c19005accf7": {
+      "context": "For a long time, it was thought that the Amazon rainforest was only ever sparsely populated, as it was impossible to sustain a large population through agriculture given the poor soil. Archeologist Betty Meggers was a prominent proponent of this idea, as described in her book Amazonia: Man and Culture in a Counterfeit Paradise. She claimed that a population density of 0.2 inhabitants per square kilometre (0.52/sq mi) is the maximum that can be sustained in the rainforest through hunting, with agriculture needed to host a larger population. However, recent anthropological findings have suggested that the region was actually densely populated. Some 5 million people may have lived in the Amazon region in AD 1500, divided between dense coastal settlements, such as that at Marajó, and inland dwellers. By 1900 the population had fallen to 1 million and by the early 1980s it was less than 200,000.",
+      "answers": [
+        {
+          "answer_start": 655,
+          "text": "5 million"
+        },
+        {
+          "answer_start": 655,
+          "text": "5 million"
+        },
+        {
+          "answer_start": 655,
+          "text": "5 million"
+        }
+      ],
+      "original_question": "How many people may have lived in the Amazon region during AD 1500?",
+      "new_question": "How AD 1500",
+      "original_prediction": "5 million",
+      "new_prediction": "Some 5 million people may have lived in the Amazon region in AD 1500"
+    },
+    "57273d19708984140094db3f": {
+      "context": "On July 31, 1995, The Walt Disney Company announced an agreement to merge with Capital Cities/ABC for $19 billion. Disney shareholders approved the merger at a special conference in New York City on January 4, 1996, with the acquisition of Capital Cities/ABC being completed on February 9; following the sale, Disney renamed its new subsidiary ABC Inc. In addition to the ABC network, the Disney acquisition integrated ABC's ten owned-and-operated television and 21 radio stations; its 80% interest in ESPN, ownership interests in The History Channel, A&E Television Networks, and Lifetime Entertainment; and Capital Cities/ABC's magazine and newspaper properties into the company. As FCC ownership rules forbade the company from keeping both it and KABC-TV, Disney sold Los Angeles independent station KCAL-TV to Young Broadcasting for $387 million. On April 4, Disney sold the four newspapers that ABC had controlled under Capital Cities to Knight Ridder for $1.65 billion. Following the merger, Thomas S. Murphy left ABC with Robert Iger taking his place as president and CEO. Around the time of the merger, Disney's television production units had already produced series for the network such as Home Improvement and Boy Meets World, while the deal also allowed ABC access to Disney's children's programming library for its Saturday morning block. In 1998, ABC premiered the Aaron Sorkin-created sitcom Sports Night, centering on the travails of the staff of a SportsCenter-style sports news program; despite earning critical praise and multiple Emmy Awards, the series was cancelled in 2000 after two seasons.",
+      "answers": [
+        {
+          "answer_start": 943,
+          "text": "Knight Ridder"
+        },
+        {
+          "answer_start": 943,
+          "text": "Knight Ridder"
+        },
+        {
+          "answer_start": 943,
+          "text": "Knight Ridder"
+        }
+      ],
+      "original_question": "Who did Disney sell the four newspapers that ABC controlled to?",
+      "new_question": "sell newspapers controlled",
+      "original_prediction": "Knight Ridder",
+      "new_prediction": "Disney sold the four newspapers that ABC had controlled under Capital Cities to Knight Ridder"
+    },
+    "5727436af1498d1400e8f559": {
+      "context": "On the television side, in September 1969, ABC launched the Movie of the Week, a weekly showcase aimed at capitalizing on the growing success of made-for-TV movies since the early 1960s. The Movie of the Week broadcast feature-length dramatic films directed by such talented filmmakers as Aaron Spelling, David Wolper and Steven Spielberg (the latter of whom gained early success through the showcase for his 1971 film Duel) that were produced on an average budget of $400,000–$450,000. Hits for the television network during the late 1960s and early 1970s included The Courtship of Eddie's Father, The Brady Bunch and The Partridge Family.",
+      "answers": [
+        {
+          "answer_start": 419,
+          "text": "Duel"
+        },
+        {
+          "answer_start": 419,
+          "text": "Duel"
+        },
+        {
+          "answer_start": 419,
+          "text": "Duel"
+        }
+      ],
+      "original_question": "For which ABC Movie of the Week film did Steven Spielberg first gain success?",
+      "new_question": "Movie Week Spielberg",
+      "original_prediction": "Duel",
+      "new_prediction": "Steven Spielberg"
+    },
+    "5728848cff5b5019007da298": {
+      "context": "The historian Frederick W. Mote wrote that the usage of the term \"social classes\" for this system was misleading and that the position of people within the four-class system was not an indication of their actual social power and wealth, but just entailed \"degrees of privilege\" to which they were entitled institutionally and legally, so a person's standing within the classes was not a guarantee of their standing, since there were rich and well socially standing Chinese while there were less rich Mongol and Semu than there were Mongol and Semu who lived in poverty and were ill treated.",
+      "answers": [
+        {
+          "answer_start": 14,
+          "text": "Frederick W. Mote"
+        },
+        {
+          "answer_start": 14,
+          "text": "Frederick W. Mote"
+        },
+        {
+          "answer_start": 14,
+          "text": "Frederick W. Mote"
+        }
+      ],
+      "original_question": "Who thought that the Yuan's social class system shouldn't be called social classes?",
+      "new_question": "thought Yuan's shouldn't",
+      "original_prediction": "Frederick W. Mote",
+      "new_prediction": "a person's standing within the classes was not a guarantee of their standing, since there were rich and well socially standing Chinese"
+    },
+    "5733ef47d058e614000b662e": {
+      "context": "Governor Robert Dinwiddie of Virginia was an investor in the Ohio Company, which stood to lose money if the French held their claim. To counter the French military presence in Ohio, in October 1753 Dinwiddie ordered the 21-year-old Major George Washington (whose brother was another Ohio Company investor) of the Virginia Regiment to warn the French to leave Virginia territory. Washington left with a small party, picking up along the way Jacob Van Braam as an interpreter; Christopher Gist, a company surveyor working in the area; and a few Mingo led by Tanaghrisson. On December 12, Washington and his men reached Fort Le Boeuf.",
+      "answers": [
+        {
+          "answer_start": 573,
+          "text": "December 12"
+        },
+        {
+          "answer_start": 573,
+          "text": "December 12"
+        },
+        {
+          "answer_start": 573,
+          "text": "December 12"
+        },
+        {
+          "answer_start": 573,
+          "text": "December 12"
+        },
+        {
+          "answer_start": 573,
+          "text": "December 12"
+        }
+      ],
+      "original_question": "When did Washington reach Fort Le Boeuf?",
+      "new_question": "Washington Le Boeuf",
+      "original_prediction": "December 12",
+      "new_prediction": "Washington and his men reached Fort Le Boeuf"
+    },
+    "573749741c4567190057445f": {
+      "context": "The concept of inertia can be further generalized to explain the tendency of objects to continue in many different forms of constant motion, even those that are not strictly constant velocity. The rotational inertia of planet Earth is what fixes the constancy of the length of a day and the length of a year. Albert Einstein extended the principle of inertia further when he explained that reference frames subject to constant acceleration, such as those free-falling toward a gravitating object, were physically equivalent to inertial reference frames. This is why, for example, astronauts experience weightlessness when in free-fall orbit around the Earth, and why Newton's Laws of Motion are more easily discernible in such environments. If an astronaut places an object with mass in mid-air next to himself, it will remain stationary with respect to the astronaut due to its inertia. This is the same thing that would occur if the astronaut and the object were in intergalactic space with no net force of gravity acting on their shared reference frame. This principle of equivalence was one of the foundational underpinnings for the development of the general theory of relativity.",
+      "answers": [
+        {
+          "answer_start": 309,
+          "text": "Albert Einstein"
+        },
+        {
+          "answer_start": 309,
+          "text": "Albert Einstein"
+        },
+        {
+          "answer_start": 309,
+          "text": "Albert Einstein"
+        },
+        {
+          "answer_start": 309,
+          "text": "Albert Einstein"
+        },
+        {
+          "answer_start": 309,
+          "text": "Albert Einstein"
+        }
+      ],
+      "original_question": "Who explained that inertial reference frames equaled reference frames subject to constant acceleration?",
+      "new_question": "inertial equaled frames",
+      "original_prediction": "Albert Einstein",
+      "new_prediction": "reference frames subject to constant acceleration, such as those free-falling toward a gravitating object, were physically equivalent to inertial reference frames"
+    }
+  },
+  "both_correct_contexts": {
+    "56e0cd33231d4119001ac3bf": {
+      "context": "On 24 March 1879, Tesla was returned to Gospić under police guard for not having a residence permit. On 17 April 1879, Milutin Tesla died at the age of 60 after contracting an unspecified illness (although some sources say that he died of a stroke). During that year, Tesla taught a large class of students in his old school, Higher Real Gymnasium, in Gospić.",
+      "answers": [
+        {
+          "answer_start": 66,
+          "text": "for not having a residence permit."
+        },
+        {
+          "answer_start": 66,
+          "text": "for not having a residence permit"
+        },
+        {
+          "answer_start": 70,
+          "text": "not having a residence permit"
+        }
+      ],
+      "original_question": "Why did the police bring Tesla back to Gospic?",
+      "new_question": "Why police Gospic",
+      "original_prediction": "not having a residence permit",
+      "new_prediction": "not having a residence permit"
+    },
+    "5705eb3375f01819005e7764": {
+      "context": "The motion picture, television, and music industry is centered on the Los Angeles in southern California. Hollywood, a district within Los Angeles, is also a name associated with the motion picture industry. Headquartered in southern California are The Walt Disney Company (which also owns ABC), Sony Pictures, Universal, MGM, Paramount Pictures, 20th Century Fox, and Warner Brothers. Universal, Warner Brothers, and Sony also run major record companies as well.",
+      "answers": [
+        {
+          "answer_start": 106,
+          "text": "Hollywood"
+        },
+        {
+          "answer_start": 106,
+          "text": "Hollywood"
+        },
+        {
+          "answer_start": 106,
+          "text": "Hollywood"
+        }
+      ],
+      "original_question": "What is the name given to the district that is associated with the motion picture industry?",
+      "new_question": "What district picture",
+      "original_prediction": "Hollywood",
+      "new_prediction": "Hollywood"
+    },
+    "571a49de4faf5e1900b8a94c": {
+      "context": "Many major classes of organic molecules in living organisms, such as proteins, nucleic acids, carbohydrates, and fats, contain oxygen, as do the major inorganic compounds that are constituents of animal shells, teeth, and bone. Most of the mass of living organisms is oxygen as it is a part of water, the major constituent of lifeforms. Oxygen is used in cellular respiration and released by photosynthesis, which uses the energy of sunlight to produce oxygen from water. It is too chemically reactive to remain a free element in air without being continuously replenished by the photosynthetic action of living organisms. Another form (allotrope) of oxygen, ozone (O\n3), strongly absorbs UVB radiation and consequently the high-altitude ozone layer helps protect the biosphere from ultraviolet radiation, but is a pollutant near the surface where it is a by-product of smog. At even higher low earth orbit altitudes, sufficient atomic oxygen is present to cause erosion for spacecraft.",
+      "answers": [
+        {
+          "answer_start": 724,
+          "text": "high-altitude ozone layer"
+        },
+        {
+          "answer_start": 659,
+          "text": "ozone"
+        },
+        {
+          "answer_start": 738,
+          "text": "ozone layer"
+        },
+        {
+          "answer_start": 659,
+          "text": "ozone"
+        }
+      ],
+      "original_question": "_____ Helps the biospher from UV.",
+      "new_question": "_ Helps biospher",
+      "original_prediction": "ozone layer",
+      "new_prediction": "ozone"
+    },
+    "571ce7f25efbb31900334e3e": {
+      "context": "Oxygen is present in the atmosphere in trace quantities in the form of carbon dioxide (CO\n2). The Earth's crustal rock is composed in large part of oxides of silicon (silica SiO\n2, as found in granite and quartz), aluminium (aluminium oxide Al\n2O\n3, in bauxite and corundum), iron (iron(III) oxide Fe\n2O\n3, in hematite and rust), and calcium carbonate (in limestone). The rest of the Earth's crust is also made of oxygen compounds, in particular various complex silicates (in silicate minerals). The Earth's mantle, of much larger mass than the crust, is largely composed of silicates of magnesium and iron.",
+      "answers": [
+        {
+          "answer_start": 71,
+          "text": "carbon dioxide"
+        },
+        {
+          "answer_start": 71,
+          "text": "carbon dioxide"
+        }
+      ],
+      "original_question": "In what compound is oxygen found in small amounts in the atmosphere?",
+      "new_question": "compound amounts atmosphere",
+      "original_prediction": "carbon dioxide",
+      "new_prediction": "carbon dioxide"
+    },
+    "5725b77889a1e219009abd54": {
+      "context": "Apollo set several major human spaceflight milestones. It stands alone in sending manned missions beyond low Earth orbit. Apollo 8 was the first manned spacecraft to orbit another celestial body, while the final Apollo 17 mission marked the sixth Moon landing and the ninth manned mission beyond low Earth orbit. The program returned 842 pounds (382 kg) of lunar rocks and soil to Earth, greatly contributing to the understanding of the Moon's composition and geological history. The program laid the foundation for NASA's current human spaceflight capability, and funded construction of its Johnson Space Center and Kennedy Space Center. Apollo also spurred advances in many areas of technology incidental to rocketry and manned spaceflight, including avionics, telecommunications, and computers.",
+      "answers": [
+        {
+          "answer_start": 122,
+          "text": "Apollo 8"
+        },
+        {
+          "answer_start": 122,
+          "text": "Apollo 8"
+        },
+        {
+          "answer_start": 122,
+          "text": "Apollo 8"
+        },
+        {
+          "answer_start": 122,
+          "text": "Apollo 8"
+        },
+        {
+          "answer_start": 122,
+          "text": "Apollo 8"
+        }
+      ],
+      "original_question": "What was the first spacecraft to orbit another celestial body?",
+      "new_question": "What spacecraft celestial",
+      "original_prediction": "Apollo 8",
+      "new_prediction": "Apollo 8"
+    },
+    "57268692dd62a815002e882a": {
+      "context": "There are several museums and galleries in Newcastle, including the Centre for Life with its Science Village; the Discovery Museum a museum highlighting life on Tyneside, including Tyneside's shipbuilding heritage, and inventions which changed the world; the Great North Museum; in 2009 the Newcastle on Tyne Museum of Antiquities merged with the Great North Museum (Hancock Museum); Seven Stories a museum dedicated to children's books, the Side Gallery historical and contemporary photography from around the world and Northern England and the Newburn Hall Motor Museum.",
+      "answers": [
+        {
+          "answer_start": 384,
+          "text": "Seven Stories"
+        },
+        {
+          "answer_start": 384,
+          "text": "Seven Stories"
+        },
+        {
+          "answer_start": 384,
+          "text": "Seven Stories"
+        }
+      ],
+      "original_question": "What museum in Newcastle is dedicated to children's books?",
+      "new_question": "What dedicated children's",
+      "original_prediction": "Seven Stories",
+      "new_prediction": "Seven Stories"
+    },
+    "57272ff2708984140094dabd": {
+      "context": "Genghis Khan was aware of the friction between his sons (particularly between Chagatai and Jochi) and worried of possible conflict between them if he died. He therefore decided to divide his empire among his sons and make all of them Khan in their own right, while appointing one of his sons as his successor. Chagatai was considered unstable due to his temper and rash behavior, because of statements he made that he would not follow Jochi if he were to become his father's successor. Tolui, Genghis Khan's youngest son, was not to be his successor because he was the youngest and in the Mongol culture, youngest sons were not given much responsibility due to their age. If Jochi were to become successor, it was likely that Chagatai would engage in warfare with him and collapse the empire. Therefore, Genghis Khan decided to give the throne to Ögedei. Ögedei was seen by Genghis Khan as dependable in character and relatively stable and down to earth and would be a neutral candidate and might defuse the situation between his brothers.",
+      "answers": [
+        {
+          "answer_start": 78,
+          "text": "Chagatai and Jochi"
+        },
+        {
+          "answer_start": 78,
+          "text": "Chagatai and Jochi"
+        },
+        {
+          "answer_start": 78,
+          "text": "Chagatai and Jochi)"
+        }
+      ],
+      "original_question": "Which pair of Genghis Khan's sons were most rivalrous?",
+      "new_question": "Which sons rivalrous",
+      "original_prediction": "Chagatai and Jochi",
+      "new_prediction": "Chagatai and Jochi"
+    },
+    "572ffa79a23a5019007fcbe9": {
+      "context": "In southern Europe, the stage was set in the Triassic Period of the Mesozoic Era, with the opening of the Tethys Ocean, between the Eurasian and African tectonic plates, between about 240 MBP and 220 MBP (million years before present). The present Mediterranean Sea descends from this somewhat larger Tethys sea. At about 180 MBP, in the Jurassic Period, the two plates reversed direction and began to compress the Tethys floor, causing it to be subducted under Eurasia and pushing up the edge of the latter plate in the Alpine Orogeny of the Oligocene and Miocene Periods. Several microplates were caught in the squeeze and rotated or were pushed laterally, generating the individual features of Mediterranean geography: Iberia pushed up the Pyrenees; Italy, the Alps, and Anatolia, moving west, the mountains of Greece and the islands. The compression and orogeny continue today, as shown by the ongoing raising of the mountains a small amount each year and the active volcanoes.",
+      "answers": [
+        {
+          "answer_start": 301,
+          "text": "Tethys sea"
+        },
+        {
+          "answer_start": 301,
+          "text": "Tethys"
+        },
+        {
+          "answer_start": 301,
+          "text": "Tethys sea"
+        }
+      ],
+      "original_question": "The present Mediterranean Sea descends from what sea?",
+      "new_question": "Mediterranean descends sea",
+      "original_prediction": "Tethys sea",
+      "new_prediction": "Tethys sea"
+    },
+    "57309921396df919000961f6": {
+      "context": "The movement which would become The United Methodist Church began in the mid-18th century within the Church of England. A small group of students, including John Wesley, Charles Wesley and George Whitefield, met on the Oxford University campus. They focused on Bible study, methodical study of scripture and living a holy life. Other students mocked them, saying they were the \"Holy Club\" and \"the Methodists\", being methodical and exceptionally detailed in their Bible study, opinions and disciplined lifestyle. Eventually, the so-called Methodists started individual societies or classes for members of the Church of England who wanted to live a more religious life.",
+      "answers": [
+        {
+          "answer_start": 73,
+          "text": "mid-18th century"
+        },
+        {
+          "answer_start": 60,
+          "text": "began in the mid-18th century within the Church of England."
+        },
+        {
+          "answer_start": 73,
+          "text": "mid-18th century"
+        }
+      ],
+      "original_question": "When did the movement that would become The United Methodist Church begin?",
+      "new_question": "When movement begin",
+      "original_prediction": "mid-18th century",
+      "new_prediction": "mid-18th century"
+    },
+    "5733f5f24776f419006615c3": {
+      "context": "Braddock (with George Washington as one of his aides) led about 1,500 army troops and provincial militia on an expedition in June 1755 to take Fort Duquesne. The expedition was a disaster. It was attacked by French and Indian soldiers ambushing them from up in trees and behind logs. Braddock called for a retreat. He was killed. Approximately 1,000 British soldiers were killed or injured. The remaining 500 British troops, led by George Washington, retreated to Virginia. Two future opponents in the American Revolutionary War, Washington and Thomas Gage, played key roles in organizing the retreat.",
+      "answers": [
+        {
+          "answer_start": 330,
+          "text": "Approximately 1,000 British soldiers were killed or injured."
+        },
+        {
+          "answer_start": 330,
+          "text": "Approximately 1,000"
+        },
+        {
+          "answer_start": 344,
+          "text": "1,000 British soldiers"
+        },
+        {
+          "answer_start": 344,
+          "text": "1,000"
+        },
+        {
+          "answer_start": 344,
+          "text": "1,000 British soldiers"
+        }
+      ],
+      "original_question": "How many casualties did British get?",
+      "new_question": "How casualties get",
+      "original_prediction": "1,000",
+      "new_prediction": "Approximately 1,000 British soldiers were killed or injured"
+    }
+  }
+}
