@@ -14,7 +14,7 @@ for i in 3 4 5 6 7 8
 do
   python3 generate_question.py ${SQUAD_DIR}/dev-${SQUAD_VERSION}.json ${SQUAD_DIR}/new-dev-$i.json $i
   python3 run_squad.py \
-    --mode=train_and_predict \
+    --mode=predict \
     --input_meta_data_path=${OUTPUT_DIR}/squad_${SQUAD_VERSION}_meta_data \
     --train_data_path=${OUTPUT_DIR}/squad_${SQUAD_VERSION}_train.tf_record \
     --predict_file=${SQUAD_DIR}/new-dev-$i.json \
