@@ -1,6 +1,7 @@
+  
 3 word question: {"f1": 22.623685235683677, "exact_match": 17.734709777950916}
 4 word question: {"f1": 30.47331515387612, "exact_match": 26.509544215037006}
 5 word question: {"f1": 37.027658745617453, "exact_match": 33.511881573821584}
 6 word question: {"f1": 42.87105570705103, "exact_match": 39.559797428905336}
-7 word question: {"f1": , "exact_match": }
-8 word question: {"f1": , "exact_match": }
+7 word question: {"f1": 44.614335800545385, "exact_match": 44.614335800545385}
+8 word question: {"f1": 51.0323334631866, "exact_match": 48.237241916634205}
