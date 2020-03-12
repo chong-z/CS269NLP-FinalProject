@@ -1,0 +1,859 @@
+{
+  "cmd": "python3 sample-correct-incorrect.py dev-v1.1.json albert-results/new-dev-7.json albert-results/predictions-original.json albert-results/predictions-7.json 20 albert-results/albert-7-word-sample-20.json",
+  "original_exact_match": 83.53831598864711,
+  "original_f1": 90.6009470053024,
+  "new_exact_match": 55.67644276253548,
+  "new_f1": 70.26234344636376,
+  "new_incorrect_contexts": {
+    "56d9b01fdc89441400fdb6d4": {
+      "context": "Various gold-themed promotions and initiatives were held throughout the 2015 NFL season to tie into the \"Golden Super Bowl\"; gold-tinted logos were implemented across the NFL's properties and painted on fields, the numbering of the 50-yard line on fields was colored gold, and beginning on week 7, all sideline jackets and hats featured gold-trimmed logos. Gold footballs were given to each high school that has had a player or coach appear in the Super Bowl, and \"homecoming\" events were also held by Super Bowl-winning teams at games.",
+      "answers": [
+        {
+          "answer_start": 8,
+          "text": "gold"
+        },
+        {
+          "answer_start": 8,
+          "text": "gold"
+        },
+        {
+          "answer_start": 8,
+          "text": "gold"
+        }
+      ],
+      "original_question": "Since this was the 50th one, what was the theme color for the Super Bowl?",
+      "new_question": "Since 50 what theme color Super Bowl",
+      "original_prediction": "gold",
+      "new_prediction": "50-yard line on fields was colored gold"
+    },
+    "573312fcd058e614000b56e7": {
+      "context": "In 2012 the Economist Intelligence Unit ranked Warsaw as the 32nd most liveable city in the world. It was also ranked as one of the most liveable cities in Central Europe. Today Warsaw is considered an \"Alpha–\" global city, a major international tourist destination and a significant cultural, political and economic hub. Warsaw's economy, by a wide variety of industries, is characterised by FMCG manufacturing, metal processing, steel and electronic manufacturing and food processing. The city is a significant centre of research and development, BPO, ITO, as well as of the Polish media industry. The Warsaw Stock Exchange is one of the largest and most important in Central and Eastern Europe. Frontex, the European Union agency for external border security, has its headquarters in Warsaw. It has been said that Warsaw, together with Frankfurt, London, Paris and Barcelona is one of the cities with the highest number of skyscrapers in the European Union. Warsaw has also been called \"Eastern Europe’s chic cultural capital with thriving art and club scenes and serious restaurants\".",
+      "answers": [
+        {
+          "answer_start": 3,
+          "text": "2012"
+        },
+        {
+          "answer_start": 3,
+          "text": "2012"
+        },
+        {
+          "answer_start": 3,
+          "text": "2012"
+        }
+      ],
+      "original_question": "When was Warsaw ranked as the 32nd most liveable city in the world?",
+      "new_question": "When Warsaw ranked 32 nd liveable world",
+      "original_prediction": "2012",
+      "new_prediction": "In 2012 the Economist Intelligence Unit ranked Warsaw as the 32nd most liveable city in the world"
+    },
+    "56e1075ae3433e1400422afc": {
+      "context": "Before World War I, Tesla sought overseas investors. After the war started, Tesla lost the funding he was receiving from his patents in European countries. Eventually, he sold Wardenclyffe for $20,000 ($472,500 in today's dollars). In 1917, around the time that the Wardenclyffe Tower was demolished by Boldt to make the land a more viable real estate asset, Tesla received AIEE's highest honor, the Edison Medal.",
+      "answers": [
+        {
+          "answer_start": 171,
+          "text": "sold"
+        },
+        {
+          "answer_start": 171,
+          "text": "sold"
+        },
+        {
+          "answer_start": 171,
+          "text": "sold"
+        }
+      ],
+      "original_question": "What did he do with Wardenclyffe?",
+      "new_question": "What did he do with Wardenclyffe",
+      "original_prediction": "sold",
+      "new_prediction": "he sold Wardenclyffe for $20,000 ($472,500 in today's dollars)"
+    },
+    "570607f575f01819005e78b6": {
+      "context": "Los Angeles (at 3.7 million people) and San Diego (at 1.3 million people), both in southern California, are the two largest cities in all of California (and two of the eight largest cities in the United States). In southern California there are also twelve cities with more than 200,000 residents and 34 cities over 100,000 in population. Many of southern California's most developed cities lie along or in close proximity to the coast, with the exception of San Bernardino and Riverside.",
+      "answers": [
+        {
+          "answer_start": 250,
+          "text": "twelve"
+        },
+        {
+          "answer_start": 250,
+          "text": "twelve"
+        },
+        {
+          "answer_start": 250,
+          "text": "twelve"
+        }
+      ],
+      "original_question": "How many cities in southern California have over 200,000 residents?",
+      "new_question": "How cities southern California over 200,000 residents",
+      "original_prediction": "twelve",
+      "new_prediction": "twelve cities with more than 200,000 residents and 34 cities over 100,000 in population"
+    },
+    "571127a5a58dae1900cd6cc8": {
+      "context": "The first full-scale working railway steam locomotive was built by Richard Trevithick in the United Kingdom and, on 21 February 1804, the world's first railway journey took place as Trevithick's unnamed steam locomotive hauled a train along the tramway from the Pen-y-darren ironworks, near Merthyr Tydfil to Abercynon in south Wales. The design incorporated a number of important innovations that included using high-pressure steam which reduced the weight of the engine and increased its efficiency. Trevithick visited the Newcastle area later in 1804 and the colliery railways in north-east England became the leading centre for experimentation and development of steam locomotives.",
+      "answers": [
+        {
+          "answer_start": 322,
+          "text": "south"
+        },
+        {
+          "answer_start": 322,
+          "text": "south"
+        },
+        {
+          "answer_start": 322,
+          "text": "south"
+        }
+      ],
+      "original_question": "In what geographical portion of Wales is Abercynon located?",
+      "new_question": "In what geographical portion Wales Abercynon located",
+      "original_prediction": "south",
+      "new_prediction": "south Wales"
+    },
+    "571166352419e314009555f4": {
+      "context": "Virtually all nuclear power plants generate electricity by heating water to provide steam that drives a turbine connected to an electrical generator. Nuclear-powered ships and submarines either use a steam turbine directly for main propulsion, with generators providing auxiliary power, or else employ turbo-electric transmission, where the steam drives a turbo generator set with propulsion provided by electric motors. A limited number of steam turbine railroad locomotives were manufactured. Some non-condensing direct-drive locomotives did meet with some success for long haul freight operations in Sweden and for express passenger work in Britain, but were not repeated. Elsewhere, notably in the U.S.A., more advanced designs with electric transmission were built experimentally, but not reproduced. It was found that steam turbines were not ideally suited to the railroad environment and these locomotives failed to oust the classic reciprocating steam unit in the way that modern diesel and electric traction has done.[citation needed]",
+      "answers": [
+        {
+          "answer_start": 302,
+          "text": "turbo-electric transmission"
+        },
+        {
+          "answer_start": 302,
+          "text": "turbo-electric transmission,"
+        },
+        {
+          "answer_start": 302,
+          "text": "turbo-electric transmission"
+        }
+      ],
+      "original_question": "What is it called when steam propels a turbo generator with electric motor propulsion?",
+      "new_question": "What propels turbo generator electric motor propulsion",
+      "original_prediction": "turbo-electric transmission",
+      "new_prediction": "steam"
+    },
+    "57267947f1498d1400e8e0ee": {
+      "context": "In addition to identifying rocks in the field, petrologists identify rock samples in the laboratory. Two of the primary methods for identifying rocks in the laboratory are through optical microscopy and by using an electron microprobe. In an optical mineralogy analysis, thin sections of rock samples are analyzed through a petrographic microscope, where the minerals can be identified through their different properties in plane-polarized and cross-polarized light, including their birefringence, pleochroism, twinning, and interference properties with a conoscopic lens. In the electron microprobe, individual locations are analyzed for their exact chemical compositions and variation in composition within individual crystals. Stable and radioactive isotope studies provide insight into the geochemical evolution of rock units.",
+      "answers": [
+        {
+          "answer_start": 794,
+          "text": "geochemical evolution of rock units"
+        },
+        {
+          "answer_start": 794,
+          "text": "geochemical evolution of rock units"
+        },
+        {
+          "answer_start": 790,
+          "text": "the geochemical evolution of rock units"
+        }
+      ],
+      "original_question": "Stable and radioactive isotope studies provide insight into what?",
+      "new_question": "Stable radioactive isotope studies provide insight what",
+      "original_prediction": "geochemical evolution of rock units",
+      "new_prediction": "Stable and radioactive isotope studies provide insight into the geochemical evolution of rock units"
+    },
+    "57266ab3dd62a815002e8436": {
+      "context": "During the English Civil War, the North declared for the King. In a bid to gain Newcastle and the Tyne, Cromwell's allies, the Scots, captured the town of Newburn. In 1644 the Scots then captured the reinforced fortification on the Lawe in South Shields following a siege. In 1644 the city was then besieged for many months and was eventually stormed ('with roaring drummes') and sacked by Cromwell's allies. The grateful King bestowed the motto \"Fortiter Defendit Triumphans\" (\"Triumphing by a brave defence\") upon the town. Charles I was imprisoned in Newcastle by the Scots in 1646–7.",
+      "answers": [
+        {
+          "answer_start": 366,
+          "text": "drummes"
+        },
+        {
+          "answer_start": 366,
+          "text": "drummes"
+        },
+        {
+          "answer_start": 366,
+          "text": "drummes"
+        }
+      ],
+      "original_question": "What was roaring as Newcastle was stormed?",
+      "new_question": "What was roaring as Newcastle was stormed",
+      "original_prediction": "drummes",
+      "new_prediction": "roaring drummes"
+    },
+    "57267b65dd62a815002e86a8": {
+      "context": "The dialect of Newcastle is known as Geordie, and contains a large amount of vocabulary and distinctive word pronunciations not used in other parts of the United Kingdom. The Geordie dialect has much of its origins in the language spoken by the Anglo-Saxon populations who migrated to and conquered much of England after the end of Roman Imperial rule. This language was the forerunner of Modern English; but while the dialects of other English regions have been heavily altered by the influences of other foreign languages—particularly Latin and Norman French—the Geordie dialect retains many elements of the old language. An example of this is the pronunciation of certain words: \"dead\", \"cow\", \"house\" and \"strong\" are pronounced \"deed\", \"coo\", \"hoos\" and \"strang\"—which is how they were pronounced in the Anglo-Saxon language. Other Geordie words with Anglo-Saxon origins include: \"larn\" (from the Anglo-Saxon \"laeran\", meaning \"teach\"), \"burn\" (\"stream\") and \"gan\" (\"go\").",
+      "answers": [
+        {
+          "answer_start": 589,
+          "text": "many elements"
+        },
+        {
+          "answer_start": 589,
+          "text": "many elements"
+        },
+        {
+          "answer_start": 589,
+          "text": "many elements of the old language."
+        }
+      ],
+      "original_question": "What does the Geordie dialect keep of the older language which came before it?",
+      "new_question": "What Geordie dialect keep older language came",
+      "original_prediction": "many elements",
+      "new_prediction": "retains many elements of the old language"
+    },
+    "5726a0205951b619008f781b": {
+      "context": "With the death of Captain Francis Fowke, Royal Engineers the next architect to work at the museum was Colonel (later Major General) Henry Young Darracott Scott, also of the Royal Engineers. He designed to the north west of the garden the five-storey School for Naval Architects (also known as the science schools), now the Henry Cole Wing in 1867–72. Scott's assistant J.W. Wild designed the impressive staircase that rises the full height of the building, made from Cadeby stone the steps are 7 feet (2.1 m) in length, the balustrades and columns are Portland stone. It is now used to jointly house the prints and architectural drawings of the V&A (prints, drawings, paintings and photographs) and Royal Institute of British Architects (RIBA Drawings and Archives Collections); and the Sackler Centre for arts education, which opened in 2008.",
+      "answers": [
+        {
+          "answer_start": 132,
+          "text": "Henry Young Darracott Scott"
+        },
+        {
+          "answer_start": 102,
+          "text": "Colonel (later Major General) Henry Young Darracott Scott,"
+        },
+        {
+          "answer_start": 102,
+          "text": "Colonel (later Major General) Henry Young Darracott Scott"
+        }
+      ],
+      "original_question": "Who was brought it to work on the museum after the death of Captain Francis Fowke?",
+      "new_question": "Who brought museum death Captain Francis Fowke",
+      "original_prediction": "Colonel (later Major General) Henry Young Darracott Scott",
+      "new_prediction": "Royal Engineers"
+    },
+    "5726e834dd62a815002e94a6": {
+      "context": "There are a set of beautiful inlaid doors, dated 1580 from Antwerp City Hall, attributed to Hans Vredeman de Vries. One of the finest pieces of continental furniture in the collection is the Rococo Augustus Rex Bureau Cabinet dated c1750 from Germany, with especially fine marquetry and ormolu mounts. One of the grandest pieces of 19th-century furniture is the highly elaborate French Cabinet dated 1861–1867 made by M. Fourdinois, made from ebony inlaid with box, lime, holly, pear, walnut and mahogany woods as well as marble with gilded carvings. Furniture designed by Ernest Gimson, Edward William Godwin, Charles Voysey, Adolf Loos and Otto Wagner are among the late 19th-century and early 20th-century examples in the collection. The work of modernists in the collection include Le Corbusier, Marcel Breuer, Charles and Ray Eames, and Giò Ponti.",
+      "answers": [
+        {
+          "answer_start": 232,
+          "text": "c1750"
+        },
+        {
+          "answer_start": 232,
+          "text": "c1750"
+        },
+        {
+          "answer_start": 232,
+          "text": "c1750"
+        }
+      ],
+      "original_question": "To which year has the Rococo Augustus Rex Bureau Cabinet been dated?",
+      "new_question": "To Rococo Augustus Rex Bureau Cabinet dated",
+      "original_prediction": "c1750",
+      "new_prediction": "Rococo Augustus Rex Bureau Cabinet dated c1750 from Germany"
+    },
+    "57273b1a5951b619008f870a": {
+      "context": "Genghis Khan realised that he needed people who could govern cities and states conquered by him. He also realised that such administrators could not be found among his Mongol people because they were nomads and thus had no experience governing cities. For this purpose Genghis Khan invited a Khitan prince, Chu'Tsai, who worked for the Jin and had been captured by the Mongol army after the Jin dynasty was defeated. Jin had captured power by displacing Khitan. Genghis told Chu'Tsai, who was a lineal descendant of Khitan rulers, that he had avenged Chu'Tsai's forefathers. Chu'Tsai responded that his father served the Jin dynasty honestly and so did he; also he did not consider his own father his enemy, so the question of revenge did not apply. This reply impressed Genghis Khan. Chu'Tsai administered parts of the Mongol Empire and became a confidant of the successive Mongol Khans.",
+      "answers": [
+        {
+          "answer_start": 190,
+          "text": "they were nomads"
+        },
+        {
+          "answer_start": 200,
+          "text": "nomads"
+        },
+        {
+          "answer_start": 200,
+          "text": "nomads and thus had no experience governing cities"
+        }
+      ],
+      "original_question": "Why would Mongols have too little experience to govern cities they conquered?",
+      "new_question": "Why too little experience govern cities conquered",
+      "original_prediction": "they were nomads",
+      "new_prediction": "no experience governing cities"
+    },
+    "5729f799af94a219006aa70a": {
+      "context": "When B cells and T cells are activated and begin to replicate, some of their offspring become long-lived memory cells. Throughout the lifetime of an animal, these memory cells remember each specific pathogen encountered and can mount a strong response if the pathogen is detected again. This is \"adaptive\" because it occurs during the lifetime of an individual as an adaptation to infection with that pathogen and prepares the immune system for future challenges. Immunological memory can be in the form of either passive short-term memory or active long-term memory.",
+      "answers": [
+        {
+          "answer_start": 190,
+          "text": "specific pathogen"
+        },
+        {
+          "answer_start": 199,
+          "text": "pathogen"
+        },
+        {
+          "answer_start": 185,
+          "text": "each specific pathogen"
+        }
+      ],
+      "original_question": "Long-lived memory cells can remember previous encounters with what?",
+      "new_question": "Long-lived memory cells remember previous encounters what",
+      "original_prediction": "each specific pathogen",
+      "new_prediction": "remember each specific pathogen encountered"
+    },
+    "5727db85ff5b5019007d96fe": {
+      "context": "Harvard's athletic rivalry with Yale is intense in every sport in which they meet, coming to a climax each fall in the annual football meeting, which dates back to 1875 and is usually called simply \"The Game\". While Harvard's football team is no longer one of the country's best as it often was a century ago during football's early days (it won the Rose Bowl in 1920), both it and Yale have influenced the way the game is played. In 1903, Harvard Stadium introduced a new era into football with the first-ever permanent reinforced concrete stadium of its kind in the country. The stadium's structure actually played a role in the evolution of the college game. Seeking to reduce the alarming number of deaths and serious injuries in the sport, Walter Camp (former captain of the Yale football team), suggested widening the field to open up the game. But the stadium was too narrow to accommodate a wider playing surface. So, other steps had to be taken. Camp would instead support revolutionary new rules for the 1906 season. These included legalizing the forward pass, perhaps the most significant rule change in the sport's history.",
+      "answers": [
+        {
+          "answer_start": 1014,
+          "text": "1906"
+        },
+        {
+          "answer_start": 1014,
+          "text": "1906"
+        },
+        {
+          "answer_start": 1014,
+          "text": "1906"
+        }
+      ],
+      "original_question": "In what year was a set of significant rule changes introduced including the forward pass?",
+      "new_question": "what significant rule changes introduced forward pass",
+      "original_prediction": "1906",
+      "new_prediction": "legalizing the forward pass, perhaps the most significant rule change in the sport's history"
+    },
+    "572a1a5c6aef051400155287": {
+      "context": "While acknowledging the central role economic growth can potentially play in human development, poverty reduction and the achievement of the Millennium Development Goals, it is becoming widely understood amongst the development community that special efforts must be made to ensure poorer sections of society are able to participate in economic growth. The effect of economic growth on poverty reduction – the growth elasticity of poverty – can depend on the existing level of inequality. For instance, with low inequality a country with a growth rate of 2% per head and 40% of its population living in poverty, can halve poverty in ten years, but a country with high inequality would take nearly 60 years to achieve the same reduction. In the words of the Secretary General of the United Nations Ban Ki-Moon: \"While economic growth is necessary, it is not sufficient for progress on reducing poverty.\"",
+      "answers": [
+        {
+          "answer_start": 778,
+          "text": "the United Nations"
+        },
+        {
+          "answer_start": 782,
+          "text": "United Nations"
+        },
+        {
+          "answer_start": 782,
+          "text": "United Nations"
+        }
+      ],
+      "original_question": "What was Ban Ki-Moon the Secretary General of?",
+      "new_question": "What was Ban Ki-Moon Secretary General of",
+      "original_prediction": "United Nations",
+      "new_prediction": "\"While economic growth is necessary, it is not sufficient for progress on reducing poverty"
+    },
+    "5727f8342ca10214002d9a7c": {
+      "context": "The 2005 version of Doctor Who is a direct plot continuation of the original 1963–1989 series[note 2] and the 1996 telefilm. This is similar to the 1988 continuation of Mission Impossible, but differs from most other series relaunches which have either been reboots (for example, Battlestar Galactica and Bionic Woman[citation needed]) or set in the same universe as the original but in a different time period and with different characters (for example, Star Trek: The Next Generation and spin-offs[citation needed]).",
+      "answers": [
+        {
+          "answer_start": 77,
+          "text": "1963–1989"
+        },
+        {
+          "answer_start": 77,
+          "text": "1963–1989"
+        },
+        {
+          "answer_start": 77,
+          "text": "1963–1989"
+        }
+      ],
+      "original_question": "What years did the original Doctor Who series run?",
+      "new_question": "What did original Doctor Who series run",
+      "original_prediction": "1963–1989",
+      "new_prediction": "2005 version of Doctor Who is a direct plot continuation of the original 1963–1989 series[note 2] and the 1996 telefilm"
+    },
+    "5728177f2ca10214002d9db2": {
+      "context": "A different arrangement was recorded by Peter Howell for season 18 (1980), which was in turn replaced by Dominic Glynn's arrangement for the season-long serial The Trial of a Time Lord in season 23 (1986). Keff McCulloch provided the new arrangement for the Seventh Doctor's era which lasted from season 24 (1987) until the series' suspension in 1989. American composer John Debney created a new arrangement of Ron Grainer's original theme for Doctor Who in 1996. For the return of the series in 2005, Murray Gold provided a new arrangement which featured samples from the 1963 original with further elements added; in the 2005 Christmas episode \"The Christmas Invasion\", Gold introduced a modified closing credits arrangement that was used up until the conclusion of the 2007 series.[citation needed]",
+      "answers": [
+        {
+          "answer_start": 258,
+          "text": "Seventh"
+        },
+        {
+          "answer_start": 254,
+          "text": "the Seventh Doctor"
+        },
+        {
+          "answer_start": 254,
+          "text": "the Seventh"
+        }
+      ],
+      "original_question": "For which Doctor did Keff McCulloch provide the theme?",
+      "new_question": "For Doctor did Keff McCulloch provide theme",
+      "original_prediction": "Seventh",
+      "new_prediction": "Keff McCulloch provided the new arrangement for the Seventh Doctor's era"
+    },
+    "5729a3716aef05140015506d": {
+      "context": "Prime numbers have influenced many artists and writers. The French composer Olivier Messiaen used prime numbers to create ametrical music through \"natural phenomena\". In works such as La Nativité du Seigneur (1935) and Quatre études de rythme (1949–50), he simultaneously employs motifs with lengths given by different prime numbers to create unpredictable rhythms: the primes 41, 43, 47 and 53 appear in the third étude, \"Neumes rythmiques\". According to Messiaen this way of composing was \"inspired by the movements of nature, movements of free and unequal durations\".",
+      "answers": [
+        {
+          "answer_start": 405,
+          "text": "the third étude"
+        },
+        {
+          "answer_start": 409,
+          "text": "third"
+        },
+        {
+          "answer_start": 409,
+          "text": "third"
+        },
+        {
+          "answer_start": 409,
+          "text": "third"
+        }
+      ],
+      "original_question": "In which etude of Neumes rythmiques do the primes 41, 43, 47 and 53 appear in?",
+      "new_question": "etude Neumes rythmiques 41 43 47 53",
+      "original_prediction": "third",
+      "new_prediction": "47"
+    },
+    "572fc49d04bcaa1900d76ccb": {
+      "context": "Each sitting day, normally at 5 pm, MSPs decide on all the motions and amendments that have been moved that day. This \"Decision Time\" is heralded by the sounding of the division bell, which is heard throughout the Parliamentary campus and alerts MSPs who are not in the chamber to return and vote. At Decision Time, the Presiding Officer puts questions on the motions and amendments by reading out the name of the motion or amendment as well as the proposer and asking \"Are we all agreed?\", to which the chamber first votes orally. If there is audible dissent, the Presiding Officer announces \"There will be a division\" and members vote by means of electronic consoles on their desks. Each MSP has a unique access card with a microchip which, when inserted into the console, identifies them and allows them to vote. As a result, the outcome of each division is known in seconds.",
+      "answers": [
+        {
+          "answer_start": 30,
+          "text": "5 pm"
+        },
+        {
+          "answer_start": 30,
+          "text": "5 pm"
+        },
+        {
+          "answer_start": 30,
+          "text": "5 pm"
+        }
+      ],
+      "original_question": "What time do the MSPs normally decide on the motions and amendments from that day?",
+      "new_question": "What MSPs normally decide motions amendments day",
+      "original_prediction": "5 pm",
+      "new_prediction": "MSPs decide on all the motions and amendments that have been moved that day"
+    },
+    "5730ea71b54a4f140068cce6": {
+      "context": "The United Methodist Church has since 1985 been exploring a possible merger with three historically African-American Methodist denominations: the African Methodist Episcopal Church, the African Methodist Episcopal Zion Church, and the Christian Methodist Episcopal Church. A Commission on Pan Methodist Cooperation and Union formed in 2000 to carry out work on such a merger. In May 2012, The United Methodist Church entered into full communion with the African Methodist Episcopal Church, African Methodist Episcopal Zion Church, African Union Methodist Protestant Church, Christian Methodist Episcopal Church, and Union American Methodist Episcopal Church, in which these Churches agreed to \"recognize each other's churches, share sacraments, and affirm their clergy and ministries.\"",
+      "answers": [
+        {
+          "answer_start": 38,
+          "text": "1985"
+        },
+        {
+          "answer_start": 32,
+          "text": "since 1985"
+        },
+        {
+          "answer_start": 38,
+          "text": "1985"
+        }
+      ],
+      "original_question": "Since what year has the UMC been exploring a possible merger with three historically African-American denominations?",
+      "new_question": "UMC exploring possible merger historically African-American denominations",
+      "original_prediction": "1985",
+      "new_prediction": "The United Methodist Church has since 1985 been exploring a possible merger with three historically African-American Methodist denominations"
+    }
+  },
+  "both_correct_contexts": {
+    "56d2053ae7d4791d00902610": {
+      "context": "In early 2012, NFL Commissioner Roger Goodell stated that the league planned to make the 50th Super Bowl \"spectacular\" and that it would be \"an important game for us as a league\".",
+      "answers": [
+        {
+          "answer_start": 32,
+          "text": "Roger Goodell"
+        },
+        {
+          "answer_start": 32,
+          "text": "Roger Goodell"
+        },
+        {
+          "answer_start": 38,
+          "text": "Goodell"
+        }
+      ],
+      "original_question": "Who if the commissioner of the NFL?",
+      "new_question": "Who if the commissioner of the NFL",
+      "original_prediction": "Roger Goodell",
+      "new_prediction": "Roger Goodell"
+    },
+    "56d6ee6e0d65d21400198256": {
+      "context": "The league eventually narrowed the bids to three sites: New Orleans' Mercedes-Benz Superdome, Miami's Sun Life Stadium, and the San Francisco Bay Area's Levi's Stadium.",
+      "answers": [
+        {
+          "answer_start": 102,
+          "text": "Sun Life Stadium"
+        },
+        {
+          "answer_start": 102,
+          "text": "Sun Life Stadium"
+        },
+        {
+          "answer_start": 102,
+          "text": "Sun Life Stadium"
+        }
+      ],
+      "original_question": "What is the name of the stadium in Miami that was considered?",
+      "new_question": "What name stadium Miami that was considered",
+      "original_prediction": "Sun Life Stadium",
+      "new_prediction": "Sun Life Stadium"
+    },
+    "56bf38383aeaaa14008c956e": {
+      "context": "Manning finished the year with a career-low 67.9 passer rating, throwing for 2,249 yards and nine touchdowns, with 17 interceptions. In contrast, Osweiler threw for 1,967 yards, 10 touchdowns and six interceptions for a rating of 86.4. Veteran receiver Demaryius Thomas led the team with 105 receptions for 1,304 yards and six touchdowns, while Emmanuel Sanders caught 76 passes for 1,135 yards and six scores, while adding another 106 yards returning punts. Tight end Owen Daniels was also a big element of the passing game with 46 receptions for 517 yards. Running back C. J. Anderson was the team's leading rusher 863 yards and seven touchdowns, while also catching 25 passes for 183 yards. Running back Ronnie Hillman also made a big impact with 720 yards, five touchdowns, 24 receptions, and a 4.7 yards per carry average. Overall, the offense ranked 19th in scoring with 355 points and did not have any Pro Bowl selections.",
+      "answers": [
+        {
+          "answer_start": 253,
+          "text": "Demaryius Thomas"
+        },
+        {
+          "answer_start": 253,
+          "text": "Demaryius Thomas"
+        },
+        {
+          "answer_start": 263,
+          "text": "Thomas"
+        }
+      ],
+      "original_question": "Who had the most receptions out of all players for the year?",
+      "new_question": "Who most receptions out all players year",
+      "original_prediction": "Demaryius Thomas",
+      "new_prediction": "Demaryius Thomas"
+    },
+    "56bec6573aeaaa14008c93ec": {
+      "context": "In honor of the 50th Super Bowl, the pregame ceremony featured the on-field introduction of 39 of the 43 previous Super Bowl Most Valuable Players. Bart Starr (MVP of Super Bowls I and II) and Chuck Howley (MVP of Super Bowl V) appeared via video, while Peyton Manning (MVP of Super Bowl XLI and current Broncos quarterback) was shown in the locker room preparing for the game. No plans were announced regarding the recognition of Harvey Martin, co-MVP of Super Bowl XII, who died in 2001.",
+      "answers": [
+        {
+          "answer_start": 484,
+          "text": "2001"
+        },
+        {
+          "answer_start": 484,
+          "text": "2001"
+        },
+        {
+          "answer_start": 484,
+          "text": "2001"
+        }
+      ],
+      "original_question": "In what year did Harvey Martin die?",
+      "new_question": "In what year did Harvey Martin die",
+      "original_prediction": "2001",
+      "new_prediction": "2001"
+    },
+    "56e10fbacd28a01900c67509": {
+      "context": "During the same year, Tesla wrote a treatise, The Art of Projecting Concentrated Non-dispersive Energy through the Natural Media, concerning charged particle beam weapons. Tesla published the document in an attempt to expound on the technical description of a \"superweapon that would put an end to all war.\" This treatise is currently in the Nikola Tesla Museum archive in Belgrade. It describes an open-ended vacuum tube with a gas jet seal that allows particles to exit, a method of charging particles to millions of volts, and a method of creating and directing non-dispersive particle streams (through electrostatic repulsion). Tesla tried to interest the US War Department, the United Kingdom, the Soviet Union, and Yugoslavia in the device.",
+      "answers": [
+        {
+          "answer_start": 141,
+          "text": "charged particle beam weapons"
+        },
+        {
+          "answer_start": 141,
+          "text": "charged particle beam weapons"
+        },
+        {
+          "answer_start": 141,
+          "text": "charged particle beam"
+        }
+      ],
+      "original_question": "What kind of weapons did Tesla's treatise concern?",
+      "new_question": "What kind weapons did Tesla's treatise concern",
+      "original_prediction": "charged particle beam weapons",
+      "new_prediction": "charged particle beam weapons"
+    },
+    "56e76ea737bdd419002c3f9d": {
+      "context": "Teaching in Canada requires a post-secondary degree Bachelor's Degree. In most provinces a second Bachelor's Degree such as a Bachelor of Education is required to become a qualified teacher. Salary ranges from $40,000/year to $90,000/yr. Teachers have the option to teach for a public school which is funded by the provincial government or teaching in a private school which is funded by the private sector, businesses and sponsors.",
+      "answers": [
+        {
+          "answer_start": 28,
+          "text": "a post-secondary degree Bachelor's Degree"
+        },
+        {
+          "answer_start": 28,
+          "text": "a post-secondary degree Bachelor's Degree"
+        },
+        {
+          "answer_start": 30,
+          "text": "post-secondary degree Bachelor's Degree"
+        }
+      ],
+      "original_question": "What is the minimum required if you want to teach in Canada?",
+      "new_question": "What minimum required you want teach Canada",
+      "original_prediction": "post-secondary degree Bachelor's Degree",
+      "new_prediction": "a post-secondary degree Bachelor's Degree"
+    },
+    "56f84d33aef2371900625fb1": {
+      "context": "Despite his victory in Wittenberg, Luther was unable to stifle radicalism further afield. Preachers such as Zwickau prophet Nicholas Storch and Thomas Müntzer helped instigate the German Peasants' War of 1524–25, during which many atrocities were committed, often in Luther's name. There had been revolts by the peasantry on a smaller scale since the 15th century. Luther's pamphlets against the Church and the hierarchy, often worded with \"liberal\" phraseology, now led many peasants to believe he would support an attack on the upper classes in general. Revolts broke out in Franconia, Swabia, and Thuringia in 1524, even drawing support from disaffected nobles, many of whom were in debt. Gaining momentum under the leadership of radicals such as Müntzer in Thuringia and Michael Gaismair in Tyrol, the revolts turned into war.",
+      "answers": [
+        {
+          "answer_start": 108,
+          "text": "Zwickau prophet"
+        },
+        {
+          "answer_start": 90,
+          "text": "Preachers"
+        },
+        {
+          "answer_start": 108,
+          "text": "Zwickau prophet"
+        }
+      ],
+      "original_question": "What was Nicholas Storch ?",
+      "new_question": "What was Nicholas Storch",
+      "original_prediction": "Zwickau prophet",
+      "new_prediction": "Zwickau prophet"
+    },
+    "570d28bdb3d812140066d4a3": {
+      "context": "The centre-left Australian Labor Party (ALP), the centre-right Liberal Party of Australia, the rural-based National Party of Australia, and the environmentalist Australian Greens are Victoria's main political parties. Traditionally, Labor is strongest in Melbourne's working class western and northern suburbs, and the regional cities of Ballarat, Bendigo and Geelong. The Liberals' main support lies in Melbourne's more affluent eastern and outer suburbs, and some rural and regional centres. The Nationals are strongest in Victoria's North Western and Eastern rural regional areas. The Greens, who won their first lower house seats in 2014, are strongest in inner Melbourne.",
+      "answers": [
+        {
+          "answer_start": 16,
+          "text": "Australian Labor Party"
+        },
+        {
+          "answer_start": 16,
+          "text": "Australian Labor Party"
+        },
+        {
+          "answer_start": 233,
+          "text": "Labor"
+        }
+      ],
+      "original_question": "What political party is strongest in Melbourne's working class suburbs?",
+      "new_question": "What party strongest Melbourne's working class suburbs",
+      "original_prediction": "Labor",
+      "new_prediction": "Labor"
+    },
+    "571097baa58dae1900cd6a99": {
+      "context": "Paul Revere was descended from Huguenot refugees, as was Henry Laurens, who signed the Articles of Confederation for South Carolina; Jack Jouett, who made the ride from Cuckoo Tavern to warn Thomas Jefferson and others that Tarleton and his men were on their way to arrest him for crimes against the king; Francis Marion, and a number of other leaders of the American Revolution and later statesmen. The last active Huguenot congregation in North America worships in Charleston, South Carolina, at a church that dates to 1844. The Huguenot Society of America maintains Manakin Episcopal Church in Virginia as an historic shrine with occasional services. The Society has chapters in numerous states, with the one in Texas being the largest.",
+      "answers": [
+        {
+          "answer_start": 57,
+          "text": "Henry Laurens"
+        },
+        {
+          "answer_start": 57,
+          "text": "Henry Laurens"
+        },
+        {
+          "answer_start": 57,
+          "text": "Henry Laurens"
+        }
+      ],
+      "original_question": "What signer of the Articles of Confederation was descended from Huguenots?",
+      "new_question": "What signer Articles Confederation descended from Huguenots",
+      "original_prediction": "Henry Laurens",
+      "new_prediction": "Henry Laurens"
+    },
+    "57264cc6dd62a815002e80e5": {
+      "context": "The historian Francis Aidan Gasquet wrote about the 'Great Pestilence' in 1893 and suggested that \"it would appear to be some form of the ordinary Eastern or bubonic plague\". He was able to adopt the epidemiology of the bubonic plague for the Black Death for the second edition in 1908, implicating rats and fleas in the process, and his interpretation was widely accepted for other ancient and medieval epidemics, such as the Justinian plague that was prevalent in the Eastern Roman Empire from 541 to 700 CE.",
+      "answers": [
+        {
+          "answer_start": 121,
+          "text": "some form of the ordinary Eastern or bubonic plague"
+        },
+        {
+          "answer_start": 158,
+          "text": "bubonic plague"
+        },
+        {
+          "answer_start": 138,
+          "text": "ordinary Eastern or bubonic plague"
+        }
+      ],
+      "original_question": "What did Gasquet think the plague was?",
+      "new_question": "What did Gasquet think the plague was",
+      "original_prediction": "some form of the ordinary Eastern or bubonic plague",
+      "new_prediction": "some form of the ordinary Eastern or bubonic plague"
+    },
+    "5726642f5951b619008f715b": {
+      "context": "Newcastle upon Tyne (RP: i/ˌnjuːkɑːsəl əˌpɒn ˈtaɪn/; Locally: i/njuːˌkæsəl əˌpən ˈtaɪn/), commonly known as Newcastle, is a city in Tyne and Wear, North East England, 103 miles (166 km) south of Edinburgh and 277 miles (446 km) north of London on the northern bank of the River Tyne, 8.5 mi (13.7 km) from the North Sea. Newcastle is the most populous city in the North East and Tyneside the eighth most populous conurbation in the United Kingdom. Newcastle is a member of the English Core Cities Group and is a member of the Eurocities network of European cities. Newcastle was part of the county of Northumberland until 1400, when it became a county itself, a status it retained until becoming part of Tyne and Wear in 1974.[not in citation given] The regional nickname and dialect for people from Newcastle and the surrounding area is Geordie.",
+      "answers": [
+        {
+          "answer_start": 838,
+          "text": "Geordie"
+        },
+        {
+          "answer_start": 838,
+          "text": "Geordie"
+        },
+        {
+          "answer_start": 838,
+          "text": "Geordie"
+        }
+      ],
+      "original_question": "What's the regional nickname for Newcastle and its surrounding area?",
+      "new_question": "What's regional nickname Newcastle its surrounding area",
+      "original_prediction": "Geordie",
+      "new_prediction": "Geordie"
+    },
+    "5727403af1498d1400e8f526": {
+      "context": "At the same time he made attempts to help grow ABC, Goldenson had been trying since mid-1953 to provide content for the network by contacting his old acquaintances in Hollywood, with whom he had worked when UPT was a subsidiary of Paramount Pictures. ABC's merger with UPT led to the creation of relationships with Hollywood's film production studios, breaking a quarantine that had existed at that time between film and television, the latter of which had previously been more connected to radio. ABC's flagship productions at the time were The Lone Ranger, based on the radio program of the same title, and The Adventures of Ozzie and Harriet, the latter of which (at 13 seasons, running from 1952 to 1965) held the record for the longest-running prime time comedy in U.S. television history, until it was surpassed by The Simpsons in 2002.",
+      "answers": [
+        {
+          "answer_start": 231,
+          "text": "Paramount Pictures"
+        },
+        {
+          "answer_start": 231,
+          "text": "Paramount Pictures"
+        },
+        {
+          "answer_start": 231,
+          "text": "Paramount Pictures"
+        }
+      ],
+      "original_question": "Of what hollywood film company was UPT a subsidiary of when it merged with ABC?",
+      "new_question": "Of hollywood film company UPT subsidiary merged",
+      "original_prediction": "Paramount Pictures",
+      "new_prediction": "Paramount Pictures"
+    },
+    "57277632f1498d1400e8f8c6": {
+      "context": "Following the initial success of these series, ABC revamped its Friday night schedule around family-friendly comedies in the late 1980s, culminating in the 1989 debut of the \"TGIF\" block (which promotions referenced stood for \"Thank Goodness It's Funny\"). Many of the series featured during the run of the block were produced by Miller-Boyett Productions, a Warner Bros.-based studio that briefly programmed the entire Friday lineup during the 1990–91 season (with Going Places joining Family Matters, Full House and Perfect Strangers on the \"TGIF\" schedule) and through its development deal with Paramount Television prior to 1986 (as Miller-Milkis, and later, Miller-Milkis-Boyett Productions), had earlier produced Happy Days and its various spinoffs among other series for the network.",
+      "answers": [
+        {
+          "answer_start": 329,
+          "text": "Miller-Boyett Productions"
+        },
+        {
+          "answer_start": 329,
+          "text": "Miller-Boyett Productions"
+        },
+        {
+          "answer_start": 329,
+          "text": "Miller-Boyett Productions"
+        }
+      ],
+      "original_question": "Most of the productions in the TGIF lineup were produced by what production company?",
+      "new_question": "Most productions TGIF lineup produced production company",
+      "original_prediction": "Miller-Boyett Productions",
+      "new_prediction": "Miller-Boyett Productions"
+    },
+    "5726a00d708984140094cc25": {
+      "context": "Before Genghis Khan died, he assigned Ögedei Khan as his successor and split his empire into khanates among his sons and grandsons. He died in 1227 after defeating the Western Xia. He was buried in an unmarked grave somewhere in Mongolia at an unknown location. His descendants extended the Mongol Empire across most of Eurasia by conquering or creating vassal states out of all of modern-day China, Korea, the Caucasus, Central Asia, and substantial portions of modern Eastern Europe, Russia, and Southwest Asia. Many of these invasions repeated the earlier large-scale slaughters of local populations. As a result, Genghis Khan and his empire have a fearsome reputation in local histories.",
+      "answers": [
+        {
+          "answer_start": 38,
+          "text": "Ögedei Khan"
+        },
+        {
+          "answer_start": 38,
+          "text": "Ögedei Khan"
+        },
+        {
+          "answer_start": 38,
+          "text": "Ögedei Khan"
+        }
+      ],
+      "original_question": "Who did Genghis Khan assign as his successor?",
+      "new_question": "Who did Genghis Khan assign his successor",
+      "original_prediction": "Ögedei Khan",
+      "new_prediction": "Ögedei Khan"
+    },
+    "57273581708984140094daed": {
+      "context": "On October 6, 2004, a joint Japanese-Mongolian archaeological dig uncovered what is believed to be Genghis Khan's palace in rural Mongolia, which raises the possibility of actually locating the ruler's long-lost burial site. Folklore says that a river was diverted over his grave to make it impossible to find (the same manner of burial as the Sumerian King Gilgamesh of Uruk and Atilla the Hun). Other tales state that his grave was stampeded over by many horses, and that trees were then planted over the site, and the permafrost also did its part in hiding the burial site.",
+      "answers": [
+        {
+          "answer_start": 344,
+          "text": "Sumerian King Gilgamesh of Uruk and Atilla the Hun"
+        },
+        {
+          "answer_start": 353,
+          "text": "King Gilgamesh of Uruk and Atilla the Hun"
+        },
+        {
+          "answer_start": 358,
+          "text": "Gilgamesh of Uruk and Atilla the Hun"
+        }
+      ],
+      "original_question": "What two other rulers had their graves hidden under a river?",
+      "new_question": "What two rulers graves hidden under river",
+      "original_prediction": "Gilgamesh of Uruk and Atilla the Hun",
+      "new_prediction": "Gilgamesh of Uruk and Atilla the Hun"
+    },
+    "5728f6446aef0514001548e7": {
+      "context": "The immune system protects organisms from infection with layered defenses of increasing specificity. In simple terms, physical barriers prevent pathogens such as bacteria and viruses from entering the organism. If a pathogen breaches these barriers, the innate immune system provides an immediate, but non-specific response. Innate immune systems are found in all plants and animals. If pathogens successfully evade the innate response, vertebrates possess a second layer of protection, the adaptive immune system, which is activated by the innate response. Here, the immune system adapts its response during an infection to improve its recognition of the pathogen. This improved response is then retained after the pathogen has been eliminated, in the form of an immunological memory, and allows the adaptive immune system to mount faster and stronger attacks each time this pathogen is encountered.",
+      "answers": [
+        {
+          "answer_start": 118,
+          "text": "physical barriers"
+        },
+        {
+          "answer_start": 118,
+          "text": "physical barriers"
+        },
+        {
+          "answer_start": 118,
+          "text": "physical barriers"
+        }
+      ],
+      "original_question": "What is the first line of defense against pathogens that prevents them from entering an organism?",
+      "new_question": "What line defense pathogens prevents entering organism",
+      "original_prediction": "physical barriers",
+      "new_prediction": "physical barriers"
+    },
+    "5729f4273f37b319004785fb": {
+      "context": "Wealth concentration is a theoretical[according to whom?] process by which, under certain conditions, newly created wealth concentrates in the possession of already-wealthy individuals or entities. According to this theory, those who already hold wealth have the means to invest in new sources of creating wealth or to otherwise leverage the accumulation of wealth, thus are the beneficiaries of the new wealth. Over time, wealth condensation can significantly contribute to the persistence of inequality within society. Thomas Piketty in his book Capital in the Twenty-First Century argues that the fundamental force for divergence is the usually greater return of capital (r) than economic growth (g), and that larger fortunes generate higher returns [pp. 384 Table 12.2, U.S. university endowment size vs. real annual rate of return]",
+      "answers": [
+        {
+          "answer_start": 139,
+          "text": "the possession of already-wealthy individuals"
+        },
+        {
+          "answer_start": 136,
+          "text": "in the possession of already-wealthy individuals or entities"
+        },
+        {
+          "answer_start": 157,
+          "text": "already-wealthy individuals"
+        }
+      ],
+      "original_question": "Where does newly created wealth concentrate? ",
+      "new_question": "Where does newly created wealth concentrate",
+      "original_prediction": "in the possession of already-wealthy individuals or entities",
+      "new_prediction": "in the possession of already-wealthy individuals or entities"
+    },
+    "5729686d1d046914007793c3": {
+      "context": "While most chloroplasts originate from that first set of endosymbiotic events, Paulinella chromatophora is an exception that acquired a photosynthetic cyanobacterial endosymbiont more recently. It is not clear whether that symbiont is closely related to the ancestral chloroplast of other eukaryotes. Being in the early stages of endosymbiosis, Paulinella chromatophora can offer some insights into how chloroplasts evolved. Paulinella cells contain one or two sausage shaped blue-green photosynthesizing structures called chromatophores, descended from the cyanobacterium Synechococcus. Chromatophores cannot survive outside their host. Chromatophore DNA is about a million base pairs long, containing around 850 protein encoding genes—far less than the three million base pair Synechococcus genome, but much larger than the approximately 150,000 base pair genome of the more assimilated chloroplast. Chromatophores have transferred much less of their DNA to the nucleus of their host. About 0.3–0.8% of the nuclear DNA in Paulinella is from the chromatophore, compared with 11–14% from the chloroplast in plants.",
+      "answers": [
+        {
+          "answer_start": 659,
+          "text": "about a million"
+        },
+        {
+          "answer_start": 659,
+          "text": "about a million"
+        },
+        {
+          "answer_start": 659,
+          "text": "about a million"
+        }
+      ],
+      "original_question": "How many base pairs are there in Chromatophore DNA?",
+      "new_question": "How many base pairs there Chromatophore DNA",
+      "original_prediction": "about a million",
+      "new_prediction": "about a million"
+    },
+    "57302faa04bcaa1900d77311": {
+      "context": "Greater London has over 900,000 Muslims, (most of South Asian origins and concentrated in the East London boroughs of Newham, Tower Hamlets and Waltham Forest), and among them are some with a strong Islamist outlook. Their presence, combined with a perceived British policy of allowing them free rein, heightened by exposés such as the 2007 Channel 4 documentary programme Undercover Mosque, has given rise to the term Londonistan. Following the 9/11 attacks, however, Abu Hamza al-Masri, the imam of the Finsbury Park Mosque, was arrested and charged with incitement to terrorism which has caused many Islamists to leave the UK to avoid internment.[citation needed]",
+      "answers": [
+        {
+          "answer_start": 19,
+          "text": "over 900,000"
+        },
+        {
+          "answer_start": 24,
+          "text": "900,000"
+        },
+        {
+          "answer_start": 19,
+          "text": "over 900,000"
+        }
+      ],
+      "original_question": "How many Muslims are in Greater London?",
+      "new_question": "How many Muslims are in Greater London",
+      "original_prediction": "over 900,000",
+      "new_prediction": "over 900,000"
+    },
+    "573093598ab72b1400f9c5b2": {
+      "context": "Cultural imperialism is when a country's influence is felt in social and cultural circles, i.e. its soft power, such that it changes the moral, cultural and societal worldview of another. This is more than just \"foreign\" music, television or film becoming popular with young people, but that popular culture changing their own expectations of life and their desire for their own country to become more like the foreign country depicted. For example, depictions of opulent American lifestyles in the soap opera Dallas during the Cold War changed the expectations of Romanians; a more recent example is the influence of smuggled South Korean drama series in North Korea. The importance of soft power is not lost on authoritarian regimes, fighting such influence with bans on foreign popular culture, control of the internet and unauthorised satellite dishes etc. Nor is such a usage of culture recent, as part of Roman imperialism local elites would be exposed to the benefits and luxuries of Roman culture and lifestyle, with the aim that they would then become willing participants.",
+      "answers": [
+        {
+          "answer_start": 765,
+          "text": "bans"
+        },
+        {
+          "answer_start": 765,
+          "text": "bans on foreign popular culture, control of the internet and unauthorised satellite dishes"
+        },
+        {
+          "answer_start": 765,
+          "text": "bans on foreign popular culture, control of the internet and unauthorised satellite dishes"
+        },
+        {
+          "answer_start": 765,
+          "text": "bans"
+        }
+      ],
+      "original_question": "How do regimes fight against cultural imperialism?",
+      "new_question": "How do regimes fight against cultural imperialism",
+      "original_prediction": "bans on foreign popular culture, control of the internet and unauthorised satellite dishes",
+      "new_prediction": "bans on foreign popular culture, control of the internet and unauthorised satellite dishes"
+    }
+  }
+}

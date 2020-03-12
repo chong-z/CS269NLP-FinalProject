@@ -1,0 +1,927 @@
+{
+  "cmd": "python3 sample-correct-incorrect.py dev-v1.1.json albert-results/new-dev-8.json albert-results/predictions-original.json albert-results/predictions-8.json 20 albert-results/albert-8-word-sample-20.json",
+  "original_exact_match": 83.53831598864711,
+  "original_f1": 90.6009470053024,
+  "new_exact_match": 61.929990539262064,
+  "new_f1": 75.32928902320664,
+  "new_incorrect_contexts": {
+    "56bf10f43aeaaa14008c94fe": {
+      "context": "Super Bowl 50 was an American football game to determine the champion of the National Football League (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title. The game was played on February 7, 2016, at Levi's Stadium in the San Francisco Bay Area at Santa Clara, California. As this was the 50th Super Bowl, the league emphasized the \"golden anniversary\" with various gold-themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals (under which the game would have been known as \"Super Bowl L\"), so that the logo could prominently feature the Arabic numerals 50.",
+      "answers": [
+        {
+          "answer_start": 403,
+          "text": "Santa Clara"
+        },
+        {
+          "answer_start": 403,
+          "text": "Santa Clara"
+        },
+        {
+          "answer_start": 403,
+          "text": "Santa Clara"
+        }
+      ],
+      "original_question": "What city did Super Bowl 50 take place in?",
+      "new_question": "What city did Super Bowl 50 take place",
+      "original_prediction": "Santa Clara",
+      "new_prediction": "Santa Clara, California"
+    },
+    "56e0d6cf231d4119001ac424": {
+      "context": "After leaving Edison's company Tesla partnered with two businessmen in 1886, Robert Lane and Benjamin Vail, who agreed to finance an electric lighting company in Tesla's name, Tesla Electric Light & Manufacturing. The company installed electrical arc light based illumination systems designed by Tesla and also had designs for dynamo electric machine commutators, the first patents issued to Tesla in the US.",
+      "answers": [
+        {
+          "answer_start": 31,
+          "text": "Tesla"
+        },
+        {
+          "answer_start": 296,
+          "text": "Tesla"
+        },
+        {
+          "answer_start": 176,
+          "text": "Tesla"
+        }
+      ],
+      "original_question": "Who designed the illumination systems that Tesla Electric Light & Manufacturing installed?",
+      "new_question": "Who designed illumination systems Electric Light Manufacturing installed",
+      "original_prediction": "Tesla",
+      "new_prediction": "Tesla Electric Light & Manufacturing. The company installed electrical arc light based illumination systems designed by Tesla"
+    },
+    "56e17e6ee3433e1400422f7f": {
+      "context": "To further highlight the difference between a problem and an instance, consider the following instance of the decision version of the traveling salesman problem: Is there a route of at most 2000 kilometres passing through all of Germany's 15 largest cities? The quantitative answer to this particular problem instance is of little use for solving other instances of the problem, such as asking for a round trip through all sites in Milan whose total length is at most 10 km. For this reason, complexity theory addresses computational problems and not particular problem instances.",
+      "answers": [
+        {
+          "answer_start": 190,
+          "text": "2000"
+        },
+        {
+          "answer_start": 190,
+          "text": "2000"
+        },
+        {
+          "answer_start": 190,
+          "text": "2000"
+        }
+      ],
+      "original_question": "By how many kilometers does the traveling salesman problem seek to classify a route between the 15 largest cities in Germany?",
+      "new_question": "how kilometers traveling salesman seek classify route cities",
+      "original_prediction": "2000",
+      "new_prediction": "2000 kilometres"
+    },
+    "5705e3f252bb89140068966b": {
+      "context": "Southern California includes the heavily built-up urban area stretching along the Pacific coast from Ventura, through the Greater Los Angeles Area and the Inland Empire, and down to Greater San Diego. Southern California's population encompasses seven metropolitan areas, or MSAs: the Los Angeles metropolitan area, consisting of Los Angeles and Orange counties; the Inland Empire, consisting of Riverside and San Bernardino counties; the San Diego metropolitan area; the Oxnard–Thousand Oaks–Ventura metropolitan area; the Santa Barbara metro area; the San Luis Obispo metropolitan area; and the El Centro area. Out of these, three are heavy populated areas: the Los Angeles area with over 12 million inhabitants, the Riverside-San Bernardino area with over four million inhabitants, and the San Diego area with over 3 million inhabitants. For CSA metropolitan purposes, the five counties of Los Angeles, Orange, Riverside, San Bernardino, and Ventura are all combined to make up the Greater Los Angeles Area with over 17.5 million people. With over 22 million people, southern California contains roughly 60 percent of California's population.",
+      "answers": [
+        {
+          "answer_start": 246,
+          "text": "seven"
+        },
+        {
+          "answer_start": 246,
+          "text": "seven"
+        },
+        {
+          "answer_start": 246,
+          "text": "seven"
+        }
+      ],
+      "original_question": "How many metropolitan areas does Southern California's population encompass?",
+      "new_question": "How metropolitan areas does Southern California's population encompass",
+      "original_prediction": "seven",
+      "new_prediction": "Southern California's population encompasses seven metropolitan areas"
+    },
+    "5705e99452bb891400689688": {
+      "context": "Its counties of Los Angeles, Orange, San Diego, San Bernardino, and Riverside are the five most populous in the state and all are in the top 15 most populous counties in the United States.",
+      "answers": [
+        {
+          "answer_start": 16,
+          "text": "Los Angeles"
+        },
+        {
+          "answer_start": 16,
+          "text": "Los Angeles"
+        },
+        {
+          "answer_start": 68,
+          "text": "Riverside"
+        }
+      ],
+      "original_question": "Orange, San Diego, Riverside and San Bernardino make up four of the five counties. What is the name of the last county?",
+      "new_question": "Orange Diego Riverside Bernardino five counties What county",
+      "original_prediction": "Los Angeles",
+      "new_prediction": "San Diego"
+    },
+    "570967c4ed30961900e840bb": {
+      "context": "When Sky Digital was launched in 1998 the new service used the Astra 2A satellite which was located at the 28.5°E orbital position, unlike the analogue service which was broadcast from 19.2°E. This was subsequently followed by more Astra satellites as well as Eutelsat's Eurobird 1 (now Eutelsat 33C) at 28.5°E), enabled the company to launch a new all-digital service, Sky, with the potential to carry hundreds of television and radio channels. The old position was shared with broadcasters from several European countries, while the new position at 28.5°E came to be used almost exclusively for channels that broadcast to the United Kingdom.",
+      "answers": [
+        {
+          "answer_start": 63,
+          "text": "Astra 2A"
+        },
+        {
+          "answer_start": 59,
+          "text": "the Astra 2A"
+        },
+        {
+          "answer_start": 63,
+          "text": "Astra 2A"
+        }
+      ],
+      "original_question": "What satellite was used when Sky digital was launched?",
+      "new_question": "What satellite used when Sky digital was launched",
+      "original_prediction": "Astra 2A",
+      "new_prediction": "Astra 2A satellite"
+    },
+    "5711541350c2381900b54a72": {
+      "context": "A method to lessen the magnitude of this heating and cooling was invented in 1804 by British engineer Arthur Woolf, who patented his Woolf high-pressure compound engine in 1805. In the compound engine, high-pressure steam from the boiler expands in a high-pressure (HP) cylinder and then enters one or more subsequent lower-pressure (LP) cylinders. The complete expansion of the steam now occurs across multiple cylinders and as less expansion now occurs in each cylinder less heat is lost by the steam in each. This reduces the magnitude of cylinder heating and cooling, increasing the efficiency of the engine. By staging the expansion in multiple cylinders, torque variability can be reduced. To derive equal work from lower-pressure steam requires a larger cylinder volume as this steam occupies a greater volume. Therefore, the bore, and often the stroke, are increased in low-pressure cylinders resulting in larger cylinders.",
+      "answers": [
+        {
+          "answer_start": 761,
+          "text": "cylinder volume"
+        },
+        {
+          "answer_start": 761,
+          "text": "cylinder"
+        },
+        {
+          "answer_start": 761,
+          "text": "cylinder volume"
+        }
+      ],
+      "original_question": "What needs to be larger to get the same work out of lower pressure steam?",
+      "new_question": "What needs larger get same lower pressure steam",
+      "original_prediction": "cylinder volume",
+      "new_prediction": "larger cylinders"
+    },
+    "571cca4add7acb1400e4c151": {
+      "context": "Free oxygen gas was almost nonexistent in Earth's atmosphere before photosynthetic archaea and bacteria evolved, probably about 3.5 billion years ago. Free oxygen first appeared in significant quantities during the Paleoproterozoic eon (between 3.0 and 2.3 billion years ago). For the first billion years, any free oxygen produced by these organisms combined with dissolved iron in the oceans to form banded iron formations. When such oxygen sinks became saturated, free oxygen began to outgas from the oceans 3–2.7 billion years ago, reaching 10% of its present level around 1.7 billion years ago.",
+      "answers": [
+        {
+          "answer_start": 215,
+          "text": "Paleoproterozoic"
+        },
+        {
+          "answer_start": 215,
+          "text": "Paleoproterozoic"
+        },
+        {
+          "answer_start": 215,
+          "text": "Paleoproterozoic"
+        },
+        {
+          "answer_start": 215,
+          "text": "Paleoproterozoic"
+        },
+        {
+          "answer_start": 211,
+          "text": "the Paleoproterozoic eon"
+        }
+      ],
+      "original_question": "During which eon did free oxygen begin appearing in quantity?",
+      "new_question": "During eon did free oxygen begin appearing quantity",
+      "original_prediction": "Paleoproterozoic",
+      "new_prediction": "Free oxygen first appeared in significant quantities"
+    },
+    "57265ceddd62a815002e82b8": {
+      "context": "Federal safety standards, such as NHTSA Federal Motor Vehicle Safety Standard 215 (pertaining to safety bumpers), and compacts like the 1974 Mustang I were a prelude to the DOT \"downsize\" revision of vehicle categories. By 1977, GM's full-sized cars reflected the crisis. By 1979, virtually all \"full-size\" American cars had shrunk, featuring smaller engines and smaller outside dimensions. Chrysler ended production of their full-sized luxury sedans at the end of the 1981 model year, moving instead to a full front-wheel drive lineup for 1982 (except for the M-body Dodge Diplomat/Plymouth Gran Fury and Chrysler New Yorker Fifth Avenue sedans).",
+      "answers": [
+        {
+          "answer_start": 275,
+          "text": "1979"
+        },
+        {
+          "answer_start": 275,
+          "text": "1979"
+        },
+        {
+          "answer_start": 275,
+          "text": "1979"
+        },
+        {
+          "answer_start": 275,
+          "text": "1979"
+        },
+        {
+          "answer_start": 275,
+          "text": "1979"
+        }
+      ],
+      "original_question": "By which year did full sized American cars shrink to be smaller?",
+      "new_question": "By did full sized American cars shrink smaller",
+      "original_prediction": "1979",
+      "new_prediction": "By 1979, virtually all \"full-size\" American cars had shrunk"
+    },
+    "5725ca35271a42140099d1c3": {
+      "context": "Maxime Faget's preliminary Apollo design employed a cone-shaped command module, supported by one of several service modules providing propulsion and electrical power, sized appropriately for the space station, cislunar, and lunar landing missions. Once Kennedy's Moon landing goal became official, detailed design began of a Command/Service Module (CSM) in which the crew would spend the entire direct-ascent mission and lift off from the lunar surface for the return trip, after being soft-landed by a larger landing propulsion module. The final choice of lunar orbit rendezvous changed the CSM's role to the translunar ferry used to transport the crew, along with a new spacecraft, the Lunar Excursion Module (LEM, later shortened to Lunar Module, LM) which would take two men to the lunar surface and return them to the CSM.",
+      "answers": [
+        {
+          "answer_start": 771,
+          "text": "two"
+        },
+        {
+          "answer_start": 771,
+          "text": "two"
+        },
+        {
+          "answer_start": 771,
+          "text": "two men"
+        },
+        {
+          "answer_start": 771,
+          "text": "two"
+        }
+      ],
+      "original_question": "How many men would the LM take to the lunar surface and return to the CSM?",
+      "new_question": "How men LM take lunar surface return CSM",
+      "original_prediction": "two",
+      "new_prediction": "return them to the CSM"
+    },
+    "57264a8cdd62a815002e808e": {
+      "context": "The European Commission is the main executive body of the European Union. Article 17(1) of the Treaty on European Union states the Commission should \"promote the general interest of the Union\" while Article 17(3) adds that Commissioners should be \"completely independent\" and not \"take instructions from any Government\". Under article 17(2), \"Union legislative acts may only be adopted on the basis of a Commission proposal, except where the Treaties provide otherwise.\" This means that the Commission has a monopoly on initiating the legislative procedure, although the Council is the \"de facto catalyst of many legislative initiatives\". The Parliament can also formally request the Commission to submit a legislative proposal but the Commission can reject such a suggestion, giving reasons. The Commission's President (currently an ex-Luxembourg Prime Minister, Jean-Claude Juncker) sets the agenda for the EU's work. Decisions are taken by a simple majority vote, usually through a \"written procedure\" of circulating the proposals and adopting if there are no objections.[citation needed] Since Ireland refused to consent to changes in the Treaty of Lisbon 2007, there remains one Commissioner for each of the 28 member states, including the President and the High Representative for Foreign and Security Policy (currently Federica Mogherini). The Commissioners (and most importantly, the portfolios they will hold) are bargained over intensively by the member states. The Commissioners, as a block, are then subject to a qualified majority vote of the Council to approve, and majority approval of the Parliament. The proposal to make the Commissioners be drawn from the elected Parliament, was not adopted in the Treaty of Lisbon. This means Commissioners are, through the appointment process, the unelected subordinates of member state governments.",
+      "answers": [
+        {
+          "answer_start": 793,
+          "text": "The Commission's President"
+        },
+        {
+          "answer_start": 793,
+          "text": "The Commission's President"
+        },
+        {
+          "answer_start": 793,
+          "text": "The Commission's President"
+        },
+        {
+          "answer_start": 793,
+          "text": "The Commission's President ("
+        }
+      ],
+      "original_question": "Which authority figure is designated to schedule and set the work of the EU?",
+      "new_question": "Which authority figure designated schedule set work EU",
+      "original_prediction": "The Commission's President",
+      "new_prediction": "President"
+    },
+    "572a0bebaf94a219006aa770": {
+      "context": "In 2010 the Amazon rainforest experienced another severe drought, in some ways more extreme than the 2005 drought. The affected region was approximate 1,160,000 square miles (3,000,000 km2) of rainforest, compared to 734,000 square miles (1,900,000 km2) in 2005. The 2010 drought had three epicenters where vegetation died off, whereas in 2005 the drought was focused on the southwestern part. The findings were published in the journal Science. In a typical year the Amazon absorbs 1.5 gigatons of carbon dioxide; during 2005 instead 5 gigatons were released and in 2010 8 gigatons were released.",
+      "answers": [
+        {
+          "answer_start": 151,
+          "text": "1,160,000"
+        },
+        {
+          "answer_start": 151,
+          "text": "1,160,000"
+        },
+        {
+          "answer_start": 151,
+          "text": "1,160,000"
+        }
+      ],
+      "original_question": "How many square miles large was the region impacted by the 2010 drought?",
+      "new_question": "How square miles large region impacted 2010 drought",
+      "original_prediction": "1,160,000",
+      "new_prediction": "1,160,000 square miles"
+    },
+    "572689385951b619008f761d": {
+      "context": "In 2014, work was completed on the stations historic entrance. Glazing was placed over the historic arches and the Victorian architecture was enhanced; transforming the 19th century public portico. The station is one of only six Grade One listed railway stations in the UK. Opened in 1850 by Queen Victoria, it was the first covered railway station in the world and was much copied across the UK. It has a neoclassical façade, originally designed by the architect John Dobson, and was constructed in collaboration with Robert Stephenson. The station sightlines towards the Castle Keep, whilst showcasing the curvature of the station’s arched roof. The first services were operated by the North Eastern Railway company. The city's other mainline station, Manors, is to the east of the city centre.",
+      "answers": [
+        {
+          "answer_start": 298,
+          "text": "Victoria"
+        },
+        {
+          "answer_start": 298,
+          "text": "Victoria"
+        },
+        {
+          "answer_start": 292,
+          "text": "Queen Victoria"
+        }
+      ],
+      "original_question": "What Queen opened the first covered railway station in the world?",
+      "new_question": "What Queen opened first covered railway station world",
+      "original_prediction": "Queen Victoria",
+      "new_prediction": "it was the first covered railway station in the world"
+    },
+    "57287b322ca10214002da3c0": {
+      "context": "Plotting the relationship between level of income and inequality, Kuznets saw middle-income developing economies level of inequality bulging out to form what is now known as the Kuznets curve. Kuznets demonstrated this relationship using cross-sectional data. However, more recent testing of this theory with superior panel data has shown it to be very weak. Kuznets' curve predicts that income inequality will eventually decrease given time. As an example, income inequality did fall in the United States during its High school movement from 1910 to 1940 and thereafter.[citation needed] However, recent data shows that the level of income inequality began to rise after the 1970s. This does not necessarily disprove Kuznets' theory.[citation needed] It may be possible that another Kuznets' cycle is occurring, specifically the move from the manufacturing sector to the service sector.[citation needed] This implies that it may be possible for multiple Kuznets' cycles to be in effect at any given time.",
+      "answers": [
+        {
+          "answer_start": 872,
+          "text": "service"
+        },
+        {
+          "answer_start": 872,
+          "text": "service"
+        }
+      ],
+      "original_question": "In what sector are jobs beginning to increase?",
+      "new_question": "In what sector are jobs beginning to increase",
+      "original_prediction": "service",
+      "new_prediction": "service sector"
+    },
+    "5728de0e2ca10214002da9df": {
+      "context": "Kenya has a warm and humid tropical climate on its Indian Ocean coastline. The climate is cooler in the savannah grasslands around the capital city, Nairobi, and especially closer to Mount Kenya, which has snow permanently on its peaks. Further inland, in the Nyanza region, there is a hot and dry climate which becomes humid around Lake Victoria, the largest tropical fresh-water lake in the world. This gives way to temperate and forested hilly areas in the neighboring western region. The north-eastern regions along the border with Somalia and Ethiopia are arid and semi-arid areas with near-desert landscapes. Kenya is known for its safaris, diverse climate and geography, and expansive wildlife reserves and national parks such as the East and West Tsavo National Park, the Maasai Mara, Lake Nakuru National Park, and Aberdares National Park. Kenya has several world heritage sites such as Lamu and numerous beaches, including in Diani, Bamburi and Kilifi, where international yachting competitions are held every year.",
+      "answers": [
+        {
+          "answer_start": 536,
+          "text": "Somalia and Ethiopia"
+        },
+        {
+          "answer_start": 536,
+          "text": "Somalia and Ethiopia"
+        },
+        {
+          "answer_start": 536,
+          "text": "Somalia and Ethiopia"
+        }
+      ],
+      "original_question": "What regions do the north-eastern part of the country boarder?",
+      "new_question": "What regions do north-eastern part of country boarder",
+      "original_prediction": "Somalia and Ethiopia",
+      "new_prediction": "arid and semi-arid areas with near-desert landscapes"
+    },
+    "57290e153f37b31900477fd9": {
+      "context": "Since the election riots, the government and civil society organisations started programmes to avoid similar disasters in the future, said Agnes R. M. Aboum – executive director of TAABCO Research and Development Consultants in Nairobi – in the magazine D+C Development and Cooperation. For example, the Truth, Justice and Reconciliation Commission initiated community dialogues, the Evangelical Lutheran Church in Kenya started peace meetings and the Kenya National Dialogue and Reconciliation process was started.",
+      "answers": [
+        {
+          "answer_start": 81,
+          "text": "programmes to avoid similar disasters in the future"
+        },
+        {
+          "answer_start": 81,
+          "text": "programmes"
+        },
+        {
+          "answer_start": 81,
+          "text": "programmes"
+        }
+      ],
+      "original_question": "What did the government and civil society organisations start after the riots?",
+      "new_question": "What did government civil society organisations start riots",
+      "original_prediction": "programmes to avoid similar disasters in the future",
+      "new_prediction": "avoid similar disasters in the future"
+    },
+    "57291a7b1d04691400779041": {
+      "context": "A consortium led by the International Crops Research Institute for the Semi-Arid Tropics (ICRISAT) has had some success in helping farmers grow new pigeon pea varieties, instead of maize, in particularly dry areas. Pigeon peas are very drought resistant, so can be grown in areas with less than 650 mm annual rainfall. Successive projects encouraged the commercialisation of legumes, by stimulating the growth of local seed production and agro-dealer networks for distribution and marketing. This work, which included linking producers to wholesalers, helped to increase local producer prices by 20–25% in Nairobi and Mombasa. The commercialisation of the pigeon pea is now enabling some farmers to buy assets, ranging from mobile phones to productive land and livestock, and is opening pathways for them to move out of poverty.",
+      "answers": [
+        {
+          "answer_start": 384,
+          "text": "by stimulating the growth of local seed production and agro-dealer networks for distribution and marketing"
+        },
+        {
+          "answer_start": 387,
+          "text": "stimulating the growth of local seed production"
+        },
+        {
+          "answer_start": 387,
+          "text": "stimulating the growth of local seed production"
+        }
+      ],
+      "original_question": "How did the project encourage the commercialisation of legumes?",
+      "new_question": "How did project encourage the commercialisation of legumes",
+      "original_prediction": "by stimulating the growth of local seed production and agro-dealer networks for distribution and marketing",
+      "new_prediction": "Successive projects encouraged the commercialisation of legumes"
+    },
+    "57293e221d046914007791d6": {
+      "context": "The executive summary of the WG I Summary for Policymakers report says they are certain that emissions resulting from human activities are substantially increasing the atmospheric concentrations of the greenhouse gases, resulting on average in an additional warming of the Earth's surface. They calculate with confidence that CO2 has been responsible for over half the enhanced greenhouse effect. They predict that under a \"business as usual\" (BAU) scenario, global mean temperature will increase by about 0.3 °C per decade during the [21st] century. They judge that global mean surface air temperature has increased by 0.3 to 0.6 °C over the last 100 years, broadly consistent with prediction of climate models, but also of the same magnitude as natural climate variability. The unequivocal detection of the enhanced greenhouse effect is not likely for a decade or more.",
+      "answers": [
+        {
+          "answer_start": 247,
+          "text": "additional warming of the Earth's surface"
+        },
+        {
+          "answer_start": 258,
+          "text": "warming of the Earth's surface"
+        },
+        {
+          "answer_start": 247,
+          "text": "additional warming of the Earth's surface"
+        }
+      ],
+      "original_question": "What do increased greenhouse gases cause?",
+      "new_question": "What do increased greenhouse gases cause",
+      "original_prediction": "warming of the Earth's surface",
+      "new_prediction": "emissions resulting from human activities are substantially increasing the atmospheric concentrations of the greenhouse gases, resulting on average in an additional warming of the Earth's surface"
+    },
+    "5730876a396df9190009617b": {
+      "context": "A controversial aspect of imperialism is the defense and justification of empire-building based on seemingly rational grounds. J. A. Hobson identifies this justification on general grounds as: \"It is desirable that the earth should be peopled, governed, and developed, as far as possible, by the races which can do this work best, i.e. by the races of highest 'social efficiency'\". Many others argued that imperialism is justified for several different reasons. Friedrich Ratzel believed that in order for a state to survive, imperialism was needed. Halford Mackinder felt that Great Britain needed to be one of the greatest imperialists and therefore justified imperialism. The purportedly scientific nature of \"Social Darwinism\" and a theory of races formed a supposedly rational justification for imperialism. The rhetoric of colonizers being racially superior appears to have achieved its purpose, for example throughout Latin America \"whiteness\" is still prized today and various forms of blanqueamiento (whitening) are common.",
+      "answers": [
+        {
+          "answer_start": 352,
+          "text": "highest 'social efficiency'"
+        },
+        {
+          "answer_start": 352,
+          "text": "highest 'social efficiency'"
+        },
+        {
+          "answer_start": 339,
+          "text": "the races of highest 'social efficiency'\""
+        },
+        {
+          "answer_start": 349,
+          "text": "of highest 'social efficiency"
+        },
+        {
+          "answer_start": 343,
+          "text": "races of highest 'social efficiency'\""
+        }
+      ],
+      "original_question": " J. A. Hobson wanted which races to develop the world?",
+      "new_question": "J. A. Hobson wanted which races develop world",
+      "original_prediction": "races of highest 'social efficiency",
+      "new_prediction": "races which can do this work best, i.e. by the races of highest 'social efficiency"
+    },
+    "5730a97a396df9190009625c": {
+      "context": "On April 23, 1968, the United Methodist Church was created when the Evangelical United Brethren Church (represented by Bishop Reuben H. Mueller) and The Methodist Church (represented by Bishop Lloyd Christ Wicke) joined hands at the constituting General Conference in Dallas, Texas. With the words, \"Lord of the Church, we are united in Thee, in Thy Church and now in The United Methodist Church\" the new denomination was given birth by the two churches that had distinguished histories and influential ministries in various parts of the world.",
+      "answers": [
+        {
+          "answer_start": 186,
+          "text": "Bishop Lloyd Christ Wicke"
+        },
+        {
+          "answer_start": 186,
+          "text": "Bishop Lloyd Christ"
+        },
+        {
+          "answer_start": 119,
+          "text": "Bishop Reuben H. Mueller"
+        }
+      ],
+      "original_question": "Who was one man who joined hands and said \"Lord of the Church, we are united in Thee...?\"",
+      "new_question": "Who man joined hands Lord we united Thee",
+      "original_prediction": "Bishop Lloyd Christ Wicke",
+      "new_prediction": "Lord of the Church"
+    }
+  },
+  "both_correct_contexts": {
+    "56f85cf0aef237190062601d": {
+      "context": "In response to demands for a German liturgy, Luther wrote a German Mass, which he published in early 1526. He did not intend it as a replacement for his 1523 adaptation of the Latin Mass but as an alternative for the \"simple people\", a \"public stimulation for people to believe and become Christians.\" Luther based his order on the Catholic service but omitted \"everything that smacks of sacrifice\"; and the Mass became a celebration where everyone received the wine as well as the bread. He retained the elevation of the host and chalice, while trappings such as the Mass vestments, altar, and candles were made optional, allowing freedom of ceremony. Some reformers, including followers of Huldrych Zwingli, considered Luther's service too papistic; and modern scholars note the conservatism of his alternative to the Catholic mass. Luther's service, however, included congregational singing of hymns and psalms in German, as well as of parts of the liturgy, including Luther's unison setting of the Creed. To reach the simple people and the young, Luther incorporated religious instruction into the weekday services in the form of the catechism. He also provided simplified versions of the baptism and marriage services.",
+      "answers": [
+        {
+          "answer_start": 632,
+          "text": "freedom of ceremony"
+        },
+        {
+          "answer_start": 632,
+          "text": "freedom"
+        },
+        {
+          "answer_start": 462,
+          "text": "wine as well as the bread"
+        }
+      ],
+      "original_question": "What did the new mass allow as regards ceremony?",
+      "new_question": "What did new mass allow as regards ceremony",
+      "original_prediction": "freedom of ceremony",
+      "new_prediction": "freedom of ceremony"
+    },
+    "571c97e2dd7acb1400e4c121": {
+      "context": "Oxygen is the most abundant chemical element by mass in the Earth's biosphere, air, sea and land. Oxygen is the third most abundant chemical element in the universe, after hydrogen and helium. About 0.9% of the Sun's mass is oxygen. Oxygen constitutes 49.2% of the Earth's crust by mass and is the major component of the world's oceans (88.8% by mass). Oxygen gas is the second most common component of the Earth's atmosphere, taking up 20.8% of its volume and 23.1% of its mass (some 1015 tonnes).[d] Earth is unusual among the planets of the Solar System in having such a high concentration of oxygen gas in its atmosphere: Mars (with 0.1% O\n2 by volume) and Venus have far lower concentrations. The O\n2 surrounding these other planets is produced solely by ultraviolet radiation impacting oxygen-containing molecules such as carbon dioxide.",
+      "answers": [
+        {
+          "answer_start": 321,
+          "text": "world's oceans"
+        },
+        {
+          "answer_start": 317,
+          "text": "the world's oceans"
+        },
+        {
+          "answer_start": 53,
+          "text": "in the Earth's biosphere, air, sea and land"
+        },
+        {
+          "answer_start": 329,
+          "text": "oceans"
+        },
+        {
+          "answer_start": 317,
+          "text": "the world's oceans"
+        }
+      ],
+      "original_question": "Where  by mass is oxygen a major part?",
+      "new_question": "Where by mass is oxygen a major part",
+      "original_prediction": "world's oceans",
+      "new_prediction": "oceans"
+    },
+    "571cd3b55efbb31900334e05": {
+      "context": "Hyperbaric (high-pressure) medicine uses special oxygen chambers to increase the partial pressure of O\n2 around the patient and, when needed, the medical staff. Carbon monoxide poisoning, gas gangrene, and decompression sickness (the 'bends') are sometimes treated using these devices. Increased O\n2 concentration in the lungs helps to displace carbon monoxide from the heme group of hemoglobin. Oxygen gas is poisonous to the anaerobic bacteria that cause gas gangrene, so increasing its partial pressure helps kill them. Decompression sickness occurs in divers who decompress too quickly after a dive, resulting in bubbles of inert gas, mostly nitrogen and helium, forming in their blood. Increasing the pressure of O\n2 as soon as possible is part of the treatment.",
+      "answers": [
+        {
+          "answer_start": 427,
+          "text": "anaerobic bacteria"
+        },
+        {
+          "answer_start": 427,
+          "text": "anaerobic bacteria"
+        },
+        {
+          "answer_start": 427,
+          "text": "anaerobic bacteria"
+        },
+        {
+          "answer_start": 427,
+          "text": "anaerobic bacteria"
+        },
+        {
+          "answer_start": 427,
+          "text": "anaerobic bacteria"
+        }
+      ],
+      "original_question": "To what pathogen that causes gas gangrene is oxygen poisonous?",
+      "new_question": "To what pathogen causes gas gangrene oxygen poisonous",
+      "original_prediction": "anaerobic bacteria",
+      "new_prediction": "anaerobic bacteria"
+    },
+    "5725c2a038643c19005acc6d": {
+      "context": "Based on his industry experience on Air Force missile projects, Mueller realized some skilled managers could be found among high-ranking officers in the United States Air Force, so he got Webb's permission to recruit General Samuel C. Phillips, who gained a reputation for his effective management of the Minuteman program, as OMSF program controller. Phillips' superior officer Bernard A. Schriever agreed to loan Phillips to NASA, along with a staff of officers under him, on the condition that Phillips be made Apollo Program Director. Mueller agreed, and Phillips managed Apollo from January 1964, until it achieved the first manned landing in July 1969, after which he returned to Air Force duty.",
+      "answers": [
+        {
+          "answer_start": 217,
+          "text": "General Samuel C. Phillips"
+        },
+        {
+          "answer_start": 379,
+          "text": "Bernard A. Schriever"
+        },
+        {
+          "answer_start": 225,
+          "text": "Samuel C. Phillips"
+        },
+        {
+          "answer_start": 225,
+          "text": "Samuel C. Phillips"
+        },
+        {
+          "answer_start": 217,
+          "text": "General Samuel C. Phillips"
+        }
+      ],
+      "original_question": "Who did Mueller recruit to be a manager for NASA projects on a loaned situation?",
+      "new_question": "Who Mueller recruit manager NASA projects loaned situation",
+      "original_prediction": "General Samuel C. Phillips",
+      "new_prediction": "Samuel C. Phillips"
+    },
+    "572656e4dd62a815002e81fd": {
+      "context": "To make new legislation, TFEU article 294 defines the \"ordinary legislative procedure\" that applies for most EU acts. The essence is there are three readings, starting with a Commission proposal, where the Parliament must vote by a majority of all MEPs (not just those present) to block or suggest changes, and the Council must vote by qualified majority to approve changes, but by unanimity to block Commission amendment. Where the different institutions cannot agree at any stage, a \"Conciliation Committee\" is convened, representing MEPs, ministers and the Commission to try and get agreement on a joint text: if this works, it will be sent back to the Parliament and Council to approve by absolute and qualified majority. This means, legislation can be blocked by a majority in Parliament, a minority in the Council, and a majority in the Commission: it is harder to change EU law than stay the same. A different procedure exists for budgets. For \"enhanced cooperation\" among a sub-set of at least member states, authorisation must be given by the Council. Member state governments should be informed by the Commission at the outset before any proposals start the legislative procedure. The EU as a whole can only act within its power set out in the Treaties. TEU articles 4 and 5 state that powers remain with the member states unless they have been conferred, although there is a debate about the Kompetenz-Kompetenz question: who ultimately has the \"competence\" to define the EU's \"competence\". Many member state courts believe they decide, other member state Parliaments believe they decide, while within the EU, the Court of Justice believes it has the final say.",
+      "answers": [
+        {
+          "answer_start": 1264,
+          "text": "TEU articles 4 and 5"
+        },
+        {
+          "answer_start": 1264,
+          "text": "TEU articles 4 and 5"
+        },
+        {
+          "answer_start": 1264,
+          "text": "TEU articles 4 and 5"
+        },
+        {
+          "answer_start": 1264,
+          "text": "TEU articles 4 and 5"
+        }
+      ],
+      "original_question": "What articles state that unless conferred, powers remain with member states?",
+      "new_question": "What articles unless conferred powers remain member states",
+      "original_prediction": "TEU articles 4 and 5",
+      "new_prediction": "TEU articles 4 and 5"
+    },
+    "57267ca75951b619008f7469": {
+      "context": "ABC originally launched on October 12, 1943 as a radio network, separated from and serving as the successor to the NBC Blue Network, which had been purchased by Edward J. Noble. It extended its operations to television in 1948, following in the footsteps of established broadcast networks CBS and NBC. In the mid-1950s, ABC merged with United Paramount Theatres, a chain of movie theaters that formerly operated as a subsidiary of Paramount Pictures. Leonard Goldenson, who had been the head of UPT, made the new television network profitable by helping develop and greenlight many successful series. In the 1980s, after purchasing an 80% interest in cable sports channel ESPN, the network's parent merged with Capital Cities Communications, owner of several print publications, and television and radio stations. In 1996, most of Capital Cities/ABC's assets were purchased by The Walt Disney Company.",
+      "answers": [
+        {
+          "answer_start": 27,
+          "text": "October 12, 1943"
+        },
+        {
+          "answer_start": 27,
+          "text": "October 12, 1943"
+        },
+        {
+          "answer_start": 27,
+          "text": "October 12, 1943"
+        }
+      ],
+      "original_question": "When did ABC first start?",
+      "new_question": "When did ABC first start",
+      "original_prediction": "October 12, 1943",
+      "new_prediction": "October 12, 1943"
+    },
+    "572746d3dd62a815002e9a69": {
+      "context": "In April 1970, Congress passed the Public Health Cigarette Smoking Act which banned cigarette advertising from all television and radio networks, including ABC, when it took effect on January 2, 1971. Citing limited profitability of its cinemas, ABC Great States, the Central West division of ABC Theatres, was sold to Henry Plitt in 1974. On January 17, 1972, Elton Rule was named President and Chief Operating Officer of ABC a few months after Goldenson reduced his role in the company after suffering a heart attack.",
+      "answers": [
+        {
+          "answer_start": 361,
+          "text": "Elton Rule"
+        },
+        {
+          "answer_start": 361,
+          "text": "Elton Rule"
+        },
+        {
+          "answer_start": 361,
+          "text": "Elton Rule"
+        }
+      ],
+      "original_question": "Who was named the president and CEO of ABC after Goldenson suffered a heart attack?",
+      "new_question": "Who named president CEO Goldenson suffered heart attack",
+      "original_prediction": "Elton Rule",
+      "new_prediction": "Elton Rule"
+    },
+    "5726f868dd62a815002e9687": {
+      "context": "In the coming decades, pharmacists are expected to become more integral within the health care system. Rather than simply dispensing medication, pharmacists are increasingly expected to be compensated for their patient care skills. In particular, Medication Therapy Management (MTM) includes the clinical services that pharmacists can provide for their patients. Such services include the thorough analysis of all medication (prescription, non-prescription, and herbals) currently being taken by an individual. The result is a reconciliation of medication and patient education resulting in increased patient health outcomes and decreased costs to the health care system.",
+      "answers": [
+        {
+          "answer_start": 389,
+          "text": "thorough analysis of all medication (prescription, non-prescription, and herbals) currently being taken by an individual"
+        },
+        {
+          "answer_start": 389,
+          "text": "thorough analysis of all medication (prescription, non-prescription, and herbals) currently being taken by an individual."
+        },
+        {
+          "answer_start": 385,
+          "text": "the thorough analysis of all medication (prescription, non-prescription, and herbals) currently being taken by an individual"
+        }
+      ],
+      "original_question": "What are examples of clinical services that pharmacists can provide?",
+      "new_question": "What are examples clinical services pharmacists can provide",
+      "original_prediction": "thorough analysis of all medication (prescription, non-prescription, and herbals) currently being taken by an individual",
+      "new_prediction": "thorough analysis of all medication (prescription, non-prescription, and herbals) currently being taken by an individual"
+    },
+    "5729fe5c3f37b31900478632": {
+      "context": "Overactive immune responses comprise the other end of immune dysfunction, particularly the autoimmune disorders. Here, the immune system fails to properly distinguish between self and non-self, and attacks part of the body. Under normal circumstances, many T cells and antibodies react with \"self\" peptides. One of the functions of specialized cells (located in the thymus and bone marrow) is to present young lymphocytes with self antigens produced throughout the body and to eliminate those cells that recognize self-antigens, preventing autoimmunity.",
+      "answers": [
+        {
+          "answer_start": 291,
+          "text": "\"self\" peptides"
+        },
+        {
+          "answer_start": 292,
+          "text": "self"
+        },
+        {
+          "answer_start": 292,
+          "text": "self\" peptides"
+        }
+      ],
+      "original_question": "Under normal conditions, T cells and antibodies produce what kind of peptides?",
+      "new_question": "Under normal conditions T antibodies produce kind peptides",
+      "original_prediction": "self",
+      "new_prediction": "self\" peptides"
+    },
+    "572726c9708984140094da7e": {
+      "context": "It has been argued that the term \"civil disobedience\" has always suffered from ambiguity and in modern times, become utterly debased. Marshall Cohen notes, \"It has been used to describe everything from bringing a test-case in the federal courts to taking aim at a federal official. Indeed, for Vice President Agnew it has become a code-word describing the activities of muggers, arsonists, draft evaders, campaign hecklers, campus militants, anti-war demonstrators, juvenile delinquents and political assassins.\"",
+      "answers": [
+        {
+          "answer_start": 134,
+          "text": "Marshall Cohen"
+        },
+        {
+          "answer_start": 134,
+          "text": "Marshall Cohen"
+        },
+        {
+          "answer_start": 134,
+          "text": "Marshall Cohen"
+        },
+        {
+          "answer_start": 134,
+          "text": "Marshall Cohen"
+        },
+        {
+          "answer_start": 134,
+          "text": "Marshall Cohen"
+        }
+      ],
+      "original_question": "What person argues that civil disobedience is used to describe everything?",
+      "new_question": "What person argues civil disobedience used describe everything",
+      "original_prediction": "Marshall Cohen",
+      "new_prediction": "Marshall Cohen"
+    },
+    "57274e145951b619008f87e8": {
+      "context": "The other category of schools are those run and partly or fully funded by private individuals, private organizations and religious groups. The ones that accept government funds are called 'aided' schools. The private 'un-aided' schools are fully funded by private parties. The standard and the quality of education is quite high. Technically, these would be categorized as private schools, but many of them have the name \"Public School\" appended to them, e.g., the Galaxy Public School in Kathmandu. Most of the middle-class families send their children to such schools, which might be in their own city or far off, like boarding schools. The medium of education is English, but as a compulsory subject, Nepali and/or the state's official language is also taught. Preschool education is mostly limited to organized neighbourhood nursery schools.",
+      "answers": [
+        {
+          "answer_start": 240,
+          "text": "fully funded by private parties"
+        },
+        {
+          "answer_start": 240,
+          "text": "fully funded by private parties"
+        },
+        {
+          "answer_start": 240,
+          "text": "fully funded by private parties"
+        }
+      ],
+      "original_question": "How are 'un-aided' schools different from 'aided' schools?",
+      "new_question": "How are un-aided' schools different from aided schools",
+      "original_prediction": "fully funded by private parties",
+      "new_prediction": "fully funded by private parties"
+    },
+    "5729f1c13f37b319004785e8": {
+      "context": "In many countries, there is a Gender pay gap in favor of males in the labor market. Several factors other than discrimination may contribute to this gap. On average, women are more likely than men to consider factors other than pay when looking for work, and may be less willing to travel or relocate. Thomas Sowell, in his book Knowledge and Decisions, claims that this difference is due to women not taking jobs due to marriage or pregnancy, but income studies show that that does not explain the entire difference. A U.S. Census's report stated that in US once other factors are accounted for there is still a difference in earnings between women and men. The income gap in other countries ranges from 53% in Botswana to -40% in Bahrain.",
+      "answers": [
+        {
+          "answer_start": 57,
+          "text": "males in the labor market"
+        },
+        {
+          "answer_start": 57,
+          "text": "males"
+        },
+        {
+          "answer_start": 57,
+          "text": "males"
+        }
+      ],
+      "original_question": "Who does a gender pay gap tend to favor?",
+      "new_question": "Who does a gender pay gap tend favor",
+      "original_prediction": "males",
+      "new_prediction": "males"
+    },
+    "572a06866aef0514001551be": {
+      "context": "British researchers Richard G. Wilkinson and Kate Pickett have found higher rates of health and social problems (obesity, mental illness, homicides, teenage births, incarceration, child conflict, drug use), and lower rates of social goods (life expectancy by country, educational performance, trust among strangers, women's status, social mobility, even numbers of patents issued) in countries and states with higher inequality. Using statistics from 23 developed countries and the 50 states of the US, they found social/health problems lower in countries like Japan and Finland and states like Utah and New Hampshire with high levels of equality, than in countries (US and UK) and states (Mississippi and New York) with large differences in household income.",
+      "answers": [
+        {
+          "answer_start": 0,
+          "text": "British"
+        },
+        {
+          "answer_start": 0,
+          "text": "British"
+        },
+        {
+          "answer_start": 0,
+          "text": "British"
+        }
+      ],
+      "original_question": "What nationality are researchers Richard G. Wilkinson and Kate Pickett?",
+      "new_question": "What nationality researchers Richard G. Wilkinson Kate Pickett",
+      "original_prediction": "British",
+      "new_prediction": "British"
+    },
+    "572871bd3acd2414000dfa03": {
+      "context": "After the death of Tugh Temür in 1332 and subsequent death of Rinchinbal (Emperor Ningzong) the same year, the 13-year-old Toghun Temür (Emperor Huizong), the last of the nine successors of Kublai Khan, was summoned back from Guangxi and succeeded to the throne. After El Temür's death, Bayan became as powerful an official as El Temür had been in the beginning of his long reign. As Toghun Temür grew, he came to disapprove of Bayan's autocratic rule. In 1340 he allied himself with Bayan's nephew Toqto'a, who was in discord with Bayan, and banished Bayan by coup. With the dismissal of Bayan, Toghtogha seized the power of the court. His first administration clearly exhibited fresh new spirit. He also gave a few early signs of a new and positive direction in central government. One of his successful projects was to finish the long-stalled official histories of the Liao, Jin, and Song dynasties, which were eventually completed in 1345. Yet, Toghtogha resigned his office with the approval of Toghun Temür, marking the end of his first administration, and he was not called back until 1349.",
+      "answers": [
+        {
+          "answer_start": 33,
+          "text": "1332"
+        },
+        {
+          "answer_start": 33,
+          "text": "1332"
+        },
+        {
+          "answer_start": 33,
+          "text": "1332"
+        }
+      ],
+      "original_question": "When did Tugh Temur die?",
+      "new_question": "When did Tugh Temur die",
+      "original_prediction": "1332",
+      "new_prediction": "1332"
+    },
+    "57287b4a4b864d1900164a2b": {
+      "context": "The first recorded travels by Europeans to China and back date from this time. The most famous traveler of the period was the Venetian Marco Polo, whose account of his trip to \"Cambaluc,\" the capital of the Great Khan, and of life there astounded the people of Europe. The account of his travels, Il milione (or, The Million, known in English as the Travels of Marco Polo), appeared about the year 1299. Some argue over the accuracy of Marco Polo's accounts due to the lack of mentioning the Great Wall of China, tea houses, which would have been a prominent sight since Europeans had yet to adopt a tea culture, as well the practice of foot binding by the women in capital of the Great Khan. Some suggest that Marco Polo acquired much of his knowledge through contact with Persian traders since many of the places he named were in Persian.",
+      "answers": [
+        {
+          "answer_start": 297,
+          "text": "Il milione"
+        },
+        {
+          "answer_start": 297,
+          "text": "Il milione"
+        },
+        {
+          "answer_start": 297,
+          "text": "Il milione"
+        }
+      ],
+      "original_question": "What was the Italian title of Polo's book?",
+      "new_question": "What was the Italian title of Polo's book",
+      "original_prediction": "Il milione",
+      "new_prediction": "Il milione"
+    },
+    "57287fec4b864d1900164a40": {
+      "context": "There were many religions practiced during the Yuan dynasty, such as Buddhism, Islam, and Christianity. The establishment of the Yuan dynasty had dramatically increased the number of Muslims in China. However, unlike the western khanates, the Yuan dynasty never converted to Islam. Instead, Kublai Khan, the founder of the Yuan dynasty, favored Buddhism, especially the Tibetan variants. As a result, Tibetan Buddhism was established as the de facto state religion. The top-level department and government agency known as the Bureau of Buddhist and Tibetan Affairs (Xuanzheng Yuan) was set up in Khanbaliq (modern Beijing) to supervise Buddhist monks throughout the empire. Since Kublai Khan only esteemed the Sakya sect of Tibetan Buddhism, other religions became less important. He and his successors kept a Sakya Imperial Preceptor (Dishi) at court. Before the end of the Yuan dynasty, 14 leaders of the Sakya sect had held the post of Imperial Preceptor, thereby enjoying special power. Furthermore, Mongol patronage of Buddhism resulted in a number of monuments of Buddhist art. Mongolian Buddhist translations, almost all from Tibetan originals, began on a large scale after 1300. Many Mongols of the upper class such as the Jalayir and the Oronar nobles as well as the emperors also patronized Confucian scholars and institutions. A considerable number of Confucian and Chinese historical works were translated into the Mongolian language.",
+      "answers": [
+        {
+          "answer_start": 710,
+          "text": "Sakya"
+        },
+        {
+          "answer_start": 710,
+          "text": "Sakya sect"
+        },
+        {
+          "answer_start": 710,
+          "text": "Sakya sect"
+        }
+      ],
+      "original_question": "What was Kublai's favorite sect of Tibetan Buddhism?",
+      "new_question": "What was Kublai's favorite sect of Tibetan Buddhism",
+      "original_prediction": "Sakya",
+      "new_prediction": "Sakya"
+    },
+    "572949306aef051400154c6b": {
+      "context": "Another example of scientific research which suggests that previous estimates by the IPCC, far from overstating dangers and risks, have actually understated them is a study on projected rises in sea levels. When the researchers' analysis was \"applied to the possible scenarios outlined by the Intergovernmental Panel on Climate Change (IPCC), the researchers found that in 2100 sea levels would be 0.5–1.4 m [50–140 cm] above 1990 levels. These values are much greater than the 9–88 cm as projected by the IPCC itself in its Third Assessment Report, published in 2001\". This may have been due, in part, to the expanding human understanding of climate.",
+      "answers": [
+        {
+          "answer_start": 563,
+          "text": "2001"
+        },
+        {
+          "answer_start": 563,
+          "text": "2001"
+        },
+        {
+          "answer_start": 563,
+          "text": "2001"
+        }
+      ],
+      "original_question": "When was the Third Assessment Report published?",
+      "new_question": "When was the Third Assessment Report published",
+      "original_prediction": "2001",
+      "new_prediction": "2001"
+    },
+    "5730b4282461fd1900a9cfc8": {
+      "context": "Trotsky, and others, believed that the revolution could only succeed in Russia as part of a world revolution. Lenin wrote extensively on the matter and famously declared that Imperialism was the highest stage of capitalism. However, after Lenin's death, Joseph Stalin established 'socialism in one country' for the Soviet Union, creating the model for subsequent inward looking Stalinist states and purging the early Internationalist elements. The internationalist tendencies of the early revolution would be abandoned until they returned in the framework of a client state in competition with the Americans during the Cold War. With the beginning of the new era, the after Stalin period called the \"thaw\", in the late 1950s, the new political leader Nikita Khrushchev put even more pressure on the Soviet-American relations starting a new wave of anti-imperialist propaganda. In his speech on the UN conference in 1960, he announced the continuation of the war on imperialism, stating that soon the people of different countries will come together and overthrow their imperialist leaders. Although the Soviet Union declared itself anti-imperialist, critics argue that it exhibited tendencies common to historic empires. Some scholars hold that the Soviet Union was a hybrid entity containing elements common to both multinational empires and nation states. It has also been argued that the USSR practiced colonialism as did other imperial powers and was carrying on the old Russian tradition of expansion and control. Mao Zedong once argued that the Soviet Union had itself become an imperialist power while maintaining a socialist façade. Moreover, the ideas of imperialism were widely spread in action on the higher levels of government. Non Russian Marxists within the Russian Federation and later the USSR, like Sultan Galiev and Vasyl Shakhrai, considered the Soviet Regime a renewed version of the Russian imperialism and colonialism.",
+      "answers": [
+        {
+          "answer_start": 751,
+          "text": "Nikita Khrushchev"
+        },
+        {
+          "answer_start": 751,
+          "text": "Nikita Khrushchev"
+        },
+        {
+          "answer_start": 751,
+          "text": "Nikita Khrushchev"
+        },
+        {
+          "answer_start": 751,
+          "text": "Nikita Khrushchev"
+        },
+        {
+          "answer_start": 758,
+          "text": "Khrushchev"
+        }
+      ],
+      "original_question": "Who was the leader of Russia in the 1960's?",
+      "new_question": "Who was leader of Russia in 1960 s",
+      "original_prediction": "Nikita Khrushchev",
+      "new_prediction": "Nikita Khrushchev"
+    },
+    "5730c8a1f6cb411900e244a0": {
+      "context": "Decisions in-between the four-year meetings are made by the Mission Council (usually consisting of church bishops). One of the most high profile decisions in recent years by one of the councils was a decision by the Mission Council of the South Central Jurisdiction which in March 2007 approved a 99-year lease of 36 acres (150,000 m2) at Southern Methodist University for the George W. Bush Presidential Library. The decision generated controversy in light of Bush's support of the Iraq War which the church bishops have criticized. A debate over whether the decision should or could be submitted for approval by the Southern Jurisdictional Conference at its July 2008 meeting in Dallas, Texas, remains unresolved.",
+      "answers": [
+        {
+          "answer_start": 339,
+          "text": "Southern Methodist University"
+        },
+        {
+          "answer_start": 339,
+          "text": "Southern Methodist University"
+        }
+      ],
+      "original_question": "Where is the George W. Bush Presidential library?",
+      "new_question": "Where is the George W. Bush Presidential library",
+      "original_prediction": "Southern Methodist University",
+      "new_prediction": "Southern Methodist University"
+    },
+    "573750f61c45671900574469": {
+      "context": "Newton's Second Law asserts the direct proportionality of acceleration to force and the inverse proportionality of acceleration to mass. Accelerations can be defined through kinematic measurements. However, while kinematics are well-described through reference frame analysis in advanced physics, there are still deep questions that remain as to what is the proper definition of mass. General relativity offers an equivalence between space-time and mass, but lacking a coherent theory of quantum gravity, it is unclear as to how or whether this connection is relevant on microscales. With some justification, Newton's second law can be taken as a quantitative definition of mass by writing the law as an equality; the relative units of force and mass then are fixed.",
+      "answers": [
+        {
+          "answer_start": 385,
+          "text": "General relativity"
+        },
+        {
+          "answer_start": 385,
+          "text": "General relativity"
+        },
+        {
+          "answer_start": 385,
+          "text": "General relativity"
+        },
+        {
+          "answer_start": 385,
+          "text": "General relativity"
+        },
+        {
+          "answer_start": 385,
+          "text": "General relativity"
+        }
+      ],
+      "original_question": "What has an equivalence between mass and space-time?",
+      "new_question": "What has an equivalence between mass and space-time",
+      "original_prediction": "General relativity",
+      "new_prediction": "General relativity"
+    }
+  }
+}

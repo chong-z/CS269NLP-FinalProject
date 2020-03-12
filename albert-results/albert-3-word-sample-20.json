@@ -1,0 +1,919 @@
+{
+  "cmd": "python3 sample-correct-incorrect.py dev-v1.1.json albert-results/new-dev-3.json albert-results/predictions-original.json albert-results/predictions-3.json 20 albert-results/albert-3-word-sample-20.json",
+  "original_exact_match": 83.53831598864711,
+  "original_f1": 90.6009470053024,
+  "new_exact_match": 17.1996215704825,
+  "new_f1": 33.639504924850314,
+  "new_incorrect_contexts": {
+    "56bf6c3e3aeaaa14008c9615": {
+      "context": "With Rivera having been a linebacker with the Chicago Bears in Super Bowl XX, and Kubiak replacing Elway at the end of the Broncos' defeats in Super Bowls XXI and XXIV, this will be the first Super Bowl in which both head coaches played in the game themselves.",
+      "answers": [
+        {
+          "answer_start": 26,
+          "text": "linebacker"
+        },
+        {
+          "answer_start": 26,
+          "text": "linebacker"
+        },
+        {
+          "answer_start": 26,
+          "text": "linebacker"
+        }
+      ],
+      "original_question": "What position did Rivera play in Super Bowl XX? ",
+      "new_question": "What Rivera XX",
+      "original_prediction": "linebacker",
+      "new_prediction": "Rivera having been a linebacker with the Chicago Bears in Super Bowl XX"
+    },
+    "5733266d4776f41900660716": {
+      "context": "In 1529, Warsaw for the first time became the seat of the General Sejm, permanent from 1569. In 1573 the city gave its name to the Warsaw Confederation, formally establishing religious freedom in the Polish–Lithuanian Commonwealth. Due to its central location between the Commonwealth's capitals of Kraków and Vilnius, Warsaw became the capital of the Commonwealth and the Crown of the Kingdom of Poland when King Sigismund III Vasa moved his court from Kraków to Warsaw in 1596. In the following years the town expanded towards the suburbs. Several private independent districts were established, the property of aristocrats and the gentry, which were ruled by their own laws. Three times between 1655–1658 the city was under siege and three times it was taken and pillaged by the Swedish, Brandenburgian and Transylvanian forces.",
+      "answers": [
+        {
+          "answer_start": 474,
+          "text": "1596"
+        },
+        {
+          "answer_start": 474,
+          "text": "1596"
+        },
+        {
+          "answer_start": 474,
+          "text": "1596"
+        }
+      ],
+      "original_question": "What year did King Sigismund III Vasa move his court to Warsaw?",
+      "new_question": "What Sigismund Vasa",
+      "original_prediction": "1596",
+      "new_prediction": "Sigismund III Vasa moved his court from Kraków to Warsaw in 1596"
+    },
+    "57338255d058e614000b5c0d": {
+      "context": "The mayor of Warsaw is called President. Generally, in Poland, the mayors of bigger cities are called presidents – i.e. such cities, which have over 100,000 people or these, where already was president before 1990. The first Warsaw President was Jan Andrzej Menich (1695–1696). Between 1975 and 1990 the Warsaw Presidents was simultaneously the Warsaw Voivode. Since 1990 the President of Warsaw had been elected by the City council. In the years of 1994–1999 the mayor of the district Centrum automatically was designated as the President of Warsaw: the mayor of Centrum was elected by the district council of Centrum and the council was elected only by the Centrum residents. Since 2002 the President of Warsaw is elected by all of the citizens of Warsaw.",
+      "answers": [
+        {
+          "answer_start": 30,
+          "text": "President"
+        },
+        {
+          "answer_start": 30,
+          "text": "President"
+        },
+        {
+          "answer_start": 30,
+          "text": "President"
+        }
+      ],
+      "original_question": "What is the mayor of Warsaw called?",
+      "new_question": "What mayor Warsaw",
+      "original_prediction": "President",
+      "new_prediction": "The mayor of Warsaw is called President"
+    },
+    "56dfb4be7aa994140058e010": {
+      "context": "Tesla was offered the task of completely redesigning the Edison Company's direct current generators. In 1885, he said that he could redesign Edison's inefficient motor and generators, making an improvement in both service and economy. According to Tesla, Edison remarked, \"There's fifty thousand dollars in it for you—if you can do it.\":54–57 :64 This has been noted as an odd statement from an Edison whose company was stingy with pay and who did not have that sort of cash on hand. After months of work, Tesla fulfilled the task and inquired about payment. Edison, saying that he was only joking, replied, \"Tesla, you don't understand our American humor.\":64  Instead, Edison offered a US$10 a week raise over Tesla's US$18 per week salary; Tesla refused the offer and immediately resigned.",
+      "answers": [
+        {
+          "answer_start": 490,
+          "text": "months"
+        },
+        {
+          "answer_start": 490,
+          "text": "months"
+        },
+        {
+          "answer_start": 490,
+          "text": "months"
+        }
+      ],
+      "original_question": "how long did Tesla spend redesigning the motor and generators?",
+      "new_question": "spend redesigning generators",
+      "original_prediction": "months",
+      "new_prediction": "redesigning the Edison Company's direct current generators"
+    },
+    "56f852fba6d7ea1400e1756e": {
+      "context": "Martin Luther married Katharina von Bora, one of 12 nuns he had helped escape from the Nimbschen Cistercian convent in April 1523, when he arranged for them to be smuggled out in herring barrels. \"Suddenly, and while I was occupied with far different thoughts,\" he wrote to Wenceslaus Link, \"the Lord has plunged me into marriage.\" At the time of their marriage, Katharina was 26 years old and Luther was 41 years old.",
+      "answers": [
+        {
+          "answer_start": 176,
+          "text": "in herring barrels"
+        },
+        {
+          "answer_start": 179,
+          "text": "herring barrels"
+        },
+        {
+          "answer_start": 179,
+          "text": "herring barrels."
+        }
+      ],
+      "original_question": "How did Luther smuggle 12 nuns out of a convent during the rebellion?",
+      "new_question": "smuggle nuns convent",
+      "original_prediction": "herring barrels",
+      "new_prediction": "smuggled out in herring barrels"
+    },
+    "56f86680a6d7ea1400e175cf": {
+      "context": "Luther devised the catechism as a method of imparting the basics of Christianity to the congregations. In 1529, he wrote the Large Catechism, a manual for pastors and teachers, as well as a synopsis, the Small Catechism, to be memorised by the people themselves. The catechisms provided easy-to-understand instructional and devotional material on the Ten Commandments, the Apostles' Creed, the Lord's Prayer, baptism, and the Lord's Supper. Luther incorporated questions and answers in the catechism so that the basics of Christian faith would not just be learned by rote, \"the way monkeys do it\", but understood.",
+      "answers": [
+        {
+          "answer_start": 155,
+          "text": "pastors and teachers"
+        },
+        {
+          "answer_start": 155,
+          "text": "pastors and teachers"
+        },
+        {
+          "answer_start": 155,
+          "text": "pastors"
+        }
+      ],
+      "original_question": "To whom was the Large Catechism directed?",
+      "new_question": "Large Catechism directed",
+      "original_prediction": "pastors and teachers",
+      "new_prediction": "Large Catechism"
+    },
+    "5710ed7bb654c5140001fa2b": {
+      "context": "Some Huguenots fought in the Low Countries alongside the Dutch against Spain during the first years of the Dutch Revolt (1568–1609). The Dutch Republic rapidly became a destination for Huguenot exiles. Early ties were already visible in the \"Apologie\" of William the Silent, condemning the Spanish Inquisition, which was written by his court minister, the Huguenot Pierre L'Oyseleur, lord of Villiers. Louise de Coligny, daughter of the murdered Huguenot leader Gaspard de Coligny, married William the Silent, leader of the Dutch (Calvinist) revolt against Spanish (Catholic) rule. As both spoke French in daily life, their court church in the Prinsenhof in Delft held services in French. The practice has continued to the present day. The Prinsenhof is one of the 14 active Walloon churches of the Dutch Reformed Church. The ties between Huguenots and the Dutch Republic's military and political leadership, the House of Orange-Nassau, which existed since the early days of the Dutch Revolt, helped support the many early settlements of Huguenots in the Dutch Republic's colonies. They settled at the Cape of Good Hope in South Africa and New Netherland in North America.",
+      "answers": [
+        {
+          "answer_start": 121,
+          "text": "1568–1609"
+        },
+        {
+          "answer_start": 121,
+          "text": "1568–1609"
+        },
+        {
+          "answer_start": 121,
+          "text": "1568–1609"
+        }
+      ],
+      "original_question": "When was the Dutch Revolt?",
+      "new_question": "When Dutch Revolt",
+      "original_prediction": "1568–1609",
+      "new_prediction": "Huguenots fought in the Low Countries alongside the Dutch against Spain"
+    },
+    "571156152419e3140095559f": {
+      "context": "The historical measure of a steam engine's energy efficiency was its \"duty\". The concept of duty was first introduced by Watt in order to illustrate how much more efficient his engines were over the earlier Newcomen designs. Duty is the number of foot-pounds of work delivered by burning one bushel (94 pounds) of coal. The best examples of Newcomen designs had a duty of about 7 million, but most were closer to 5 million. Watt's original low-pressure designs were able to deliver duty as high as 25 million, but averaged about 17. This was a three-fold improvement over the average Newcomen design. Early Watt engines equipped with high-pressure steam improved this to 65 million.",
+      "answers": [
+        {
+          "answer_start": 529,
+          "text": "17"
+        },
+        {
+          "answer_start": 529,
+          "text": "17."
+        },
+        {
+          "answer_start": 529,
+          "text": "17"
+        }
+      ],
+      "original_question": "What was the average duty of a low-pressure Watt engine?",
+      "new_question": "What low-pressure Watt",
+      "original_prediction": "17",
+      "new_prediction": "Watt's original low-pressure designs were able to deliver duty as high as 25 million, but averaged about 17"
+    },
+    "5725d2ef271a42140099d257": {
+      "context": "The Saturn IB was an upgraded version of the Saturn I. The S-IB first stage increased the thrust to 1,600,000 pounds-force (7,120 kN), and the second stage replaced the S-IV with the S-IVB-200, powered by a single J-2 engine burning liquid hydrogen fuel with LOX, to produce 200,000 lbf (890 kN) of thrust. A restartable version of the S-IVB was used as the third stage of the Saturn V. The Saturn IB could send over 40,000 pounds (18,100 kg) into low Earth orbit, sufficient for a partially fueled CSM or the LM. Saturn IB launch vehicles and flights were designated with an AS-200 series number, \"AS\" indicating \"Apollo Saturn\" and the \"2\" indicating the second member of the Saturn rocket family.",
+      "answers": [
+        {
+          "answer_start": 358,
+          "text": "third stage"
+        },
+        {
+          "answer_start": 358,
+          "text": "third"
+        },
+        {
+          "answer_start": 358,
+          "text": "third stage"
+        },
+        {
+          "answer_start": 143,
+          "text": "second stage"
+        }
+      ],
+      "original_question": "The S-IVB-200 was used in what stage of the Saturn V?",
+      "new_question": "S-IVB 200 Saturn",
+      "original_prediction": "third",
+      "new_prediction": "S-IVB-200"
+    },
+    "5727515af1498d1400e8f63c": {
+      "context": "Genghis Khan is regarded as one of the prominent leaders in Mongolia's history. He is responsible for the emergence of the Mongols as a political and ethnic identity because there was no unified identity between the tribes that had cultural similarity. He reinforced many Mongol traditions and provided stability and unity during a time of almost endemic warfare between tribes. He is also given credit for the introduction of the traditional Mongolian script and the creation of the Ikh Zasag (Great Administration), the first written Mongolian law. \"Ikh Zasag law adopted during Genghis Khan’s time in Mongolia had points to punish illegal matters related to corruption and bribery very heavily,\" Mongolian President Tsakhiagiin Elbegdorj noted. President Elbegdorj sees Genghis Khan as a leader from whom to learn for anti-corruption efforts as Genghis Khan sought equal protection under the law for all citizens regardless of status or wealth. \"Chinggis (Genghis Khan)...was a man who deeply realized that the justice begins and consolidates with the equality of law, and not with the distinctions between people. He was a man who knew that the good laws and rules lived longer than fancy palaces,\" Elbegdorj said in his speech on the 850th anniversary of Chinggis Khaan's birth. In summary, Mongolians see him as the fundamental figure in the founding of the Mongol Empire and therefore the basis for Mongolia as a country.",
+      "answers": [
+        {
+          "answer_start": 719,
+          "text": "Tsakhiagiin Elbegdorj"
+        },
+        {
+          "answer_start": 719,
+          "text": "Tsakhiagiin Elbegdorj"
+        },
+        {
+          "answer_start": 1203,
+          "text": "Elbegdorj"
+        }
+      ],
+      "original_question": "Which Mongolian president lauded Genghis Khan on the 850th anniversary of the conqueror's birth?",
+      "new_question": "Which lauded conqueror's",
+      "original_prediction": "Tsakhiagiin Elbegdorj",
+      "new_prediction": "Mongolian President Tsakhiagiin Elbegdorj"
+    },
+    "5726fa525951b619008f83fa": {
+      "context": "The two symbols most commonly associated with pharmacy in English-speaking countries are the mortar and pestle and the ℞ (recipere) character, which is often written as \"Rx\" in typed text. The show globe was also used until the early 20th century. Pharmacy organizations often use other symbols, such as the Bowl of Hygieia which is often used in the Netherlands, conical measures, and caduceuses in their logos. Other symbols are common in different countries: the green Greek cross in France, Argentina, the United Kingdom, Belgium, Ireland, Italy, Spain, and India, the increasingly rare Gaper in the Netherlands, and a red stylized letter A in Germany and Austria (from Apotheke, the German word for pharmacy, from the same Greek root as the English word 'apothecary').",
+      "answers": [
+        {
+          "answer_start": 648,
+          "text": "Germany and Austria"
+        },
+        {
+          "answer_start": 648,
+          "text": "Germany and Austria"
+        },
+        {
+          "answer_start": 648,
+          "text": "Germany and Austria"
+        }
+      ],
+      "original_question": "What countries use a red stylized A to signify pharmacy?",
+      "new_question": "What stylized signify",
+      "original_prediction": "Germany and Austria",
+      "new_prediction": "red stylized letter A in Germany and Austria"
+    },
+    "5728d6f02ca10214002da90e": {
+      "context": "It has been argued that the term \"civil disobedience\" has always suffered from ambiguity and in modern times, become utterly debased. Marshall Cohen notes, \"It has been used to describe everything from bringing a test-case in the federal courts to taking aim at a federal official. Indeed, for Vice President Agnew it has become a code-word describing the activities of muggers, arsonists, draft evaders, campaign hecklers, campus militants, anti-war demonstrators, juvenile delinquents and political assassins.\"",
+      "answers": [
+        {
+          "answer_start": 110,
+          "text": "become utterly debased"
+        },
+        {
+          "answer_start": 117,
+          "text": "utterly debased"
+        },
+        {
+          "answer_start": 93,
+          "text": "in modern times, become utterly debased"
+        },
+        {
+          "answer_start": 110,
+          "text": "become utterly debased"
+        },
+        {
+          "answer_start": 110,
+          "text": "become utterly debased"
+        }
+      ],
+      "original_question": "In modern times, what is said about civil disobedience?",
+      "new_question": "said civil disobedience",
+      "original_prediction": "utterly debased",
+      "new_prediction": "civil disobedience"
+    },
+    "57280e323acd2414000df34a": {
+      "context": "Throughout the programme's long history, there have been revelations about the Doctor that have raised additional questions. In The Brain of Morbius (1976), it was hinted that the First Doctor may not have been the first incarnation (although the other faces depicted may have been incarnations of the Time Lord Morbius). In subsequent stories the First Doctor was depicted as the earliest incarnation of the Doctor. In Mawdryn Undead (1983), the Fifth Doctor explicitly confirmed that he was then currently in his fifth incarnation. Later that same year, during 1983's 20th Anniversary special The Five Doctors, the First Doctor enquires as to the Fifth Doctor's regeneration; when the Fifth Doctor confirms \"Fourth\", the First Doctor excitedly replies \"Goodness me. So there are five of me now.\" In 2010, the Eleventh Doctor similarly calls himself \"the Eleventh\" in \"The Lodger\". In the 2013 episode \"The Time of the Doctor,\" the Eleventh Doctor clarified he was the product of the twelfth regeneration, due to a previous incarnation which he chose not to count and one other aborted regeneration. The name Eleventh is still used for this incarnation; the same episode depicts the prophesied \"Fall of the Eleventh\" which had been trailed throughout the series.",
+      "answers": [
+        {
+          "answer_start": 128,
+          "text": "The Brain of Morbius"
+        },
+        {
+          "answer_start": 595,
+          "text": "The Five Doctors"
+        },
+        {
+          "answer_start": 128,
+          "text": "The Brain of Morbius"
+        }
+      ],
+      "original_question": "In what episode is it brought up that the First Doctor might not actually be the first Doctor?",
+      "new_question": "brought might actually",
+      "original_prediction": "The Brain of Morbius",
+      "new_prediction": "revelations about the Doctor that have raised additional questions"
+    },
+    "572928bf6aef051400154af2": {
+      "context": "Kenya won several medals during the Beijing Olympics, six gold, four silver and four bronze, making it Africa's most successful nation in the 2008 Olympics. New athletes gained attention, such as Pamela Jelimo, the women's 800m gold medalist who went ahead to win the IAAF Golden League jackpot, and Samuel Wanjiru who won the men's marathon. Retired Olympic and Commonwealth Games champion Kipchoge Keino helped usher in Kenya's ongoing distance dynasty in the 1970s and was followed by Commonwealth Champion Henry Rono's spectacular string of world record performances. Lately, there has been controversy in Kenyan athletics circles, with the defection of a number of Kenyan athletes to represent other countries, chiefly Bahrain and Qatar. The Kenyan Ministry of Sports has tried to stop the defections, but they have continued anyway, with Bernard Lagat the latest, choosing to represent the United States. Most of these defections occur because of economic or financial factors. Some elite Kenyan runners who cannot qualify for their country's strong national team find it easier to qualify by running for other countries.[citation needed]",
+      "answers": [
+        {
+          "answer_start": 268,
+          "text": "IAAF Golden League jackpot"
+        },
+        {
+          "answer_start": 268,
+          "text": "IAAF Golden League jackpot"
+        },
+        {
+          "answer_start": 268,
+          "text": "IAAF Golden League jackpot"
+        }
+      ],
+      "original_question": "What else did Pamela Jelimo win after the Olympics?",
+      "new_question": "Pamela Jelimo Olympics",
+      "original_prediction": "IAAF Golden League jackpot",
+      "new_prediction": "Pamela Jelimo"
+    },
+    "572972f46aef051400154ef2": {
+      "context": "In some plants such as cacti, chloroplasts are found in the stems, though in most plants, chloroplasts are concentrated in the leaves. One square millimeter of leaf tissue can contain half a million chloroplasts. Within a leaf, chloroplasts are mainly found in the mesophyll layers of a leaf, and the guard cells of stomata. Palisade mesophyll cells can contain 30–70 chloroplasts per cell, while stomatal guard cells contain only around 8–15 per cell, as well as much less chlorophyll. Chloroplasts can also be found in the bundle sheath cells of a leaf, especially in C4 plants, which carry out the Calvin cycle in their bundle sheath cells. They are often absent from the epidermis of a leaf.",
+      "answers": [
+        {
+          "answer_start": 53,
+          "text": "in the stems"
+        },
+        {
+          "answer_start": 60,
+          "text": "stems"
+        },
+        {
+          "answer_start": 60,
+          "text": "stems"
+        }
+      ],
+      "original_question": "Where do cacti have chloroplasts?",
+      "new_question": "Where cacti chloroplasts",
+      "original_prediction": "stems",
+      "new_prediction": "chloroplasts are found in the stems"
+    },
+    "5730ab63396df91900096262": {
+      "context": "From their original homelands in Scandinavia and northern Europe, Germanic tribes expanded throughout northern and western Europe in the middle period of classical antiquity; southern Europe in late antiquity, conquering Celtic and other peoples; and by 800 CE, forming the Holy Roman Empire, the first German Empire. However, there was no real systemic continuity from the Western Roman Empire to its German successor which was famously described as \"not holy, not Roman, and not an empire\", as a great number of small states and principalities existed in the loosely autonomous confederation. Although by 1000 CE, the Germanic conquest of central, western, and southern Europe (west of and including Italy) was complete, excluding only Muslim Iberia. There was, however, little cultural integration or national identity, and \"Germany\" remained largely a conceptual term referring to an amorphous area of central Europe.",
+      "answers": [
+        {
+          "answer_start": 254,
+          "text": "800 CE"
+        },
+        {
+          "answer_start": 191,
+          "text": "in late antiquity"
+        },
+        {
+          "answer_start": 194,
+          "text": "late antiquity"
+        },
+        {
+          "answer_start": 194,
+          "text": "late antiquity"
+        },
+        {
+          "answer_start": 251,
+          "text": "by 800 CE"
+        }
+      ],
+      "original_question": "By when did the Germanic tribes conquer the Celtic peoples?",
+      "new_question": "Germanic conquer Celtic",
+      "original_prediction": "late antiquity",
+      "new_prediction": "southern Europe in late antiquity, conquering Celtic and other peoples"
+    },
+    "5730b6592461fd1900a9cfd0": {
+      "context": "A resurgence came in the late 19th century, with the Scramble for Africa and major additions in Asia and the Middle East. The British spirit of imperialism was expressed by Joseph Chamberlain and Lord Rosebury, and implemented in Africa by Cecil Rhodes. The pseudo-sciences of Social Darwinism and theories of race formed an ideological underpinning during this time. Other influential spokesmen included Lord Cromer, Lord Curzon, General Kitchner, Lord Milner, and the writer Rudyard Kipling. The British Empire was the largest Empire that the world has ever seen both in terms of landmass and population. Its power, both military and economic, remained unmatched.",
+      "answers": [
+        {
+          "answer_start": 258,
+          "text": "pseudo-sciences"
+        },
+        {
+          "answer_start": 258,
+          "text": "pseudo-sciences"
+        },
+        {
+          "answer_start": 258,
+          "text": "pseudo-sciences"
+        },
+        {
+          "answer_start": 498,
+          "text": "British Empire"
+        },
+        {
+          "answer_start": 258,
+          "text": "pseudo"
+        }
+      ],
+      "original_question": "What kinds of sciences were Social Darwinism and theories of race?",
+      "new_question": "kinds sciences Darwinism",
+      "original_prediction": "pseudo-sciences",
+      "new_prediction": "pseudo-sciences of Social Darwinism"
+    },
+    "5733d7cbd058e614000b63ac": {
+      "context": "In between the French and the British, large areas were dominated by native tribes. To the north, the Mi'kmaq and the Abenaki were engaged in Father Le Loutre's War and still held sway in parts of Nova Scotia, Acadia, and the eastern portions of the province of Canada, as well as much of present-day Maine. The Iroquois Confederation dominated much of present-day Upstate New York and the Ohio Country, although the latter also included Algonquian-speaking populations of Delaware and Shawnee, as well as Iroquoian-speaking Mingo. These tribes were formally under Iroquois rule, and were limited by them in authority to make agreements.",
+      "answers": [
+        {
+          "answer_start": 102,
+          "text": "Mi'kmaq and the Abenaki"
+        },
+        {
+          "answer_start": 102,
+          "text": "Mi'kmaq and the Abenaki"
+        },
+        {
+          "answer_start": 98,
+          "text": "the Mi'kmaq and the Abenaki"
+        },
+        {
+          "answer_start": 102,
+          "text": "Mi'kmaq and the Abenaki"
+        },
+        {
+          "answer_start": 98,
+          "text": "the Mi'kmaq and the Abenaki"
+        }
+      ],
+      "original_question": "What tribes were in Father Le Loutre's War?",
+      "new_question": "Father Le Loutre's",
+      "original_prediction": "Mi'kmaq and the Abenaki",
+      "new_prediction": "Father Le Loutre's War"
+    },
+    "5733e5a14776f4190066145c": {
+      "context": "In 1749 the British government gave land to the Ohio Company of Virginia for the purpose of developing trade and settlements in the Ohio Country. The grant required that it settle 100 families in the territory, and construct a fort for their protection. But, as the territory was also claimed by Pennsylvania, both colonies began pushing for action to improve their respective claims. In 1750 Christopher Gist, acting on behalf of both Virginia and the company, explored the Ohio territory and opened negotiations with the Indian tribes at Logstown. He completed the 1752 Treaty of Logstown in which the local Indians, through their \"Half-King\" Tanacharison and an Iroquois representative, agreed to terms that included permission to build a \"strong house\" at the mouth of the Monongahela River (the site of present-day Pittsburgh, Pennsylvania). By the late 17th century, the Iroquois had pushed many tribes out of the Ohio Valley, and kept it as hunting ground by right of conquest.",
+      "answers": [
+        {
+          "answer_start": 48,
+          "text": "Ohio Company of Virginia"
+        },
+        {
+          "answer_start": 48,
+          "text": "Ohio Company of Virginia"
+        },
+        {
+          "answer_start": 48,
+          "text": "Ohio Company of Virginia"
+        },
+        {
+          "answer_start": 48,
+          "text": "Ohio Company of Virginia"
+        },
+        {
+          "answer_start": 48,
+          "text": "Ohio Company"
+        }
+      ],
+      "original_question": "Who was given land by British goovernment for development of Ohio Country?",
+      "new_question": "goovernment Ohio Country",
+      "original_prediction": "Ohio Company of Virginia",
+      "new_prediction": "Ohio Country"
+    },
+    "5733fc6ed058e614000b670f": {
+      "context": "Governor Vaudreuil, who harboured ambitions to become the French commander in chief (in addition to his role as governor), acted during the winter of 1756 before those reinforcements arrived. Scouts had reported the weakness of the British supply chain, so he ordered an attack against the forts Shirley had erected at the Oneida Carry. In the March Battle of Fort Bull, French forces destroyed the fort and large quantities of supplies, including 45,000 pounds of gunpowder. They set back any British hopes for campaigns on Lake Ontario, and endangered the Oswego garrison, already short on supplies. French forces in the Ohio valley also continued to intrigue with Indians throughout the area, encouraging them to raid frontier settlements. This led to ongoing alarms along the western frontiers, with streams of refugees returning east to get away from the action.",
+      "answers": [
+        {
+          "answer_start": 323,
+          "text": "Oneida Carry"
+        },
+        {
+          "answer_start": 323,
+          "text": "Oneida Carry"
+        },
+        {
+          "answer_start": 290,
+          "text": "forts Shirley had erected at the Oneida Carry"
+        },
+        {
+          "answer_start": 323,
+          "text": "Oneida Carry"
+        },
+        {
+          "answer_start": 323,
+          "text": "Oneida Carry"
+        }
+      ],
+      "original_question": "Where was there a weakness in British supply chain?",
+      "new_question": "Where weakness chain",
+      "original_prediction": "Oneida Carry",
+      "new_prediction": "British supply chain"
+    }
+  },
+  "both_correct_contexts": {
+    "56dfa0d84a1a83140091ebba": {
+      "context": "Tesla was renowned for his achievements and showmanship, eventually earning him a reputation in popular culture as an archetypal \"mad scientist\". His patents earned him a considerable amount of money, much of which was used to finance his own projects with varying degrees of success.:121,154 He lived most of his life in a series of New York hotels, through his retirement. Tesla died on 7 January 1943. His work fell into relative obscurity after his death, but in 1960 the General Conference on Weights and Measures named the SI unit of magnetic flux density the tesla in his honor. There has been a resurgence in popular interest in Tesla since the 1990s.",
+      "answers": [
+        {
+          "answer_start": 130,
+          "text": "mad scientist"
+        },
+        {
+          "answer_start": 130,
+          "text": "mad scientist"
+        },
+        {
+          "answer_start": 130,
+          "text": "mad scientist"
+        }
+      ],
+      "original_question": "What was Tesla's reputation in popular culture?",
+      "new_question": "What reputation culture",
+      "original_prediction": "mad scientist",
+      "new_prediction": "mad scientist\""
+    },
+    "56e0ee12231d4119001ac459": {
+      "context": "In 1893 Richard Dean Adams, who headed up the Niagara Falls Cataract Construction Company sought Tesla's opinion on what system would be best to transmit power generated at the falls. Over several years there had been a series of proposals and open competitions on how best to utilize power generated by the falls with many systems being proposed by several US and European companies including two-phase and three-phase AC, high-voltage DC, and even compressed air. Adams pumped Tesla for information about the current state of all the competing systems. Tesla advised Adams that a two-phased system would be the most reliable and that there was a Westinghouse system to light incandescent bulbs using two-phase alternating current. Based on Tesla's advice and Westinghouse's demonstration that they could build a complete AC system at the Columbian Exposition, a contract for building a two-phase AC generating system at the Niagara Falls was awarded to Westinghouse Electric. A further contract to build the AC distribution system was awarded to General Electric.",
+      "answers": [
+        {
+          "answer_start": 8,
+          "text": "Richard Dean Adams"
+        },
+        {
+          "answer_start": 8,
+          "text": "Richard Dean Adams"
+        }
+      ],
+      "original_question": "Who was the head of the company?",
+      "new_question": "Who head company",
+      "original_prediction": "Richard Dean Adams",
+      "new_prediction": "Richard Dean Adams"
+    },
+    "56e748a200c9c71400d76f3a": {
+      "context": "A teacher's role may vary among cultures. Teachers may provide instruction in literacy and numeracy, craftsmanship or vocational training, the arts, religion, civics, community roles, or life skills.",
+      "answers": [
+        {
+          "answer_start": 187,
+          "text": "life skills"
+        },
+        {
+          "answer_start": 187,
+          "text": "life skills"
+        },
+        {
+          "answer_start": 187,
+          "text": "life skills"
+        }
+      ],
+      "original_question": "What type of teaching would help the most with everyday life?",
+      "new_question": "What type everyday",
+      "original_prediction": "life skills",
+      "new_prediction": "life skills"
+    },
+    "57115ff82419e314009555c3": {
+      "context": "A steam turbine consists of one or more rotors (rotating discs) mounted on a drive shaft, alternating with a series of stators (static discs) fixed to the turbine casing. The rotors have a propeller-like arrangement of blades at the outer edge. Steam acts upon these blades, producing rotary motion. The stator consists of a similar, but fixed, series of blades that serve to redirect the steam flow onto the next rotor stage. A steam turbine often exhausts into a surface condenser that provides a vacuum. The stages of a steam turbine are typically arranged to extract the maximum potential work from a specific velocity and pressure of steam, giving rise to a series of variably sized high- and low-pressure stages. Turbines are only efficient if they rotate at relatively high speed, therefore they are usually connected to reduction gearing to drive lower speed applications, such as a ship's propeller. In the vast majority of large electric generating stations, turbines are directly connected to generators with no reduction gearing. Typical speeds are 3600 revolutions per minute (RPM) in the USA with 60 Hertz power, 3000 RPM in Europe and other countries with 50 Hertz electric power systems. In nuclear power applications the turbines typically run at half these speeds, 1800 RPM and 1500 RPM. A turbine rotor is also only capable of providing power when rotating in one direction. Therefore, a reversing stage or gearbox is usually required where power is required in the opposite direction.[citation needed]",
+      "answers": [
+        {
+          "answer_start": 48,
+          "text": "rotating discs"
+        },
+        {
+          "answer_start": 48,
+          "text": "rotating discs"
+        },
+        {
+          "answer_start": 48,
+          "text": "rotating discs"
+        }
+      ],
+      "original_question": "What is another term for rotors?",
+      "new_question": "What term rotors",
+      "original_prediction": "rotating discs",
+      "new_prediction": "rotating discs"
+    },
+    "5729ef266aef051400155120": {
+      "context": "Terra preta (black earth), which is distributed over large areas in the Amazon forest, is now widely accepted as a product of indigenous soil management. The development of this fertile soil allowed agriculture and silviculture in the previously hostile environment; meaning that large portions of the Amazon rainforest are probably the result of centuries of human management, rather than naturally occurring as has previously been supposed. In the region of the Xingu tribe, remains of some of these large settlements in the middle of the Amazon forest were found in 2003 by Michael Heckenberger and colleagues of the University of Florida. Among those were evidence of roads, bridges and large plazas.",
+      "answers": [
+        {
+          "answer_start": 672,
+          "text": "roads, bridges and large plazas"
+        },
+        {
+          "answer_start": 672,
+          "text": "roads, bridges and large plazas"
+        },
+        {
+          "answer_start": 672,
+          "text": "roads, bridges and large plazas"
+        }
+      ],
+      "original_question": "Evidence for what types of structures were found in 2003?",
+      "new_question": "Evidence structures 2003",
+      "original_prediction": "roads, bridges and large plazas",
+      "new_prediction": "roads, bridges and large plazas"
+    },
+    "57263b1638643c19005ad336": {
+      "context": "Both X.25 and Frame Relay provide connection-oriented operations. But X.25 does it at the network layer of the OSI Model. Frame Relay does it at level two, the data link layer. Another major difference between X.25 and Frame Relay is that X.25 requires a handshake between the communicating parties before any user packets are transmitted. Frame Relay does not define any such handshakes. X.25 does not define any operations inside the packet network. It only operates at the user-network-interface (UNI). Thus, the network provider is free to use any procedure it wishes inside the network. X.25 does specify some limited re-transmission procedures at the UNI, and its link layer protocol (LAPB) provides conventional HDLC-type link management procedures. Frame Relay is a modified version of ISDN's layer two protocol, LAPD and LAPB. As such, its integrity operations pertain only between nodes on a link, not end-to-end. Any retransmissions must be carried out by higher layer protocols. The X.25 UNI protocol is part of the X.25 protocol suite, which consists of the lower three layers of the OSI Model. It was widely used at the UNI for packet switching networks during the 1980s and early 1990s, to provide a standardized interface into and out of packet networks. Some implementations used X.25 within the network as well, but its connection-oriented features made this setup cumbersome and inefficient. Frame relay operates principally at layer two of the OSI Model. However, its address field (the Data Link Connection ID, or DLCI) can be used at the OSI network layer, with a minimum set of procedures. Thus, it rids itself of many X.25 layer 3 encumbrances, but still has the DLCI as an ID beyond a node-to-node layer two link protocol. The simplicity of Frame Relay makes it faster and more efficient than X.25. Because Frame relay is a data link layer protocol, like X.25 it does not define internal network routing operations. For X.25 its packet IDs---the virtual circuit and virtual channel numbers have to be correlated to network addresses. The same is true for Frame Relays DLCI. How this is done is up to the network provider. Frame Relay, by virtue of having no network layer procedures is connection-oriented at layer two, by using the HDLC/LAPD/LAPB Set Asynchronous Balanced Mode (SABM). X.25 connections are typically established for each communication session, but it does have a feature allowing a limited amount of traffic to be passed across the UNI without the connection-oriented handshake. For a while, Frame Relay was used to interconnect LANs across wide area networks. However, X.25 and well as Frame Relay have been supplanted by the Internet Protocol (IP) at the network layer, and the Asynchronous Transfer Mode (ATM) and or versions of Multi-Protocol Label Switching (MPLS) at layer two. A typical configuration is to run IP over ATM or a version of MPLS. <Uyless Black, X.25 and Related Protocols, IEEE Computer Society, 1991> <Uyless Black, Frame Relay Networks, McGraw-Hill, 1998> <Uyless Black, MPLS and Label Switching Networks, Prentice Hall, 2001> < Uyless Black, ATM, Volume I, Prentice Hall, 1995>",
+      "answers": [
+        {
+          "answer_start": 2827,
+          "text": "A typical configuration is to run IP over ATM or a version of MPLS"
+        },
+        {
+          "answer_start": 2857,
+          "text": "run IP over ATM or a version of MPLS"
+        },
+        {
+          "answer_start": 2857,
+          "text": "run IP over ATM or a version of MPLS"
+        }
+      ],
+      "original_question": "What is a typical configuration",
+      "new_question": "What typical configuration",
+      "original_prediction": "run IP over ATM or a version of MPLS",
+      "new_prediction": "run IP over ATM or a version of MPLS"
+    },
+    "57267ebfdd62a815002e872d": {
+      "context": "Among the most well-known experiments in structural geology are those involving orogenic wedges, which are zones in which mountains are built along convergent tectonic plate boundaries. In the analog versions of these experiments, horizontal layers of sand are pulled along a lower surface into a back stop, which results in realistic-looking patterns of faulting and the growth of a critically tapered (all angles remain the same) orogenic wedge. Numerical models work in the same way as these analog models, though they are often more sophisticated and can include patterns of erosion and uplift in the mountain belt. This helps to show the relationship between erosion and the shape of the mountain range. These studies can also give useful information about pathways for metamorphism through pressure, temperature, space, and time.",
+      "answers": [
+        {
+          "answer_start": 64,
+          "text": "those involving orogenic wedges"
+        },
+        {
+          "answer_start": 80,
+          "text": "orogenic wedges"
+        },
+        {
+          "answer_start": 70,
+          "text": "involving orogenic wedges"
+        }
+      ],
+      "original_question": "What are among the most well known experiments in structural geology? ",
+      "new_question": "What structural geology",
+      "original_prediction": "orogenic wedges",
+      "new_prediction": "orogenic wedges"
+    },
+    "572683e6f1498d1400e8e24f": {
+      "context": "Newcastle Mela, held on the late August bank holiday weekend, is an annual two-day multicultural event, blending drama, music and food from Punjabi, Pakistani, Bengali and Hindu cultures. NewcastleGateshead also holds an annual International Arts Fair. The 2009 event will be in the Norman Foster designed Sage Gateshead Music and Arts Centre in September. In October, there is the Design Event festival—an annual festival providing the public with an opportunity to see work by regional, national and international designers. The SAMA Festival, an East Asian cultural festival is also held in early October.",
+      "answers": [
+        {
+          "answer_start": 382,
+          "text": "Design Event festival"
+        },
+        {
+          "answer_start": 382,
+          "text": "Design Event festival"
+        },
+        {
+          "answer_start": 382,
+          "text": "Design Event festival"
+        }
+      ],
+      "original_question": "What festival is held in October in Newcastle?",
+      "new_question": "What festival October",
+      "original_prediction": "Design Event festival",
+      "new_prediction": "Design Event festival"
+    },
+    "5726afeb708984140094cdd9": {
+      "context": "A few galleries were redesigned in the 1990s including the Indian, Japanese, Chinese, iron work, the main glass galleries and the main silverware gallery which was further enhanced in 2002 when some of the Victorian decoration was recreated. This included two of the ten columns having their ceramic decoration replaced and the elaborate painted designs restored on the ceiling. As part of the 2006 renovation the mosaic floors in the sculpture gallery were restored—most of the Victorian floors were covered in linoleum after the Second World War. After the success of the British Galleries, opened in 2001, it was decided to embark on a major redesign of all the galleries in the museum; this is known as \"FuturePlan\", and was created in consultation with the exhibition designers and masterplanners Metaphor. The plan is expected to take about ten years and was started in 2002. To date several galleries have been redesigned, notably, in 2002: the main Silver Gallery, Contemporary; in 2003: Photography, the main entrance, The Painting Galleries; in 2004: the tunnel to the subway leading to South Kensington tube station, New signage throughout the museum, architecture, V&A and RIBA reading rooms and stores, metalware, Members' Room, contemporary glass, the Gilbert Bayes sculpture gallery; in 2005: portrait miniatures, prints and drawings, displays in Room 117, the garden, sacred silver and stained glass; in 2006: Central Hall Shop, Islamic Middle East, the new café, sculpture galleries. Several designers and architects have been involved in this work. Eva Jiřičná designed the enhancements to the main entrance and rotunda, the new shop, the tunnel and the sculpture galleries. Gareth Hoskins was responsible for contemporary and architecture, Softroom, Islamic Middle East and the Members' Room, McInnes Usher McKnight Architects (MUMA) were responsible for the new Cafe and designed the new Medieval and Renaissance galleries which opened in 2009.",
+      "answers": [
+        {
+          "answer_start": 708,
+          "text": "FuturePlan"
+        },
+        {
+          "answer_start": 708,
+          "text": "FuturePlan"
+        },
+        {
+          "answer_start": 708,
+          "text": "FuturePlan"
+        }
+      ],
+      "original_question": "What was the title given to the major project to redesign all the galleries in the museum?",
+      "new_question": "What title redesign",
+      "original_prediction": "FuturePlan",
+      "new_prediction": "FuturePlan"
+    },
+    "5726ba83dd62a815002e8e6b": {
+      "context": "As well as period rooms, the collection includes parts of buildings, for example the two top stories of the facade of Sir Paul Pindar's house dated c1600 from Bishopsgate with elaborately carved wood work and leaded windows, a rare survivor of the Great Fire of London, there is a brick portal from a London house of the English Restoration period and a fireplace from the gallery of Northumberland house. European examples include a dormer window dated 1523–35 from the chateau of Montal. There are several examples from Italian Renaissance buildings including, portals, fireplaces, balconies and a stone buffet that used to have a built in fountain. The main architecture gallery has a series of pillars from various buildings and different periods, for example a column from the Alhambra. Examples covering Asia are in those galleries concerned with those countries, as well as models and photographs in the main architecture gallery.",
+      "answers": [
+        {
+          "answer_start": 248,
+          "text": "Great Fire of London"
+        },
+        {
+          "answer_start": 248,
+          "text": "Great Fire of London"
+        },
+        {
+          "answer_start": 248,
+          "text": "Great Fire of London"
+        }
+      ],
+      "original_question": "Sir Paul Pindar's house survived which 17th century disaster?",
+      "new_question": "Pindar's survived disaster",
+      "original_prediction": "Great Fire of London",
+      "new_prediction": "the Great Fire of London"
+    },
+    "572684f5dd62a815002e87fe": {
+      "context": "Once Mutual's appeals against the FCC were rejected, RCA decided to sell NBC Blue in 1941, and gave the mandate to do so to Mark Woods. RCA converted the NBC Blue Network into an independent subsidiary, formally divorcing the operations of NBC Red and NBC Blue on January 8, 1942, with the Blue Network being referred to on-air as either \"Blue\" or \"Blue Network\". The newly separated NBC Red and NBC Blue divided their respective corporate assets. Between 1942 and 1943, Woods offered to sell the entire NBC Blue Network, a package that included leases on landlines, three pending television licenses (WJZ-TV in New York City, KGO-TV in San Francisco and WENR-TV in Chicago), 60 affiliates, four operations facilities (in New York City, Chicago, Los Angeles and Washington D.C.), contracts with actors, and the brand associated with the Blue Network. Investment firm Dillon, Read & Co. (which was later acquired by the Swiss Bank Corporation in 1997) offered $7.5 million to purchase the network, but the offer was rejected by Woods and RCA president David Sarnoff.",
+      "answers": [
+        {
+          "answer_start": 867,
+          "text": "Dillon, Read & Co."
+        },
+        {
+          "answer_start": 867,
+          "text": "Dillon, Read & Co"
+        },
+        {
+          "answer_start": 867,
+          "text": "Dillon, Read & Co."
+        }
+      ],
+      "original_question": "What investment firm offered to buy the NBC Blue network from Mark Woods?",
+      "new_question": "What buy Woods",
+      "original_prediction": "Dillon, Read & Co.",
+      "new_prediction": "Dillon, Read & Co."
+    },
+    "572739a75951b619008f86f8": {
+      "context": "Modern Mongolian historians say that towards the end of his life, Genghis Khan attempted to create a civil state under the Great Yassa that would have established the legal equality of all individuals, including women. However, there is no evidence of this, or of the lifting of discriminatory policies towards sedentary peoples such as the Chinese. Women played a relatively important role in Mongol Empire and in family, for example Töregene Khatun was briefly in charge of the Mongol Empire when next male Khagan was being chosen. Modern scholars refer to the alleged policy of encouraging trade and communication as the Pax Mongolica (Mongol Peace).",
+      "answers": [
+        {
+          "answer_start": 620,
+          "text": "the Pax Mongolica (Mongol Peace)"
+        },
+        {
+          "answer_start": 624,
+          "text": "Pax Mongolica"
+        },
+        {
+          "answer_start": 624,
+          "text": "Pax Mongolica (Mongol Peace)"
+        }
+      ],
+      "original_question": "What is the modern term for the Mongolian policies supporting trade and communication?",
+      "new_question": "What supporting communication",
+      "original_prediction": "Pax Mongolica",
+      "new_prediction": "Pax Mongolica"
+    },
+    "5729f06f1d04691400779675": {
+      "context": "Natural killer cells, or NK cells, are a component of the innate immune system which does not directly attack invading microbes. Rather, NK cells destroy compromised host cells, such as tumor cells or virus-infected cells, recognizing such cells by a condition known as \"missing self.\" This term describes cells with low levels of a cell-surface marker called MHC I (major histocompatibility complex) – a situation that can arise in viral infections of host cells. They were named \"natural killer\" because of the initial notion that they do not require activation in order to kill cells that are \"missing self.\" For many years it was unclear how NK cells recognize tumor cells and infected cells. It is now known that the MHC makeup on the surface of those cells is altered and the NK cells become activated through recognition of \"missing self\". Normal body cells are not recognized and attacked by NK cells because they express intact self MHC antigens. Those MHC antigens are recognized by killer cell immunoglobulin receptors (KIR) which essentially put the brakes on NK cells.",
+      "answers": [
+        {
+          "answer_start": 360,
+          "text": "MHC I (major histocompatibility complex)"
+        },
+        {
+          "answer_start": 360,
+          "text": "MHC I"
+        },
+        {
+          "answer_start": 360,
+          "text": "MHC I (major histocompatibility complex)"
+        }
+      ],
+      "original_question": "Missing self desribes cells that only have small amounts of what cell-surface marker?",
+      "new_question": "desribes cell-surface marker",
+      "original_prediction": "MHC I",
+      "new_prediction": "MHC I"
+    },
+    "5728eb1a3acd2414000e01c6": {
+      "context": "Some civil disobedients feel it is incumbent upon them to accept punishment because of their belief in the validity of the social contract, which is held to bind all to obey the laws that a government meeting certain standards of legitimacy has established, or else suffer the penalties set out in the law. Other civil disobedients who favor the existence of government still don't believe in the legitimacy of their particular government, or don't believe in the legitimacy of a particular law it has enacted. And still other civil disobedients, being anarchists, don't believe in the legitimacy of any government, and therefore see no need to accept punishment for a violation of criminal law that does not infringe the rights of others.",
+      "answers": [
+        {
+          "answer_start": 107,
+          "text": "validity of the social contract"
+        },
+        {
+          "answer_start": 87,
+          "text": "their belief in the validity of the social contract"
+        },
+        {
+          "answer_start": 76,
+          "text": "because of their belief in the validity of the social contract"
+        },
+        {
+          "answer_start": 93,
+          "text": "belief in the validity of the social contract"
+        },
+        {
+          "answer_start": 87,
+          "text": "their belief in the validity of the social contract"
+        }
+      ],
+      "original_question": "Why is the need for acceptance of punishment needed?",
+      "new_question": "Why acceptance punishment",
+      "original_prediction": "belief in the validity of the social contract",
+      "new_prediction": "their belief in the validity of the social contract"
+    },
+    "572a070c6aef0514001551c9": {
+      "context": "For most of human history higher material living standards – full stomachs, access to clean water and warmth from fuel – led to better health and longer lives. This pattern of higher incomes-longer lives still holds among poorer countries, where life expectancy increases rapidly as per capita income increases, but in recent decades it has slowed down among middle income countries and plateaued among the richest thirty or so countries in the world. Americans live no longer on average (about 77 years in 2004) than Greeks (78 years) or New Zealanders (78), though the USA has a higher GDP per capita. Life expectancy in Sweden (80 years) and Japan (82) – where income was more equally distributed – was longer.",
+      "answers": [
+        {
+          "answer_start": 222,
+          "text": "poorer countries"
+        },
+        {
+          "answer_start": 222,
+          "text": "poorer countries"
+        },
+        {
+          "answer_start": 222,
+          "text": "poorer countries"
+        }
+      ],
+      "original_question": "Where does the pattern of higher income-longer lives still hold true?",
+      "new_question": "Where income-longer lives",
+      "original_prediction": "poorer countries",
+      "new_prediction": "poorer countries"
+    },
+    "5728710c3acd2414000df9f3": {
+      "context": "Due to the fact that the bureaucracy was dominated by El Temür, Tugh Temür is known for his cultural contribution instead. He adopted many measures honoring Confucianism and promoting Chinese cultural values. His most concrete effort to patronize Chinese learning was founding the Academy of the Pavilion of the Star of Literature (Chinese: 奎章閣學士院), first established in the spring of 1329 and designed to undertake \"a number of tasks relating to the transmission of Confucian high culture to the Mongolian imperial establishment\". The academy was responsible for compiling and publishing a number of books, but its most important achievement was its compilation of a vast institutional compendium named Jingshi Dadian (Chinese: 經世大典). Tugh Temür supported Zhu Xi's Neo-Confucianism and also devoted himself in Buddhism.",
+      "answers": [
+        {
+          "answer_start": 747,
+          "text": "supported Zhu Xi's Neo-Confucianism and also devoted himself in Buddhism"
+        },
+        {
+          "answer_start": 811,
+          "text": "Buddhism"
+        },
+        {
+          "answer_start": 766,
+          "text": "Neo-Confucianism and also devoted himself in Buddhism"
+        }
+      ],
+      "original_question": "What religions did Tugh Temur follow?",
+      "new_question": "What religions Temur",
+      "original_prediction": "Buddhism",
+      "new_prediction": "Buddhism"
+    },
+    "572916f16aef051400154a56": {
+      "context": "Although Kenya is the biggest and most advanced economy in east and central Africa, and has an affluent urban minority, it has a Human Development Index (HDI) of 0.519, ranked 145 out of 186 in the world. As of 2005, 17.7% of Kenyans lived on less than $1.25 a day. The important agricultural sector is one of the least developed and largely inefficient, employing 75% of the workforce compared to less than 3% in the food secure developed countries. Kenya is usually classified as a frontier market or occasionally an emerging market, but it is not one of the least developed countries.",
+      "answers": [
+        {
+          "answer_start": 162,
+          "text": "0.519, ranked 145 out of 186 in the world"
+        },
+        {
+          "answer_start": 162,
+          "text": "0.519"
+        },
+        {
+          "answer_start": 162,
+          "text": "0.519"
+        }
+      ],
+      "original_question": "What is Kenya's HDI?",
+      "new_question": "What Kenya's HDI",
+      "original_prediction": "0.519",
+      "new_prediction": "0.519"
+    },
+    "5729a26d6aef05140015505d": {
+      "context": "In particular, this norm gets smaller when a number is multiplied by p, in sharp contrast to the usual absolute value (also referred to as the infinite prime). While completing Q (roughly, filling the gaps) with respect to the absolute value yields the field of real numbers, completing with respect to the p-adic norm |−|p yields the field of p-adic numbers. These are essentially all possible ways to complete Q, by Ostrowski's theorem. Certain arithmetic questions related to Q or more general global fields may be transferred back and forth to the completed (or local) fields. This local-global principle again underlines the importance of primes to number theory.",
+      "answers": [
+        {
+          "answer_start": 586,
+          "text": "local-global principle"
+        },
+        {
+          "answer_start": 586,
+          "text": "local-global"
+        },
+        {
+          "answer_start": 586,
+          "text": "local-global principle"
+        },
+        {
+          "answer_start": 586,
+          "text": "local-global principle"
+        }
+      ],
+      "original_question": "What principle highlights the significance of primes in number theory",
+      "new_question": "What highlights significance",
+      "original_prediction": "local-global principle",
+      "new_prediction": "local-global principle"
+    },
+    "5730982f396df919000961e5": {
+      "context": "The United Methodist Church (UMC) is a mainline Protestant Methodist denomination. In the 19th century its main predecessor was a leader in Evangelicalism. Founded in 1968 by the union of the Methodist Church (USA) and the Evangelical United Brethren Church, the UMC traces its roots back to the revival movement of John and Charles Wesley in England as well as the Great Awakening in the United States. As such, the church's theological orientation is decidedly Wesleyan. It embraces both liturgical and evangelical elements.",
+      "answers": [
+        {
+          "answer_start": 179,
+          "text": "union of the Methodist Church (USA) and the Evangelical United Brethren Church"
+        },
+        {
+          "answer_start": 316,
+          "text": "John and Charles Wesley in England"
+        },
+        {
+          "answer_start": 175,
+          "text": "the union of the Methodist Church (USA) and the Evangelical United Brethren Church"
+        }
+      ],
+      "original_question": "Who founded the UMC?",
+      "new_question": "Who founded UMC",
+      "original_prediction": "union of the Methodist Church (USA) and the Evangelical United Brethren Church",
+      "new_prediction": "union of the Methodist Church (USA) and the Evangelical United Brethren Church"
+    },
+    "5733f062d058e614000b6635": {
+      "context": "Jacques Legardeur de Saint-Pierre, who succeeded Marin as commander of the French forces after the latter died on October 29, invited Washington to dine with him. Over dinner, Washington presented Saint-Pierre with the letter from Dinwiddie demanding an immediate French withdrawal from the Ohio Country. Saint-Pierre said, \"As to the Summons you send me to retire, I do not think myself obliged to obey it.\" He told Washington that France's claim to the region was superior to that of the British, since René-Robert Cavelier, Sieur de La Salle had explored the Ohio Country nearly a century earlier.",
+      "answers": [
+        {
+          "answer_start": 325,
+          "text": "As to the Summons you send me to retire, I do not think myself obliged to obey it."
+        },
+        {
+          "answer_start": 318,
+          "text": "said, \"As to the Summons you send me to retire, I do not think myself obliged to obey it.\""
+        },
+        {
+          "answer_start": 324,
+          "text": "\"As to the Summons you send me to retire, I do not think myself obliged to obey it.\""
+        },
+        {
+          "answer_start": 366,
+          "text": "I do not think myself obliged to obey"
+        },
+        {
+          "answer_start": 324,
+          "text": "\"As to the Summons you send me to retire, I do not think myself obliged to obey it.\""
+        }
+      ],
+      "original_question": "How did Saint-Pierre respond to Washington?",
+      "new_question": "How Saint-Pierre respond",
+      "original_prediction": "\"As to the Summons you send me to retire, I do not think myself obliged to obey it.\"",
+      "new_prediction": "\"As to the Summons you send me to retire, I do not think myself obliged to obey it.\""
+    }
+  }
+}

@@ -1,0 +1,891 @@
+{
+  "cmd": "python3 sample-correct-incorrect.py dev-v1.1.json albert-results/new-dev-4.json albert-results/predictions-original.json albert-results/predictions-4.json 20 albert-results/albert-4-word-sample-20.json",
+  "original_exact_match": 83.53831598864711,
+  "original_f1": 90.6009470053024,
+  "new_exact_match": 27.27530747398297,
+  "new_f1": 44.510189625623205,
+  "new_incorrect_contexts": {
+    "56d6f1190d65d21400198272": {
+      "context": "For the third straight season, the number one seeds from both conferences met in the Super Bowl. The Carolina Panthers became one of only ten teams to have completed a regular season with only one loss, and one of only six teams to have acquired a 15–1 record, while the Denver Broncos became one of four teams to have made eight appearances in the Super Bowl. The Broncos made their second Super Bowl appearance in three years, having reached Super Bowl XLVIII, while the Panthers made their second Super Bowl appearance in franchise history, their other appearance being Super Bowl XXXVIII. Coincidentally, both teams were coached by John Fox in their last Super Bowl appearance prior to Super Bowl 50.",
+      "answers": [
+        {
+          "answer_start": 35,
+          "text": "number one"
+        },
+        {
+          "answer_start": 35,
+          "text": "number one"
+        },
+        {
+          "answer_start": 42,
+          "text": "one"
+        }
+      ],
+      "original_question": "What seed was the Carolina Panthers?",
+      "new_question": "What seed Carolina Panthers",
+      "original_prediction": "number one",
+      "new_prediction": "Carolina Panthers"
+    },
+    "57335fcad058e614000b5974": {
+      "context": "Warsaw's mixture of architectural styles reflects the turbulent history of the city and country. During the Second World War, Warsaw was razed to the ground by bombing raids and planned destruction. After liberation, rebuilding began as in other cities of the communist-ruled PRL. Most of the historical buildings were thoroughly reconstructed. However, some of the buildings from the 19th century that had been preserved in reasonably reconstructible form were nonetheless eradicated in the 1950s and 1960s (e.g. Leopold Kronenberg Palace). Mass residential blocks were erected, with basic design typical of Eastern bloc countries.",
+      "answers": [
+        {
+          "answer_start": 598,
+          "text": "typical of Eastern bloc countries"
+        },
+        {
+          "answer_start": 585,
+          "text": "basic design typical of Eastern bloc countries"
+        },
+        {
+          "answer_start": 591,
+          "text": "design typical of Eastern bloc countries"
+        }
+      ],
+      "original_question": "What style were the mass constructed residential blocks designed in?",
+      "new_question": "What constructed residential blocks",
+      "original_prediction": "basic design typical of Eastern bloc countries",
+      "new_prediction": "Mass residential blocks were erected, with basic design typical of Eastern bloc countries"
+    },
+    "56dfa0d84a1a83140091ebb7": {
+      "context": "Tesla was renowned for his achievements and showmanship, eventually earning him a reputation in popular culture as an archetypal \"mad scientist\". His patents earned him a considerable amount of money, much of which was used to finance his own projects with varying degrees of success.:121,154 He lived most of his life in a series of New York hotels, through his retirement. Tesla died on 7 January 1943. His work fell into relative obscurity after his death, but in 1960 the General Conference on Weights and Measures named the SI unit of magnetic flux density the tesla in his honor. There has been a resurgence in popular interest in Tesla since the 1990s.",
+      "answers": [
+        {
+          "answer_start": 399,
+          "text": "1943"
+        },
+        {
+          "answer_start": 399,
+          "text": "1943"
+        },
+        {
+          "answer_start": 399,
+          "text": "1943"
+        }
+      ],
+      "original_question": "What year did Tesla die? ",
+      "new_question": "What year did die",
+      "original_prediction": "1943",
+      "new_prediction": "1960"
+    },
+    "56e1b754cd28a01900c67abc": {
+      "context": "Analogous definitions can be made for space requirements. Although time and space are the most well-known complexity resources, any complexity measure can be viewed as a computational resource. Complexity measures are very generally defined by the Blum complexity axioms. Other complexity measures used in complexity theory include communication complexity, circuit complexity, and decision tree complexity.",
+      "answers": [
+        {
+          "answer_start": 106,
+          "text": "complexity resources"
+        },
+        {
+          "answer_start": 106,
+          "text": "complexity resources"
+        },
+        {
+          "answer_start": 106,
+          "text": "complexity"
+        }
+      ],
+      "original_question": "Time and space are both examples of what type of resource?",
+      "new_question": "Time examples type resource",
+      "original_prediction": "complexity",
+      "new_prediction": "time and space"
+    },
+    "56e1c720e3433e140042316d": {
+      "context": "For the complexity classes defined in this way, it is desirable to prove that relaxing the requirements on (say) computation time indeed defines a bigger set of problems. In particular, although DTIME(n) is contained in DTIME(n2), it would be interesting to know if the inclusion is strict. For time and space requirements, the answer to such questions is given by the time and space hierarchy theorems respectively. They are called hierarchy theorems because they induce a proper hierarchy on the classes defined by constraining the respective resources. Thus there are pairs of complexity classes such that one is properly included in the other. Having deduced such proper set inclusions, we can proceed to make quantitative statements about how much more additional time or space is needed in order to increase the number of problems that can be solved.",
+      "answers": [
+        {
+          "answer_start": 472,
+          "text": "a proper hierarchy on the classes defined"
+        },
+        {
+          "answer_start": 472,
+          "text": "a proper hierarchy on the classes"
+        },
+        {
+          "answer_start": 472,
+          "text": "a proper hierarchy"
+        }
+      ],
+      "original_question": "Resources are constrained by hierarchy theorems to produce what?",
+      "new_question": "Resources constrained hierarchy theorems",
+      "original_prediction": "a proper hierarchy",
+      "new_prediction": "constraining the respective resources"
+    },
+    "56e76c6a00c9c71400d77111": {
+      "context": "There are several ways to mitigate the occupational hazards of teaching. Organizational interventions, like changing teachers' schedules, providing support networks and mentoring, changing the work environment, and offering promotions and bonuses, may be effective in helping to reduce occupational stress among teachers. Individual-level interventions, including stress-management training and counseling, are also used to relieve occupational stress among teachers.",
+      "answers": [
+        {
+          "answer_start": 286,
+          "text": "occupational stress among teachers"
+        },
+        {
+          "answer_start": 286,
+          "text": "occupational stress"
+        },
+        {
+          "answer_start": 432,
+          "text": "occupational stress"
+        }
+      ],
+      "original_question": "What might offering bonuses help reduce?",
+      "new_question": "What offering bonuses reduce",
+      "original_prediction": "occupational stress",
+      "new_prediction": "offering promotions and bonuses, may be effective in helping to reduce occupational stress"
+    },
+    "57111380a58dae1900cd6bd9": {
+      "context": "Other predecessors of the Reformed church included the pro-reform and Gallican Roman Catholics, such as Jacques Lefevre (c. 1455–1536). The Gallicans briefly achieved independence for the French church, on the principle that the religion of France could not be controlled by the Bishop of Rome, a foreign power. During the Protestant Reformation, Lefevre, a professor at the University of Paris, published his French translation of the New Testament in 1523, followed by the whole Bible in the French language in 1530. William Farel was a student of Lefevre who went on to become a leader of the Swiss Reformation, establishing a Protestant government in Geneva. Jean Cauvin (John Calvin), another student at the University of Paris, also converted to Protestantism. Long after the sect was suppressed by Francis I, the remaining French Waldensians, then mostly in the Luberon region, sought to join William Farel, Calvin and the Reformation, and Olivetan published a French Bible for them. The French Confession of 1559 shows a decidedly Calvinistic influence. Sometime between 1550 and 1580, members of the Reformed church in France came to be commonly known as Huguenots.[citation needed]",
+      "answers": [
+        {
+          "answer_start": 519,
+          "text": "William Farel"
+        },
+        {
+          "answer_start": 519,
+          "text": "William Farel"
+        },
+        {
+          "answer_start": 519,
+          "text": "William Farel"
+        }
+      ],
+      "original_question": "What leader of the Swiss reformation was a student of Lefevre?",
+      "new_question": "What Swiss reformation Lefevre",
+      "original_prediction": "William Farel",
+      "new_prediction": "Swiss Reformation, establishing a Protestant government in Geneva"
+    },
+    "57265c10f1498d1400e8dd36": {
+      "context": "Lobates have eight comb-rows, originating at the aboral pole and usually not extending beyond the body to the lobes; in species with (four) auricles, the cilia edging the auricles are extensions of cilia in four of the comb rows. Most lobates are quite passive when moving through the water, using the cilia on their comb rows for propulsion, although Leucothea has long and active auricles whose movements also contribute to propulsion. Members of the lobate genera Bathocyroe and Ocyropsis can escape from danger by clapping their lobes, so that the jet of expelled water drives them backwards very quickly. Unlike cydippids, the movements of lobates' combs are coordinated by nerves rather than by water disturbances created by the cilia, yet combs on the same row beat in the same Mexican wave style as the mechanically coordinated comb rows of cydippids and beroids. This may have enabled lobates to grow larger than cydippids and to have shapes that are less egg-like.",
+      "answers": [
+        {
+          "answer_start": 515,
+          "text": "by clapping their lobes"
+        },
+        {
+          "answer_start": 518,
+          "text": "clapping their lobes"
+        },
+        {
+          "answer_start": 518,
+          "text": "clapping their lobes"
+        }
+      ],
+      "original_question": "What does the bathocyroe and ocyropsis do to escape danger?",
+      "new_question": "What bathocyroe ocyropsis danger",
+      "original_prediction": "clapping their lobes",
+      "new_prediction": "Bathocyroe and Ocyropsis can escape from danger by clapping their lobes"
+    },
+    "572698d7dd62a815002e8a9c": {
+      "context": "The Victorian parts of the building have a complex history, with piecemeal additions by different architects. Founded in May 1852, it was not until 1857 that the museum moved to the present site. This area of London was known as Brompton but had been renamed South Kensington. The land was occupied by Brompton Park House, which was extended, most notably by the \"Brompton Boilers\", which were starkly utilitarian iron galleries with a temporary look and were later dismantled and used to build the V&A Museum of Childhood. The first building to be erected that still forms part of the museum was the Sheepshanks Gallery in 1857 on the eastern side of the garden. Its architect was civil engineer Captain Francis Fowke, Royal Engineers, who was appointed by Cole. The next major expansions were designed by the same architect, the Turner and Vernon galleries built 1858-9 to house the eponymous collections (later transferred to the Tate Gallery) and now used as the picture galleries and tapestry gallery respectively. The North and South Courts, were then built, both of which opened by June 1862. They now form the galleries for temporary exhibitions and are directly behind the Sheepshanks Gallery. On the very northern edge of the site is situated the Secretariat Wing, also built in 1862 this houses the offices and board room etc. and is not open to the public.",
+      "answers": [
+        {
+          "answer_start": 1310,
+          "text": "offices and board room"
+        },
+        {
+          "answer_start": 1299,
+          "text": "houses the offices and board room etc. and is not open to the public"
+        },
+        {
+          "answer_start": 1306,
+          "text": "the offices and board room etc."
+        }
+      ],
+      "original_question": "What does the Secretariat Wing house?",
+      "new_question": "What Secretariat Wing house",
+      "original_prediction": "offices and board room",
+      "new_prediction": "the Secretariat Wing, also built in 1862 this houses the offices and board room etc. and is not open to the public"
+    },
+    "5726d4a45951b619008f7f6d": {
+      "context": "Not only the work of British artists and craftspeople is on display, but also work produced by European artists that was purchased or commissioned by British patrons, as well as imports from Asia, including porcelain, cloth and wallpaper. Designers and artists whose work is on display in the galleries include Gian Lorenzo Bernini, Grinling Gibbons, Daniel Marot, Louis Laguerre, Antonio Verrio, Sir James Thornhill, William Kent, Robert Adam, Josiah Wedgwood, Matthew Boulton, Canova, Thomas Chippendale, Pugin, William Morris. Patrons who have influenced taste are also represented by works of art from their collections, these include: Horace Walpole (a major influence on the Gothic Revival), William Thomas Beckford and Thomas Hope.",
+      "answers": [
+        {
+          "answer_start": 207,
+          "text": "porcelain, cloth and wallpaper"
+        },
+        {
+          "answer_start": 207,
+          "text": "porcelain, cloth and wallpaper"
+        },
+        {
+          "answer_start": 207,
+          "text": "porcelain, cloth and wallpaper"
+        }
+      ],
+      "original_question": "What type of works from Asia are included in the V&A's British galleries?",
+      "new_question": "What type A's galleries",
+      "original_prediction": "porcelain, cloth and wallpaper",
+      "new_prediction": "Patrons who have influenced taste"
+    },
+    "572742bd5951b619008f8787": {
+      "context": "Residential construction practices, technologies, and resources must conform to local building authority regulations and codes of practice. Materials readily available in the area generally dictate the construction materials used (e.g. brick versus stone, versus timber). Cost of construction on a per square meter (or per square foot) basis for houses can vary dramatically based on site conditions, local regulations, economies of scale (custom designed homes are often more expensive to build) and the availability of skilled tradespeople. As residential construction (as well as all other types of construction) can generate a lot of waste, careful planning again is needed here.",
+      "answers": [
+        {
+          "answer_start": 629,
+          "text": "a lot of waste"
+        },
+        {
+          "answer_start": 638,
+          "text": "waste"
+        },
+        {
+          "answer_start": 638,
+          "text": "waste"
+        }
+      ],
+      "original_question": "Residential construction can generate what is not carefully planned?",
+      "new_question": "Residential generate carefully planned",
+      "original_prediction": "waste",
+      "new_prediction": "careful planning"
+    },
+    "5727fd123acd2414000df186": {
+      "context": "In many countries, there is a Gender pay gap in favor of males in the labor market. Several factors other than discrimination may contribute to this gap. On average, women are more likely than men to consider factors other than pay when looking for work, and may be less willing to travel or relocate. Thomas Sowell, in his book Knowledge and Decisions, claims that this difference is due to women not taking jobs due to marriage or pregnancy, but income studies show that that does not explain the entire difference. A U.S. Census's report stated that in US once other factors are accounted for there is still a difference in earnings between women and men. The income gap in other countries ranges from 53% in Botswana to -40% in Bahrain.",
+      "answers": [
+        {
+          "answer_start": 724,
+          "text": "-40%"
+        },
+        {
+          "answer_start": 724,
+          "text": "-40%"
+        },
+        {
+          "answer_start": 724,
+          "text": "-40%"
+        }
+      ],
+      "original_question": "What is the gender income inequality in Bahrain?",
+      "new_question": "What gender income Bahrain",
+      "original_prediction": "40%",
+      "new_prediction": "Bahrain"
+    },
+    "572a1ba46aef051400155290": {
+      "context": "In many poor and developing countries much land and housing is held outside the formal or legal property ownership registration system. Much unregistered property is held in informal form through various associations and other arrangements. Reasons for extra-legal ownership include excessive bureaucratic red tape in buying property and building, In some countries it can take over 200 steps and up to 14 years to build on government land. Other causes of extra-legal property are failures to notarize transaction documents or having documents notarized but failing to have them recorded with the official agency.",
+      "answers": [
+        {
+          "answer_start": 253,
+          "text": "extra-legal"
+        },
+        {
+          "answer_start": 253,
+          "text": "extra-legal"
+        },
+        {
+          "answer_start": 253,
+          "text": "extra-legal"
+        }
+      ],
+      "original_question": "Excessive bureaucratic red tape is one of the reasons for what type of ownership?",
+      "new_question": "Excessive bureaucratic tape reasons",
+      "original_prediction": "extra-legal",
+      "new_prediction": "excessive bureaucratic red tape"
+    },
+    "5727f8342ca10214002d9a7c": {
+      "context": "The 2005 version of Doctor Who is a direct plot continuation of the original 1963–1989 series[note 2] and the 1996 telefilm. This is similar to the 1988 continuation of Mission Impossible, but differs from most other series relaunches which have either been reboots (for example, Battlestar Galactica and Bionic Woman[citation needed]) or set in the same universe as the original but in a different time period and with different characters (for example, Star Trek: The Next Generation and spin-offs[citation needed]).",
+      "answers": [
+        {
+          "answer_start": 77,
+          "text": "1963–1989"
+        },
+        {
+          "answer_start": 77,
+          "text": "1963–1989"
+        },
+        {
+          "answer_start": 77,
+          "text": "1963–1989"
+        }
+      ],
+      "original_question": "What years did the original Doctor Who series run?",
+      "new_question": "What original Who run",
+      "original_prediction": "1963–1989",
+      "new_prediction": "Doctor Who is a direct plot continuation of the original 1963–1989 series[note 2] and the 1996 telefilm"
+    },
+    "572800b03acd2414000df1f5": {
+      "context": "Doctor Who originally ran for 26 seasons on BBC One, from 23 November 1963 until 6 December 1989. During the original run, each weekly episode formed part of a story (or \"serial\") — usually of four to six parts in earlier years and three to four in later years. Notable exceptions were: The Daleks' Master Plan, which aired in 12 episodes (plus an earlier one-episode teaser, \"Mission to the Unknown\", featuring none of the regular cast); almost an entire season of seven-episode serials (season 7); the 10-episode serial The War Games; and The Trial of a Time Lord, which ran for 14 episodes (albeit divided into three production codes and four narrative segments) during season 23. Occasionally serials were loosely connected by a storyline, such as season 8 being devoted to the Doctor battling a rogue Time Lord called The Master, season 16's quest for The Key to Time, season 18's journey through E-Space and the theme of entropy, and season 20's Black Guardian Trilogy.",
+      "answers": [
+        {
+          "answer_start": 952,
+          "text": "Black Guardian Trilogy"
+        },
+        {
+          "answer_start": 952,
+          "text": "Black Guardian Trilogy"
+        },
+        {
+          "answer_start": 952,
+          "text": "Black Guardian Trilogy"
+        }
+      ],
+      "original_question": "What was the focus of Season 20 of Doctor Who?",
+      "new_question": "What focus Season Who",
+      "original_prediction": "Black Guardian Trilogy",
+      "new_prediction": "Doctor Who"
+    },
+    "572836732ca10214002da0de": {
+      "context": "Doctor Who books have been published from the mid-sixties through to the present day. From 1965 to 1991 the books published were primarily novelised adaptations of broadcast episodes; beginning in 1991 an extensive line of original fiction was launched, the Virgin New Adventures and Virgin Missing Adventures. Since the relaunch of the programme in 2005, a new range of novels have been published by BBC Books. Numerous non-fiction books about the series, including guidebooks and critical studies, have also been published, and a dedicated Doctor Who Magazine with newsstand circulation has been published regularly since 1979. This is published by Panini, as is the Doctor Who Adventures magazine for younger fans.",
+      "answers": [
+        {
+          "answer_start": 618,
+          "text": "since 1979"
+        },
+        {
+          "answer_start": 624,
+          "text": "1979"
+        },
+        {
+          "answer_start": 618,
+          "text": "since 1979"
+        }
+      ],
+      "original_question": "How long has the Doctor Who Magazine been in circulation?",
+      "new_question": "How Who Magazine circulation",
+      "original_prediction": "1979",
+      "new_prediction": "Doctor Who Magazine with newsstand circulation"
+    },
+    "572ffee1947a6a140053cf16": {
+      "context": "While studying law and philosophy in England and Germany, Iqbal became a member of the London branch of the All India Muslim League. He came back to Lahore in 1908. While dividing his time between law practice and philosophical poetry, Iqbal had remained active in the Muslim League. He did not support Indian involvement in World War I and remained in close touch with Muslim political leaders such as Muhammad Ali Johar and Muhammad Ali Jinnah. He was a critic of the mainstream Indian nationalist and secularist Indian National Congress. Iqbal's seven English lectures were published by Oxford University press in 1934 in a book titled The Reconstruction of Religious Thought in Islam. These lectures dwell on the role of Islam as a religion as well as a political and legal philosophy in the modern age.",
+      "answers": [
+        {
+          "answer_start": 159,
+          "text": "1908"
+        },
+        {
+          "answer_start": 159,
+          "text": "1908"
+        },
+        {
+          "answer_start": 159,
+          "text": "1908"
+        }
+      ],
+      "original_question": "What year did Iqbal return to Lahore?",
+      "new_question": "What Iqbal return Lahore",
+      "original_prediction": "1908",
+      "new_prediction": "Iqbal became a member of the London branch of the All India Muslim League. He came back to Lahore in 1908"
+    },
+    "5730c810aca1c71400fe5aab": {
+      "context": "Subordinate to the General Conference are the jurisdictional and central conferences which also meet every four years. The United States is divided into five jurisdictions: Northeastern, Southeastern, North Central, South Central and Western. Outside the United States the church is divided into seven central conferences: Africa, Congo, West Africa, Central & Southern Europe, Germany, Northern Europe and the Philippines. The main purpose of the jurisdictions and central conferences is to elect and appoint bishops, the chief administrators of the church. Bishops thus elected serve Episcopal Areas, which consist of one or more Annual Conferences.",
+      "answers": [
+        {
+          "answer_start": 586,
+          "text": "Episcopal Areas"
+        },
+        {
+          "answer_start": 586,
+          "text": "Episcopal Areas,"
+        },
+        {
+          "answer_start": 586,
+          "text": "Episcopal Areas"
+        }
+      ],
+      "original_question": "What consist of one ore more Annual Conferences?",
+      "new_question": "What consist ore Conferences",
+      "original_prediction": "Episcopal Areas",
+      "new_prediction": "Episcopal Areas, which consist of one or more Annual Conferences"
+    },
+    "5730ebe0a5e9cc1400cdbae5": {
+      "context": "By the opening of the 2008 General Conference, total UMC membership was estimated at 11.4 million, with about 7.9 million in the U.S. and 3.5 million overseas. Significantly, about 20% of the conference delegates were from Africa, with Filipinos and Europeans making up another 10%. During the conference, the delegates voted to finalize the induction of the Methodist Church of the Ivory Coast and its 700,000 members into the denomination. Given current trends in the UMC—with overseas churches growing, especially in Africa, and U.S. churches collectively losing about 1,000 members a week—it has been estimated that Africans will make up at least 30% of the delegates at the 2012 General Conference, and it is also possible that 40% of the delegates will be from outside the U.S. One Congolese bishop has estimated that typical Sunday attendance of the UMC is higher in his country than in the entire United States.",
+      "answers": [
+        {
+          "answer_start": 85,
+          "text": "11.4 million"
+        },
+        {
+          "answer_start": 85,
+          "text": "11.4 million"
+        },
+        {
+          "answer_start": 85,
+          "text": "11.4 million"
+        }
+      ],
+      "original_question": "By the opening of the 2008 General Conference, what was the total UMC membership?",
+      "new_question": "opening Conference UMC membership",
+      "original_prediction": "11.4 million",
+      "new_prediction": "By the opening of the 2008 General Conference"
+    },
+    "57377aac1c4567190057447b": {
+      "context": "The notion \"force\" keeps its meaning in quantum mechanics, though one is now dealing with operators instead of classical variables and though the physics is now described by the Schrödinger equation instead of Newtonian equations. This has the consequence that the results of a measurement are now sometimes \"quantized\", i.e. they appear in discrete portions. This is, of course, difficult to imagine in the context of \"forces\". However, the potentials V(x,y,z) or fields, from which the forces generally can be derived, are treated similar to classical position variables, i.e., .",
+      "answers": [
+        {
+          "answer_start": 544,
+          "text": "classical position variables"
+        },
+        {
+          "answer_start": 544,
+          "text": "classical position variables"
+        },
+        {
+          "answer_start": 544,
+          "text": "classical position variables"
+        },
+        {
+          "answer_start": 544,
+          "text": "classical position variables"
+        },
+        {
+          "answer_start": 544,
+          "text": "classical position variables"
+        }
+      ],
+      "original_question": "How are the forces derived from fields treated similarly to?",
+      "new_question": "How fields treated similarly",
+      "original_prediction": "classical position variables",
+      "new_prediction": "fields, from which the forces generally can be derived, are treated similar to classical position variables"
+    }
+  },
+  "both_correct_contexts": {
+    "56beb90c3aeaaa14008c92c9": {
+      "context": "This was the first Super Bowl to feature a quarterback on both teams who was the #1 pick in their draft classes. Manning was the #1 selection of the 1998 NFL draft, while Newton was picked first in 2011. The matchup also pits the top two picks of the 2011 draft against each other: Newton for Carolina and Von Miller for Denver. Manning and Newton also set the record for the largest age difference between opposing Super Bowl quarterbacks at 13 years and 48 days (Manning was 39, Newton was 26).",
+      "answers": [
+        {
+          "answer_start": 492,
+          "text": "26"
+        },
+        {
+          "answer_start": 492,
+          "text": "26"
+        },
+        {
+          "answer_start": 492,
+          "text": "26"
+        }
+      ],
+      "original_question": "How old was Newton during Super Bowl 50?",
+      "new_question": "How old Newton 50",
+      "original_prediction": "26",
+      "new_prediction": "26"
+    },
+    "56bebc383aeaaa14008c931f": {
+      "context": "Various gold-themed promotions and initiatives were held throughout the 2015 NFL season to tie into the \"Golden Super Bowl\"; gold-tinted logos were implemented across the NFL's properties and painted on fields, the numbering of the 50-yard line on fields was colored gold, and beginning on week 7, all sideline jackets and hats featured gold-trimmed logos. Gold footballs were given to each high school that has had a player or coach appear in the Super Bowl, and \"homecoming\" events were also held by Super Bowl-winning teams at games.",
+      "answers": [
+        {
+          "answer_start": 8,
+          "text": "gold"
+        },
+        {
+          "answer_start": 8,
+          "text": "gold"
+        },
+        {
+          "answer_start": 267,
+          "text": "gold"
+        }
+      ],
+      "original_question": "What color was featured in promotions related to Super Bowl 50?",
+      "new_question": "What color featured promotions",
+      "original_prediction": "gold",
+      "new_prediction": "gold"
+    },
+    "56d20650e7d4791d00902615": {
+      "context": "Six-time Grammy winner and Academy Award nominee Lady Gaga performed the national anthem, while Academy Award winner Marlee Matlin provided American Sign Language (ASL) translation.",
+      "answers": [
+        {
+          "answer_start": 117,
+          "text": "Marlee Matlin"
+        },
+        {
+          "answer_start": 117,
+          "text": "Marlee Matlin"
+        },
+        {
+          "answer_start": 117,
+          "text": "Marlee Matlin"
+        }
+      ],
+      "original_question": "What actress did the ASL translation for the game?",
+      "new_question": "What actress ASL translation",
+      "original_prediction": "Marlee Matlin",
+      "new_prediction": "Marlee Matlin"
+    },
+    "56d7270c0d65d214001983f6": {
+      "context": "Manning finished the game 13 of 23 for 141 yards with one interception and zero touchdowns. Sanders was his top receiver with six receptions for 83 yards. Anderson was the game's leading rusher with 90 yards and a touchdown, along with four receptions for 10 yards. Miller had six total tackles (five solo), 2½ sacks, and two forced fumbles. Ware had five total tackles and two sacks. Ward had seven total tackles, a fumble recovery, and an interception. McManus made all four of his field goals, making him perfect on all 11 attempts during the post-season. Newton completed 18 of 41 passes for 265 yards, with one interception. He was also the team's leading rusher with 45 yards on six carries. Brown caught four passes for 80 yards, while Ginn had four receptions for 74. Ealy was the top defensive performer for Carolina with four total tackles, three sacks, a forced fumble, a fumble recovery, and an interception. Defensive End Charles Johnson had four total tackles, a sack, and a forced fumble. Linebacker Luke Kuechly had 11 total tackles, while Thomas Davis had seven, despite playing just two weeks after breaking his right arm in the NFC title game.",
+      "answers": [
+        {
+          "answer_start": 155,
+          "text": "Anderson"
+        },
+        {
+          "answer_start": 155,
+          "text": "Anderson"
+        },
+        {
+          "answer_start": 155,
+          "text": "Anderson"
+        }
+      ],
+      "original_question": "Who was the game's leading rusher?",
+      "new_question": "Who game's leading rusher",
+      "original_prediction": "Anderson",
+      "new_prediction": "Anderson"
+    },
+    "56e0c1617aa994140058e6d9": {
+      "context": "In 1870, Tesla moved to Karlovac, to attend school at the Higher Real Gymnasium, where he was profoundly influenced by a math teacher Martin Sekulić.:32 The classes were held in German, as it was a school within the Austro-Hungarian Military Frontier. Tesla was able to perform integral calculus in his head, which prompted his teachers to believe that he was cheating. He finished a four-year term in three years, graduating in 1873.:33",
+      "answers": [
+        {
+          "answer_start": 429,
+          "text": "1873"
+        },
+        {
+          "answer_start": 429,
+          "text": "1873"
+        },
+        {
+          "answer_start": 429,
+          "text": "1873"
+        }
+      ],
+      "original_question": "When did Tesla graduate?",
+      "new_question": "When did Tesla graduate",
+      "original_prediction": "1873",
+      "new_prediction": "1873"
+    },
+    "56e11f05e3433e1400422c2e": {
+      "context": "Tesla was asocial and prone to seclude himself with his work. However, when he did engage in a social life, many people spoke very positively and admiringly of Tesla. Robert Underwood Johnson described him as attaining a \"distinguished sweetness, sincerity, modesty, refinement, generosity, and force.\" His loyal secretary, Dorothy Skerrit, wrote: \"his genial smile and nobility of bearing always denoted the gentlemanly characteristics that were so ingrained in his soul.\" Tesla's friend, Julian Hawthorne, wrote, \"seldom did one meet a scientist or engineer who was also a poet, a philosopher, an appreciator of fine music, a linguist, and a connoisseur of food and drink.\":80",
+      "answers": [
+        {
+          "answer_start": 324,
+          "text": "Dorothy Skerrit"
+        },
+        {
+          "answer_start": 324,
+          "text": "Dorothy Skerrit"
+        },
+        {
+          "answer_start": 324,
+          "text": "Dorothy Skerrit"
+        }
+      ],
+      "original_question": "Who was Tesla's secretary? ",
+      "new_question": "Who was Tesla's secretary",
+      "original_prediction": "Dorothy Skerrit",
+      "new_prediction": "Dorothy Skerrit"
+    },
+    "57094d489928a8140047150c": {
+      "context": "BSkyB utilises the VideoGuard pay-TV scrambling system owned by NDS, a Cisco Systems company. There are tight controls over use of VideoGuard decoders; they are not available as stand-alone DVB CAMs (conditional-access modules). BSkyB has design authority over all digital satellite receivers capable of receiving their service. The receivers, though designed and built by different manufacturers, must conform to the same user interface look-and-feel as all the others. This extends to the Personal video recorder (PVR) offering (branded Sky+).",
+      "answers": [
+        {
+          "answer_start": 71,
+          "text": "Cisco Systems"
+        },
+        {
+          "answer_start": 71,
+          "text": "Cisco Systems"
+        },
+        {
+          "answer_start": 71,
+          "text": "Cisco Systems company"
+        }
+      ],
+      "original_question": "Who is the parent company of NDS?",
+      "new_question": "Who parent company NDS",
+      "original_prediction": "Cisco Systems",
+      "new_prediction": "Cisco Systems company"
+    },
+    "570963a5200fba1400367f36": {
+      "context": "Sky UK Limited (formerly British Sky Broadcasting or BSkyB) is a British telecommunications company which serves the United Kingdom. Sky provides television and broadband internet services and fixed line telephone services to consumers and businesses in the United Kingdom. It is the UK's largest pay-TV broadcaster with 11 million customers as of 2015. It was the UK's most popular digital TV service until it was overtaken by Freeview in April 2007. Its corporate headquarters are based in Isleworth.",
+      "answers": [
+        {
+          "answer_start": 428,
+          "text": "Freeview"
+        },
+        {
+          "answer_start": 428,
+          "text": "Freeview"
+        },
+        {
+          "answer_start": 428,
+          "text": "Freeview"
+        }
+      ],
+      "original_question": "what other digital TV service took Sky UK Limited's most popular spot?",
+      "new_question": "digital TV Limited's spot",
+      "original_prediction": "Freeview",
+      "new_prediction": "Freeview"
+    },
+    "571144d1a58dae1900cd6d6e": {
+      "context": "The heat required for boiling the water and supplying the steam can be derived from various sources, most commonly from burning combustible materials with an appropriate supply of air in a closed space (called variously combustion chamber, firebox). In some cases the heat source is a nuclear reactor, geothermal energy, solar energy or waste heat from an internal combustion engine or industrial process. In the case of model or toy steam engines, the heat source can be an electric heating element.",
+      "answers": [
+        {
+          "answer_start": 120,
+          "text": "burning combustible materials"
+        },
+        {
+          "answer_start": 120,
+          "text": "burning combustible materials"
+        },
+        {
+          "answer_start": 120,
+          "text": "burning combustible materials"
+        }
+      ],
+      "original_question": "What is the usual source of heat for boiling water in the steam engine?",
+      "new_question": "What usual source boiling",
+      "original_prediction": "burning combustible materials",
+      "new_prediction": "burning combustible materials"
+    },
+    "571c8eb9dd7acb1400e4c0fa": {
+      "context": "In one experiment, Lavoisier observed that there was no overall increase in weight when tin and air were heated in a closed container. He noted that air rushed in when he opened the container, which indicated that part of the trapped air had been consumed. He also noted that the tin had increased in weight and that increase was the same as the weight of the air that rushed back in. This and other experiments on combustion were documented in his book Sur la combustion en général, which was published in 1777. In that work, he proved that air is a mixture of two gases; 'vital air', which is essential to combustion and respiration, and azote (Gk. ἄζωτον \"lifeless\"), which did not support either. Azote later became nitrogen in English, although it has kept the name in French and several other European languages.",
+      "answers": [
+        {
+          "answer_start": 640,
+          "text": "azote"
+        },
+        {
+          "answer_start": 640,
+          "text": "azote"
+        },
+        {
+          "answer_start": 640,
+          "text": "azote"
+        },
+        {
+          "answer_start": 640,
+          "text": "azote"
+        },
+        {
+          "answer_start": 640,
+          "text": "azote"
+        }
+      ],
+      "original_question": "What second part of air was deemed lifeless by Lavoisier?",
+      "new_question": "What deemed lifeless Lavoisier",
+      "original_prediction": "azote",
+      "new_prediction": "azote"
+    },
+    "571ce6655efbb31900334e37": {
+      "context": "Oxygen gas (O\n2) can be toxic at elevated partial pressures, leading to convulsions and other health problems.[j] Oxygen toxicity usually begins to occur at partial pressures more than 50 kilopascals (kPa), equal to about 50% oxygen composition at standard pressure or 2.5 times the normal sea-level O\n2 partial pressure of about 21 kPa. This is not a problem except for patients on mechanical ventilators, since gas supplied through oxygen masks in medical applications is typically composed of only 30%–50% O\n2 by volume (about 30 kPa at standard pressure). (although this figure also is subject to wide variation, depending on type of mask).",
+      "answers": [
+        {
+          "answer_start": 383,
+          "text": "mechanical ventilators"
+        },
+        {
+          "answer_start": 383,
+          "text": "mechanical ventilators"
+        },
+        {
+          "answer_start": 383,
+          "text": "mechanical ventilators"
+        },
+        {
+          "answer_start": 434,
+          "text": "oxygen masks"
+        },
+        {
+          "answer_start": 383,
+          "text": "mechanical ventilators"
+        }
+      ],
+      "original_question": "What medical appliance can be a concern for oxygen toxicity?",
+      "new_question": "What appliance concern toxicity",
+      "original_prediction": "mechanical ventilators",
+      "new_prediction": "mechanical ventilators"
+    },
+    "57264cac708984140094c1b7": {
+      "context": "Price controls exacerbated the crisis in the US. The system limited the price of \"old oil\" (that which had already been discovered) while allowing newly discovered oil to be sold at a higher price to encourage investment. Predictably, old oil was withdrawn from the market, creating greater scarcity. The rule also discouraged development of alternative energies. The rule had been intended to promote oil exploration. Scarcity was addressed by rationing (as in many countries). Motorists faced long lines at gas stations beginning in summer 1972 and increasing by summer 1973.",
+      "answers": [
+        {
+          "answer_start": 445,
+          "text": "rationing"
+        },
+        {
+          "answer_start": 445,
+          "text": "rationing"
+        },
+        {
+          "answer_start": 445,
+          "text": "rationing"
+        },
+        {
+          "answer_start": 445,
+          "text": "rationing"
+        },
+        {
+          "answer_start": 445,
+          "text": "rationing"
+        }
+      ],
+      "original_question": "How was scarcity managed in many countries?",
+      "new_question": "How scarcity managed countries",
+      "original_prediction": "rationing",
+      "new_prediction": "rationing"
+    },
+    "5727623a5951b619008f8921": {
+      "context": "In 1983, ABC sold KXYZ to the Infinity Broadcasting Corporation. On January 4, 1984, The New York Times reported that ABC, through its subsidiary ABC Video Enterprises, had exercised its option to purchase up to 15% (or between $25 million and $30 million) of Getty Oil's shares in ESPN, which would allow it to expand its shares at a later date. In June 1984, ABC's executive committee approved the company's interest acquisition in ESPN, and ABC arranged with Getty Oil to obtain an 80% stake in the channel, while selling the remaining 20% to Nabisco. That year, ABC and Hearst reached an agreement with RCA to merge ARTS and competing arts service, The Entertainment Channel, into a single cable channel called Arts & Entertainment Television (A&E); the new channel subsequently leased a separate satellite transponder, ending its sharing agreement with Nickelodeon to become a 24-hour service. Meanwhile, ABC withdrew from the theme park business for good when it sold the Silver Springs Nature Theme Park.",
+      "answers": [
+        {
+          "answer_start": 30,
+          "text": "Infinity Broadcasting Corporation"
+        },
+        {
+          "answer_start": 30,
+          "text": "Infinity Broadcasting Corporation"
+        },
+        {
+          "answer_start": 30,
+          "text": "Infinity Broadcasting Corporation"
+        }
+      ],
+      "original_question": "What entity did ABC sell KXYZ to in 1983?",
+      "new_question": "What entity KXYZ 1983",
+      "original_prediction": "Infinity Broadcasting Corporation",
+      "new_prediction": "Infinity Broadcasting Corporation"
+    },
+    "572756fe708984140094dc74": {
+      "context": "Construction is one of the most dangerous occupations in the world, incurring more occupational fatalities than any other sector in both the United States and in the European Union. In 2009, the fatal occupational injury rate among construction workers in the United States was nearly three times that for all workers. Falls are one of the most common causes of fatal and non-fatal injuries among construction workers. Proper safety equipment such as harnesses and guardrails and procedures such as securing ladders and inspecting scaffolding can curtail the risk of occupational injuries in the construction industry. Other major causes of fatalities in the construction industry include electrocution, transportation accidents, and trench cave-ins.",
+      "answers": [
+        {
+          "answer_start": 419,
+          "text": "Proper safety equipment such as harnesses and guardrails and procedures such as securing ladders and inspecting scaffolding"
+        },
+        {
+          "answer_start": 419,
+          "text": "Proper safety equipment"
+        },
+        {
+          "answer_start": 419,
+          "text": "Proper safety equipment"
+        }
+      ],
+      "original_question": "What can curtail the risk of occupational injuries in the construction industry?",
+      "new_question": "What curtail occupational injuries",
+      "original_prediction": "Proper safety equipment",
+      "new_prediction": "Proper safety equipment such as harnesses and guardrails and procedures such as securing ladders and inspecting scaffolding"
+    },
+    "5728223cff5b5019007d9dc4": {
+      "context": "Like much of the south Atlantic region of the United States, Jacksonville has a humid subtropical climate (Köppen Cfa), with mild weather during winters and hot and humid weather during summers. Seasonal rainfall is concentrated in the warmest months from May through September, while the driest months are from November through April. Due to Jacksonville's low latitude and coastal location, the city sees very little cold weather, and winters are typically mild and sunny. Summers can be hot and wet, and summer thunderstorms with torrential but brief downpours are common.",
+      "answers": [
+        {
+          "answer_start": 86,
+          "text": "subtropical"
+        },
+        {
+          "answer_start": 80,
+          "text": "humid subtropical"
+        },
+        {
+          "answer_start": 80,
+          "text": "humid subtropical climate"
+        }
+      ],
+      "original_question": "What type of climate does Jacksonville have?",
+      "new_question": "What type climate Jacksonville",
+      "original_prediction": "humid subtropical",
+      "new_prediction": "humid subtropical climate"
+    },
+    "57280f0d3acd2414000df35c": {
+      "context": "The programme's first serial, An Unearthly Child, shows that the Doctor has a granddaughter, Susan Foreman. In the 1967 serial, Tomb of the Cybermen, when Victoria Waterfield doubts the Doctor can remember his family because of, \"being so ancient\", the Doctor says that he can when he really wants to—\"The rest of the time they sleep in my mind\". The 2005 series reveals that the Ninth Doctor thought he was the last surviving Time Lord, and that his home planet had been destroyed; in \"The Empty Child\" (2005), Dr. Constantine states that, \"Before the war even began, I was a father and a grandfather. Now I am neither.\" The Doctor remarks in response, \"Yeah, I know the feeling.\" In \"Smith and Jones\" (2007), when asked if he had a brother, he replied, \"No, not any more.\" In both \"Fear Her\" (2006) and \"The Doctor's Daughter\" (2008), he states that he had, in the past, been a father.",
+      "answers": [
+        {
+          "answer_start": 93,
+          "text": "Susan Foreman"
+        },
+        {
+          "answer_start": 93,
+          "text": "Susan Foreman"
+        },
+        {
+          "answer_start": 93,
+          "text": "Susan Foreman"
+        }
+      ],
+      "original_question": "What is the name of Doctor Who granddaughter?",
+      "new_question": "What name Who granddaughter",
+      "original_prediction": "Susan Foreman",
+      "new_prediction": "Susan Foreman"
+    },
+    "5728510f4b864d1900164936": {
+      "context": "The academic bodies of the University of Chicago consist of the College, four divisions of graduate research and seven professional schools. The university also contains a library system, the University of Chicago Press, the University of Chicago Laboratory Schools, and the University of Chicago Medical Center, and holds ties with a number of independent academic institutions, including Fermilab, Argonne National Laboratory, and the Marine Biological Laboratory. The university is accredited by The Higher Learning Commission.",
+      "answers": [
+        {
+          "answer_start": 499,
+          "text": "The Higher Learning Commission"
+        },
+        {
+          "answer_start": 499,
+          "text": "The Higher Learning Commission"
+        },
+        {
+          "answer_start": 499,
+          "text": "The Higher Learning Commission"
+        }
+      ],
+      "original_question": "Who is the university accredited by?",
+      "new_question": "Who university accredited by",
+      "original_prediction": "Higher Learning Commission",
+      "new_prediction": "Higher Learning Commission"
+    },
+    "57293b843f37b31900478134": {
+      "context": "The Intergovernmental Panel on Climate Change (IPCC) is a scientific intergovernmental body under the auspices of the United Nations, set up at the request of member governments. It was first established in 1988 by two United Nations organizations, the World Meteorological Organization (WMO) and the United Nations Environment Programme (UNEP), and later endorsed by the United Nations General Assembly through Resolution 43/53. Membership of the IPCC is open to all members of the WMO and UNEP. The IPCC produces reports that support the United Nations Framework Convention on Climate Change (UNFCCC), which is the main international treaty on climate change. The ultimate objective of the UNFCCC is to \"stabilize greenhouse gas concentrations in the atmosphere at a level that would prevent dangerous anthropogenic [i.e., human-induced] interference with the climate system\". IPCC reports cover \"the scientific, technical and socio-economic information relevant to understanding the scientific basis of risk of human-induced climate change, its potential impacts and options for adaptation and mitigation.\"",
+      "answers": [
+        {
+          "answer_start": 249,
+          "text": "the World Meteorological Organization (WMO) and the United Nations Environment Programme (UNEP)"
+        },
+        {
+          "answer_start": 253,
+          "text": "World Meteorological Organization (WMO) and the United Nations Environment Programme (UNEP),"
+        },
+        {
+          "answer_start": 249,
+          "text": "the World Meteorological Organization (WMO) and the United Nations Environment Programme (UNEP)"
+        }
+      ],
+      "original_question": "What UN organizations established the IPCC?",
+      "new_question": "What UN organizations IPCC",
+      "original_prediction": "World Meteorological Organization (WMO) and the United Nations Environment Programme (UNEP)",
+      "new_prediction": "World Meteorological Organization (WMO) and the United Nations Environment Programme (UNEP)"
+    },
+    "57294209af94a219006aa203": {
+      "context": "The third assessment report (TAR) prominently featured a graph labeled \"Millennial Northern Hemisphere temperature reconstruction\" based on a 1999 paper by Michael E. Mann, Raymond S. Bradley and Malcolm K. Hughes (MBH99), which has been referred to as the \"hockey stick graph\". This graph extended the similar graph in Figure 3.20 from the IPCC Second Assessment Report of 1995, and differed from a schematic in the first assessment report that lacked temperature units, but appeared to depict larger global temperature variations over the past 1000 years, and higher temperatures during the Medieval Warm Period than the mid 20th century. The schematic was not an actual plot of data, and was based on a diagram of temperatures in central England, with temperatures increased on the basis of documentary evidence of Medieval vineyards in England. Even with this increase, the maximum it showed for the Medieval Warm Period did not reach temperatures recorded in central England in 2007. The MBH99 finding was supported by cited reconstructions by Jones et al. 1998, Pollack, Huang & Shen 1998, Crowley & Lowery 2000 and Briffa 2000, using differing data and methods. The Jones et al. and Briffa reconstructions were overlaid with the MBH99 reconstruction in Figure 2.21 of the IPCC report.",
+      "answers": [
+        {
+          "answer_start": 253,
+          "text": "the \"hockey stick graph\""
+        },
+        {
+          "answer_start": 258,
+          "text": "hockey stick graph"
+        },
+        {
+          "answer_start": 258,
+          "text": "hockey stick graph"
+        }
+      ],
+      "original_question": "What is the nickname for the \"Millennial Northern Hemisphere temperature reconstruction\" graph?",
+      "new_question": "nickname Millennial Hemisphere reconstruction",
+      "original_prediction": "hockey stick graph",
+      "new_prediction": "hockey stick graph"
+    },
+    "573083dc2461fd1900a9ce70": {
+      "context": "The term \"imperialism\" is often conflated with \"colonialism\", however many scholars have argued that each have their own distinct definition. Imperialism and colonialism have been used in order to describe one's superiority, domination and influence upon a person or group of people. Robert Young writes that while imperialism operates from the center, is a state policy and is developed for ideological as well as financial reasons, colonialism is simply the development for settlement or commercial intentions. Colonialism in modern usage also tends to imply a degree of geographic separation between the colony and the imperial power. Particularly, Edward Said distinguishes the difference between imperialism and colonialism by stating; \"imperialism involved 'the practice, the theory and the attitudes of a dominating metropolitan center ruling a distant territory', while colonialism refers to the 'implanting of settlements on a distant territory.' Contiguous land empires such as the Russian or Ottoman are generally excluded from discussions of colonialism.:116 Thus it can be said that imperialism includes some form of colonialism, but colonialism itself does not automatically imply imperialism, as it lacks a political focus.[further explanation needed]",
+      "answers": [
+        {
+          "answer_start": 1003,
+          "text": "Ottoman"
+        },
+        {
+          "answer_start": 1003,
+          "text": "Ottoman"
+        },
+        {
+          "answer_start": 1003,
+          "text": "Ottoman"
+        },
+        {
+          "answer_start": 1003,
+          "text": "Ottoman"
+        },
+        {
+          "answer_start": 1003,
+          "text": "Ottoman"
+        }
+      ],
+      "original_question": "Who besides the Russians are often left out of the colonialism debat?",
+      "new_question": "besides Russians colonialism debat",
+      "original_prediction": "Ottoman",
+      "new_prediction": "Ottoman"
+    }
+  }
+}

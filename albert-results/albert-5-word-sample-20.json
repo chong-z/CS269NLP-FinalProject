@@ -1,0 +1,915 @@
+{
+  "cmd": "python3 sample-correct-incorrect.py dev-v1.1.json albert-results/new-dev-5.json albert-results/predictions-original.json albert-results/predictions-5.json 20 albert-results/albert-5-word-sample-20.json",
+  "original_exact_match": 83.53831598864711,
+  "original_f1": 90.6009470053024,
+  "new_exact_match": 37.51182592242195,
+  "new_f1": 54.38547045591816,
+  "new_incorrect_contexts": {
+    "56d722330d65d214001983a8": {
+      "context": "QuickBooks sponsored a \"Small Business Big Game\" contest, in which Death Wish Coffee had a 30-second commercial aired free of charge courtesy of QuickBooks. Death Wish Coffee beat out nine other contenders from across the United States for the free advertisement.",
+      "answers": [
+        {
+          "answer_start": 198,
+          "text": "ten"
+        },
+        {
+          "answer_start": 184,
+          "text": "nine"
+        },
+        {
+          "answer_start": 184,
+          "text": "nine"
+        }
+      ],
+      "original_question": "How many companies were part of the Quickbooks contest?",
+      "new_question": "How companies part Quickbooks contest",
+      "original_prediction": "nine",
+      "new_prediction": "QuickBooks sponsored a \"Small Business Big Game\" contest"
+    },
+    "56e11f05e3433e1400422c30": {
+      "context": "Tesla was asocial and prone to seclude himself with his work. However, when he did engage in a social life, many people spoke very positively and admiringly of Tesla. Robert Underwood Johnson described him as attaining a \"distinguished sweetness, sincerity, modesty, refinement, generosity, and force.\" His loyal secretary, Dorothy Skerrit, wrote: \"his genial smile and nobility of bearing always denoted the gentlemanly characteristics that were so ingrained in his soul.\" Tesla's friend, Julian Hawthorne, wrote, \"seldom did one meet a scientist or engineer who was also a poet, a philosopher, an appreciator of fine music, a linguist, and a connoisseur of food and drink.\":80",
+      "answers": [
+        {
+          "answer_start": 31,
+          "text": "seclude himself"
+        },
+        {
+          "answer_start": 31,
+          "text": "seclude himself"
+        },
+        {
+          "answer_start": 31,
+          "text": "seclude himself with his work"
+        }
+      ],
+      "original_question": "What was Tesla likely to do with his work?",
+      "new_question": "What Tesla likely do work",
+      "original_prediction": "seclude himself",
+      "new_prediction": "seclude himself with his work. However, when he did engage in a social life"
+    },
+    "56f86b44a6d7ea1400e175f6": {
+      "context": "Luther had published his German translation of the New Testament in 1522, and he and his collaborators completed the translation of the Old Testament in 1534, when the whole Bible was published. He continued to work on refining the translation until the end of his life. Others had translated the Bible into German, but Luther tailored his translation to his own doctrine. When he was criticised for inserting the word \"alone\" after \"faith\" in Romans 3:28, he replied in part: \"[T]he text itself and the meaning of St. Paul urgently require and demand it. For in that very passage he is dealing with the main point of Christian doctrine, namely, that we are justified by faith in Christ without any works of the Law. ... But when works are so completely cut away – and that must mean that faith alone justifies – whoever would speak plainly and clearly about this cutting away of works will have to say, 'Faith alone justifies us, and not works'.\"",
+      "answers": [
+        {
+          "answer_start": 153,
+          "text": "1534"
+        },
+        {
+          "answer_start": 153,
+          "text": "1534"
+        },
+        {
+          "answer_start": 153,
+          "text": "1534"
+        }
+      ],
+      "original_question": "When was the Old Testament translation finished?",
+      "new_question": "When Old Testament translation finished",
+      "original_prediction": "1534",
+      "new_prediction": "1534, when the whole Bible was published. He continued to work on refining the translation until the end of his life"
+    },
+    "56f8b2499b226e1400dd0e3e": {
+      "context": "Luther spoke out against the Jews in Saxony, Brandenburg, and Silesia. Josel of Rosheim, the Jewish spokesman who tried to help the Jews of Saxony in 1537, later blamed their plight on \"that priest whose name was Martin Luther—may his body and soul be bound up in hell!—who wrote and issued many heretical books in which he said that whoever would help the Jews was doomed to perdition.\" Josel asked the city of Strasbourg to forbid the sale of Luther's anti-Jewish works: they refused initially, but did so when a Lutheran pastor in Hochfelden used a sermon to urge his parishioners to murder Jews. Luther's influence persisted after his death. Throughout the 1580s, riots led to the expulsion of Jews from several German Lutheran states.",
+      "answers": [
+        {
+          "answer_start": 445,
+          "text": "Luther's anti-Jewish works"
+        },
+        {
+          "answer_start": 445,
+          "text": "Luther's anti-Jewish works"
+        },
+        {
+          "answer_start": 445,
+          "text": "Luther's anti-Jewish works"
+        }
+      ],
+      "original_question": "What did Josel ask the city of Strasbourg to forbid the sale of?",
+      "new_question": "What Josel ask Strasbourg forbid",
+      "original_prediction": "Luther's anti-Jewish works",
+      "new_prediction": "forbid the sale of Luther's anti-Jewish works"
+    },
+    "5725c63438643c19005acca1": {
+      "context": "NASA's CALIPSO satellite has measured the amount of dust transported by wind from the Sahara to the Amazon: an average 182 million tons of dust are windblown out of the Sahara each year, at 15 degrees west longitude, across 1,600 miles (2,600 km) over the Atlantic Ocean (some dust falls into the Atlantic), then at 35 degrees West longitude at the eastern coast of South America, 27.7 million tons (15%) of dust fall over the Amazon basin, 132 million tons of dust remain in the air, 43 million tons of dust are windblown and falls on the Caribbean Sea, past 75 degrees west longitude.",
+      "answers": [
+        {
+          "answer_start": 224,
+          "text": "1,600 miles"
+        },
+        {
+          "answer_start": 224,
+          "text": "1,600"
+        },
+        {
+          "answer_start": 224,
+          "text": "1,600 miles"
+        }
+      ],
+      "original_question": "How many miles does the dust travels over the Atlantic Ocean?",
+      "new_question": "How dust travels Atlantic Ocean",
+      "original_prediction": "1,600",
+      "new_prediction": "1,600 miles (2,600 km) over the Atlantic Ocean"
+    },
+    "572673f5708984140094c69c": {
+      "context": "The addition of new rock units, both depositionally and intrusively, often occurs during deformation. Faulting and other deformational processes result in the creation of topographic gradients, causing material on the rock unit that is increasing in elevation to be eroded by hillslopes and channels. These sediments are deposited on the rock unit that is going down. Continual motion along the fault maintains the topographic gradient in spite of the movement of sediment, and continues to create accommodation space for the material to deposit. Deformational events are often also associated with volcanism and igneous activity. Volcanic ashes and lavas accumulate on the surface, and igneous intrusions enter from below. Dikes, long, planar igneous intrusions, enter along cracks, and therefore often form in large numbers in areas that are being actively deformed. This can result in the emplacement of dike swarms, such as those that are observable across the Canadian shield, or rings of dikes around the lava tube of a volcano.",
+      "answers": [
+        {
+          "answer_start": 826,
+          "text": "in areas that are being actively deformed"
+        },
+        {
+          "answer_start": 829,
+          "text": "areas that are being actively deformed"
+        },
+        {
+          "answer_start": 826,
+          "text": "in areas that are being actively deformed"
+        }
+      ],
+      "original_question": "Where do dikes form?",
+      "new_question": "Where do dikes form",
+      "original_prediction": "in areas that are being actively deformed",
+      "new_prediction": "enter along cracks, and therefore often form in large numbers in areas that are being actively deformed"
+    },
+    "57275a505951b619008f88a0": {
+      "context": "Among the few bright spots during this season were the midseason crime dramedy Castle as well as the success of two family sitcoms that anchored the network's revamped Wednesday comedy lineup, The Middle and Modern Family, the latter of which was both a critical and commercial success. Shark Tank (based on the Dragon's Den reality format) also became a midseason sleeper hit on Sundays in the spring of 2010; the following season, it became the tentpole of the network's Friday night schedule, gradually helping make ABC a strong competitor (after being paired with 20/20 and beginning with the 2012–13 season, the Tim Allen sitcom Last Man Standing) against CBS' long-dominant drama/reality lineup on that night for the first time since the \"TGIF\" lineup ended in 2000.",
+      "answers": [
+        {
+          "answer_start": 312,
+          "text": "Dragon's Den"
+        },
+        {
+          "answer_start": 312,
+          "text": "Dragon's Den"
+        },
+        {
+          "answer_start": 312,
+          "text": "Dragon's Den"
+        }
+      ],
+      "original_question": "Shark Tank was based on what other reality show?",
+      "new_question": "Shark Tank what reality show",
+      "original_prediction": "Dragon's Den",
+      "new_prediction": "Dragon's Den reality format"
+    },
+    "5726b9e15951b619008f7bf1": {
+      "context": "As a result, by 1206 Temüjin had managed to unite or subdue the Merkits, Naimans, Mongols, Keraites, Tatars, Uyghurs, and other disparate smaller tribes under his rule. It was a monumental feat for the \"Mongols\" (as they became known collectively). At a Khuruldai, a council of Mongol chiefs, Temüjin was acknowledged as \"Khan\" of the consolidated tribes and took the new title \"Genghis Khan\". The title Khagan was not conferred on Genghis until after his death, when his son and successor, Ögedei, took the title for himself and extended it posthumously to his father (as he was also to be posthumously declared the founder of the Yuan dynasty). This unification of all confederations by Genghis Khan established peace between previously warring tribes and a single political and military force under Genghis Khan.",
+      "answers": [
+        {
+          "answer_start": 16,
+          "text": "1206"
+        },
+        {
+          "answer_start": 16,
+          "text": "1206"
+        },
+        {
+          "answer_start": 16,
+          "text": "1206"
+        }
+      ],
+      "original_question": "By what year had Temüjin created a significant \"Mongol\" tribal alliance?",
+      "new_question": "Temüjin created significant tribal alliance",
+      "original_prediction": "1206",
+      "new_prediction": "It was a monumental feat"
+    },
+    "572758c3dd62a815002e9b7b": {
+      "context": "Genghis Khan, the title is spelled in variety of ways in different languages such as Mongolian Chinggis Khaan, English Chinghiz, Chinghis, and Chingiz, Chinese: 成吉思汗; pinyin: Chéngjísī Hán, Turkic: Cengiz Han, Çingiz Xan, Çingiz Han, Chingizxon, Çıñğız Xan, Chengez Khan, Chinggis Khan, Chinggis Xaan, Chingis Khan, Jenghis Khan, Chinggis Qan, Djingis Kahn, Russian: Чингисхан (Čingiskhan) or Чингиз-хан (Čingiz-khan), etc. Temüjin is written in Chinese as simplified Chinese: 铁木真; traditional Chinese: 鐵木眞; pinyin: Tiěmùzhēn.",
+      "answers": [
+        {
+          "answer_start": 119,
+          "text": "Chinghiz, Chinghis, and Chingiz"
+        },
+        {
+          "answer_start": 119,
+          "text": "Chinghiz, Chinghis, and Chingiz"
+        },
+        {
+          "answer_start": 119,
+          "text": "Chinghiz, Chinghis, and Chingiz"
+        },
+        {
+          "answer_start": 119,
+          "text": "Chinghiz, Chinghis, and Chingiz"
+        }
+      ],
+      "original_question": "What are alternate English spelling of Genghis?",
+      "new_question": "What alternate English spelling Genghis",
+      "original_prediction": "Chinghiz, Chinghis, and Chingiz",
+      "new_prediction": "Mongolian Chinggis Khaan"
+    },
+    "5726eb8bf1498d1400e8efe4": {
+      "context": "Disorders of the immune system can result in autoimmune diseases, inflammatory diseases and cancer. Immunodeficiency occurs when the immune system is less active than normal, resulting in recurring and life-threatening infections. In humans, immunodeficiency can either be the result of a genetic disease such as severe combined immunodeficiency, acquired conditions such as HIV/AIDS, or the use of immunosuppressive medication. In contrast, autoimmunity results from a hyperactive immune system attacking normal tissues as if they were foreign organisms. Common autoimmune diseases include Hashimoto's thyroiditis, rheumatoid arthritis, diabetes mellitus type 1, and systemic lupus erythematosus. Immunology covers the study of all aspects of the immune system.",
+      "answers": [
+        {
+          "answer_start": 188,
+          "text": "recurring and life-threatening infections"
+        },
+        {
+          "answer_start": 188,
+          "text": "recurring and life-threatening infections."
+        },
+        {
+          "answer_start": 289,
+          "text": "genetic disease"
+        }
+      ],
+      "original_question": "What does immunodeficiency cause?",
+      "new_question": "What does immunodeficiency cause",
+      "original_prediction": "recurring and life-threatening infections",
+      "new_prediction": "when the immune system is less active than normal"
+    },
+    "5727515f708984140094dc13": {
+      "context": "Some of the oldest schools in South Africa are private church schools that were established by missionaries in the early nineteenth century. The private sector has grown ever since. After the abolition of apartheid, the laws governing private education in South Africa changed significantly. The South African Schools Act of 1996 recognises two categories of schools: \"public\" (state-controlled) and \"independent\" (which includes traditional private schools and schools which are privately governed[clarification needed].)",
+      "answers": [
+        {
+          "answer_start": 401,
+          "text": "independent"
+        },
+        {
+          "answer_start": 401,
+          "text": "independent"
+        },
+        {
+          "answer_start": 401,
+          "text": "independent"
+        }
+      ],
+      "original_question": "Along with public schools, what type of school was recognized under the South African Schools Act?",
+      "new_question": "Along recognized African Schools Act",
+      "original_prediction": "independent",
+      "new_prediction": "South African Schools Act of 1996"
+    },
+    "572a0bafaf94a219006aa766": {
+      "context": "Following the utilitarian principle of seeking the greatest good for the greatest number – economic inequality is problematic. A house that provides less utility to a millionaire as a summer home than it would to a homeless family of five, is an example of reduced \"distributive efficiency\" within society, that decreases marginal utility of wealth and thus the sum total of personal utility. An additional dollar spent by a poor person will go to things providing a great deal of utility to that person, such as basic necessities like food, water, and healthcare; while, an additional dollar spent by a much richer person will very likely go to luxury items providing relatively less utility to that person. Thus, the marginal utility of wealth per person (\"the additional dollar\") decreases as a person becomes richer. From this standpoint, for any given amount of wealth in society, a society with more equality will have higher aggregate utility. Some studies have found evidence for this theory, noting that in societies where inequality is lower, population-wide satisfaction and happiness tend to be higher.",
+      "answers": [
+        {
+          "answer_start": 266,
+          "text": "distributive efficiency"
+        },
+        {
+          "answer_start": 266,
+          "text": "distributive efficiency"
+        },
+        {
+          "answer_start": 265,
+          "text": "\"distributive efficiency\""
+        }
+      ],
+      "original_question": "An adobe that provides less utility to one person than another is an example of reduced what?",
+      "new_question": "adobe provides utility person reduced",
+      "original_prediction": "distributive efficiency",
+      "new_prediction": "reduced \"distributive efficiency\" within society"
+    },
+    "572fe393947a6a140053cdbd": {
+      "context": "The length of the Rhine is conventionally measured in \"Rhine-kilometers\" (Rheinkilometer), a scale introduced in 1939 which runs from the Old Rhine Bridge at Constance (0 km) to Hoek van Holland (1036.20 km). The river length is significantly shortened from the river's natural course due to number of canalisation projects completed in the 19th and 20th century.[note 7] The \"total length of the Rhine\", to the inclusion of Lake Constance and the Alpine Rhine is more difficult to measure objectively; it was cited as 1,232 kilometres (766 miles) by the Dutch Rijkswaterstaat in 2010.[note 1]",
+      "answers": [
+        {
+          "answer_start": 178,
+          "text": "Hoek van Holland"
+        },
+        {
+          "answer_start": 178,
+          "text": "Hoek van Holland"
+        },
+        {
+          "answer_start": 178,
+          "text": "Hoek van Holland"
+        },
+        {
+          "answer_start": 178,
+          "text": "Hoek van Holland"
+        },
+        {
+          "answer_start": 178,
+          "text": "Hoek van Holland"
+        }
+      ],
+      "original_question": "Where does the Rhine end?",
+      "new_question": "Where does the Rhine end",
+      "original_prediction": "Hoek van Holland",
+      "new_prediction": "Hoek van Holland (1036.20 km)"
+    },
+    "572f5875947a6a140053c89c": {
+      "context": "A regulation of the Rhine was called for, with an upper canal near Diepoldsau and a lower canal at Fußach, in order to counteract the constant flooding and strong sedimentation in the western Rhine Delta. The Dornbirner Ach had to be diverted, too, and it now flows parallel to the canalized Rhine into the lake. Its water has a darker color than the Rhine; the latter's lighter suspended load comes from higher up the mountains. It is expected that the continuous input of sediment into the lake will silt up the lake. This has already happened to the former Lake Tuggenersee.",
+      "answers": [
+        {
+          "answer_start": 156,
+          "text": "strong sedimentation"
+        },
+        {
+          "answer_start": 156,
+          "text": "strong sedimentation"
+        },
+        {
+          "answer_start": 156,
+          "text": "strong sedimentation in the western Rhine Delta"
+        },
+        {
+          "answer_start": 156,
+          "text": "strong sedimentation"
+        }
+      ],
+      "original_question": "Besides constant flooding, why else was there regulation of the Rhine?",
+      "new_question": "Besides flooding why else regulation",
+      "original_prediction": "strong sedimentation",
+      "new_prediction": "sedimentation in the western Rhine Delta"
+    },
+    "572fc41f947a6a140053cc80": {
+      "context": "The Presiding Officer (or Deputy Presiding Officer) decides who speaks in chamber debates and the amount of time for which they are allowed to speak. Normally, the Presiding Officer tries to achieve a balance between different viewpoints and political parties when selecting members to speak. Typically, ministers or party leaders open debates, with opening speakers given between 5 and 20 minutes, and succeeding speakers allocated less time. The Presiding Officer can reduce speaking time if a large number of members wish to participate in the debate. Debate is more informal than in some parliamentary systems. Members may call each other directly by name, rather than by constituency or cabinet position, and hand clapping is allowed. Speeches to the chamber are normally delivered in English, but members may use Scots, Gaelic, or any other language with the agreement of the Presiding Officer. The Scottish Parliament has conducted debates in the Gaelic language.",
+      "answers": [
+        {
+          "answer_start": 0,
+          "text": "The Presiding Officer"
+        },
+        {
+          "answer_start": 4,
+          "text": "Presiding Officer"
+        },
+        {
+          "answer_start": 0,
+          "text": "The Presiding Officer"
+        }
+      ],
+      "original_question": "Who decides who gets to speak in the chamber debates?",
+      "new_question": "decides gets speak chamber debates",
+      "original_prediction": "The Presiding Officer",
+      "new_prediction": "The Presiding Officer (or Deputy Presiding Officer) decides who speaks in chamber debates"
+    },
+    "57302bd0b2c2fd14005689df": {
+      "context": "\"The Islamic State\", formerly known as the \"Islamic State of Iraq and the Levant\" and before that as the \"Islamic State of Iraq\", (and called the acronym Daesh by its many detractors), is a Wahhabi/Salafi jihadist extremist militant group which is led by and mainly composed of Sunni Arabs from Iraq and Syria. In 2014, the group proclaimed itself a caliphate, with religious, political and military authority over all Muslims worldwide. As of March 2015[update], it had control over territory occupied by ten million people in Iraq and Syria, and has nominal control over small areas of Libya, Nigeria and Afghanistan. (While a self-described state, it lacks international recognition.) The group also operates or has affiliates in other parts of the world, including North Africa and South Asia.",
+      "answers": [
+        {
+          "answer_start": 674,
+          "text": "recognition"
+        },
+        {
+          "answer_start": 660,
+          "text": "international recognition"
+        },
+        {
+          "answer_start": 674,
+          "text": "recognition"
+        }
+      ],
+      "original_question": "What does the Islamic State lack from the international community?",
+      "new_question": "What Islamic State lack community",
+      "original_prediction": "recognition",
+      "new_prediction": "it lacks international recognition"
+    },
+    "5730b255396df919000962b1": {
+      "context": "Bolshevik leaders had effectively reestablished a polity with roughly the same extent as that empire by 1921, however with an internationalist ideology: Lenin in particular asserted the right to limited self-determination for national minorities within the new territory. Beginning in 1923, the policy of \"Indigenization\" [korenizatsiia] was intended to support non-Russians develop their national cultures within a socialist framework. Never formally revoked, it stopped being implemented after 1932. After World War II, the Soviet Union installed socialist regimes modeled on those it had installed in 1919–20 in the old Tsarist Empire in areas its forces occupied in Eastern Europe. The Soviet Union and the People’s Republic of China supported post–World War II communist movements in foreign nations and colonies to advance their own interests, but were not always successful.",
+      "answers": [
+        {
+          "answer_start": 496,
+          "text": "1932"
+        },
+        {
+          "answer_start": 496,
+          "text": "1932"
+        },
+        {
+          "answer_start": 496,
+          "text": "1932"
+        },
+        {
+          "answer_start": 496,
+          "text": "1932"
+        },
+        {
+          "answer_start": 496,
+          "text": "1932"
+        }
+      ],
+      "original_question": "When was the Russian Policy \"Indigenization\" defunded?",
+      "new_question": "When Russian Policy Indigenization defunded",
+      "original_prediction": "1932",
+      "new_prediction": "it stopped being implemented after 1932"
+    },
+    "5730c52fb54a4f140068cc47": {
+      "context": "Like other historic Christian churches, The United Methodist Church has official liturgies for services of Holy Communion, baptism, weddings, funerals, ordination, anointing of the sick and daily office prayer services. Some clergy offer healing services, while exorcism is an occasional practice by some clergy in The United Methodist Church in Africa. These services involve the laying on of hands and anointing with oil. Along with these, there are also special services for holy days such as All Saints Day, Ash Wednesday, Maundy Thursday, Good Friday, and Easter Vigil. These services are contained in The United Methodist Hymnal and The United Methodist Book of Worship (1992). Many of these liturgies are derived from the Anglican tradition's Book of Common Prayer. In most cases, congregations also use other elements of liturgical worship, such as candles, vestments, paraments, banners, and liturgical art.",
+      "answers": [
+        {
+          "answer_start": 750,
+          "text": "Book of Common Prayer"
+        },
+        {
+          "answer_start": 643,
+          "text": "United Methodist Book of Worship"
+        },
+        {
+          "answer_start": 750,
+          "text": "Book of Common Prayer."
+        }
+      ],
+      "original_question": "Many liturgies are derived from what book?",
+      "new_question": "Many liturgies derived what book",
+      "original_prediction": "Book of Common Prayer",
+      "new_prediction": "Anglican tradition's Book of Common Prayer"
+    },
+    "5730c737b54a4f140068cc56": {
+      "context": "The United Methodist Church is organized into conferences. The highest level is called the General Conference and is the only organization which may speak officially for the church. The General Conference meets every four years (quadrennium). Legislative changes are recorded in The Book of Discipline which is revised after each General Conference. Non-legislative resolutions are recorded in the Book of Resolutions, which is published after each General Conference, and expire after eight years unless passed again by a subsequent session of General Conference. The last General Conference was held in Tampa, Florida, in 2012. The event is currently rotated between the U.S. jurisdictions of the church. The 2016 General Conference will be in Portland, Oregon. Bishops, Councils, Committees, Boards, Elders, etc., are not permitted to speak on behalf of The United Methodist Church as this authority is reserved solely for the General Conference in accordance with the Book of Discipline.",
+      "answers": [
+        {
+          "answer_start": 211,
+          "text": "every four years"
+        },
+        {
+          "answer_start": 211,
+          "text": "every four years (quadrennium)."
+        },
+        {
+          "answer_start": 211,
+          "text": "every four years"
+        }
+      ],
+      "original_question": "How often does the General Conference meet?",
+      "new_question": "How does General Conference meet",
+      "original_prediction": "every four years",
+      "new_prediction": "The General Conference meets every four years"
+    },
+    "573786b51c45671900574490": {
+      "context": "Newton came to realize that the effects of gravity might be observed in different ways at larger distances. In particular, Newton determined that the acceleration of the Moon around the Earth could be ascribed to the same force of gravity if the acceleration due to gravity decreased as an inverse square law. Further, Newton realized that the acceleration due to gravity is proportional to the mass of the attracting body. Combining these ideas gives a formula that relates the mass () and the radius () of the Earth to the gravitational acceleration:",
+      "answers": [
+        {
+          "answer_start": 495,
+          "text": "radius () of the Earth"
+        },
+        {
+          "answer_start": 491,
+          "text": "the radius () of the Earth"
+        },
+        {
+          "answer_start": 495,
+          "text": "radius"
+        }
+      ],
+      "original_question": "What is included along with gravitational acceration, and mass of the Earth in a formula about rotation about the Earth?",
+      "new_question": "What gravitational acceration formula rotation",
+      "original_prediction": "radius",
+      "new_prediction": "Combining these ideas gives a formula that relates the mass () and the radius () of the Earth to the gravitational acceleration"
+    }
+  },
+  "both_correct_contexts": {
+    "56d6fe0b0d65d214001982a7": {
+      "context": "Manning finished the year with a career-low 67.9 passer rating, throwing for 2,249 yards and nine touchdowns, with 17 interceptions. In contrast, Osweiler threw for 1,967 yards, 10 touchdowns and six interceptions for a rating of 86.4. Veteran receiver Demaryius Thomas led the team with 105 receptions for 1,304 yards and six touchdowns, while Emmanuel Sanders caught 76 passes for 1,135 yards and six scores, while adding another 106 yards returning punts. Tight end Owen Daniels was also a big element of the passing game with 46 receptions for 517 yards. Running back C. J. Anderson was the team's leading rusher 863 yards and seven touchdowns, while also catching 25 passes for 183 yards. Running back Ronnie Hillman also made a big impact with 720 yards, five touchdowns, 24 receptions, and a 4.7 yards per carry average. Overall, the offense ranked 19th in scoring with 355 points and did not have any Pro Bowl selections.",
+      "answers": [
+        {
+          "answer_start": 290,
+          "text": "5"
+        },
+        {
+          "answer_start": 761,
+          "text": "five"
+        },
+        {
+          "answer_start": 761,
+          "text": "five"
+        }
+      ],
+      "original_question": "How many touchdowns did Ronnie Hillman make?",
+      "new_question": "How touchdowns Ronnie Hillman make",
+      "original_prediction": "five",
+      "new_prediction": "five"
+    },
+    "5733647e4776f419006609b2": {
+      "context": "There are also many places commemorating the heroic history of Warsaw. Pawiak, an infamous German Gestapo prison now occupied by a Mausoleum of Memory of Martyrdom and the museum, is only the beginning of a walk in the traces of Heroic City. The Warsaw Citadel, an impressive 19th-century fortification built after the defeat of the November Uprising, was a place of martyr for the Poles. Another important monument, the statue of Little Insurgent located at the ramparts of the Old Town, commemorates the children who served as messengers and frontline troops in the Warsaw Uprising, while the impressive Warsaw Uprising Monument by Wincenty Kućma was erected in memory of the largest insurrection of World War II.",
+      "answers": [
+        {
+          "answer_start": 606,
+          "text": "Warsaw Uprising Monument"
+        },
+        {
+          "answer_start": 606,
+          "text": "Warsaw Uprising Monument"
+        },
+        {
+          "answer_start": 606,
+          "text": "Warsaw Uprising Monument"
+        }
+      ],
+      "original_question": "What monument is in memory of the largest insurrection of WWII?",
+      "new_question": "What monument memory insurrection WWII",
+      "original_prediction": "Warsaw Uprising Monument",
+      "new_prediction": "Warsaw Uprising Monument"
+    },
+    "56e0bcc0231d4119001ac36c": {
+      "context": "Tesla was born on 10 July [O.S. 28 June] 1856 into a Serb family in the village of Smiljan, Austrian Empire (modern-day Croatia). His father, Milutin Tesla, was a Serbian Orthodox priest. Tesla's mother, Đuka Tesla (née Mandić), whose father was also an Orthodox priest,:10 had a talent for making home craft tools, mechanical appliances, and the ability to memorize Serbian epic poems. Đuka had never received a formal education. Nikola credited his eidetic memory and creative abilities to his mother's genetics and influence. Tesla's progenitors were from western Serbia, near Montenegro.:12",
+      "answers": [
+        {
+          "answer_start": 142,
+          "text": "Milutin Tesla"
+        },
+        {
+          "answer_start": 142,
+          "text": "Milutin Tesla"
+        },
+        {
+          "answer_start": 142,
+          "text": "Milutin Tesla"
+        }
+      ],
+      "original_question": "What was Tesla's father's name?",
+      "new_question": "What was Tesla's father's name",
+      "original_prediction": "Milutin Tesla",
+      "new_prediction": "Milutin Tesla"
+    },
+    "56e10ddce3433e1400422b4c": {
+      "context": "In the fall of 1937, after midnight one night, Tesla left the Hotel New Yorker to make his regular commute to the cathedral and the library to feed the pigeons. While crossing a street a couple of blocks from the hotel, Tesla was unable to dodge a moving taxicab and was thrown heavily to the ground. Tesla's back was severely wrenched and three of his ribs were broken in the accident (the full extent of his injuries will never be known; Tesla refused to consult a doctor—an almost lifelong custom). Tesla didn't raise any question as to who was at fault and refused medical aid, only asking to be taken to his hotel via cab. Tesla was bedridden for some months and was unable to continue feeding pigeons from his window; soon, they failed to come. In early 1938, Tesla was able to get up. He at once resumed the pigeon-feeding walks on a much more limited scale, but frequently had a messenger act for him.",
+      "answers": [
+        {
+          "answer_start": 3,
+          "text": "the fall of 1937"
+        },
+        {
+          "answer_start": 0,
+          "text": "In the fall of 1937"
+        },
+        {
+          "answer_start": 7,
+          "text": "fall of 1937"
+        }
+      ],
+      "original_question": "When did the accident occur?",
+      "new_question": "When did the accident occur",
+      "original_prediction": "fall of 1937",
+      "new_prediction": "In the fall of 1937"
+    },
+    "570610b275f01819005e792a": {
+      "context": "Southern California is home to Los Angeles International Airport, the second-busiest airport in the United States by passenger volume (see World's busiest airports by passenger traffic) and the third by international passenger volume (see Busiest airports in the United States by international passenger traffic); San Diego International Airport the busiest single runway airport in the world; Van Nuys Airport, the world's busiest general aviation airport; major commercial airports at Orange County, Bakersfield, Ontario, Burbank and Long Beach; and numerous smaller commercial and general aviation airports.",
+      "answers": [
+        {
+          "answer_start": 31,
+          "text": "Los Angeles International Airport"
+        },
+        {
+          "answer_start": 31,
+          "text": "Los Angeles International Airport"
+        },
+        {
+          "answer_start": 31,
+          "text": "Los Angeles International Airport"
+        }
+      ],
+      "original_question": "What is the second busiest airport in the United States?",
+      "new_question": "What second busiest airport States",
+      "original_prediction": "Los Angeles International Airport",
+      "new_prediction": "Los Angeles International Airport"
+    },
+    "571cd11add7acb1400e4c171": {
+      "context": "Oxygen, as a supposed mild euphoric, has a history of recreational use in oxygen bars and in sports. Oxygen bars are establishments, found in Japan, California, and Las Vegas, Nevada since the late 1990s that offer higher than normal O\n2 exposure for a fee. Professional athletes, especially in American football, also sometimes go off field between plays to wear oxygen masks in order to get a \"boost\" in performance. The pharmacological effect is doubtful; a placebo effect is a more likely explanation. Available studies support a performance boost from enriched O\n2 mixtures only if they are breathed during aerobic exercise.",
+      "answers": [
+        {
+          "answer_start": 612,
+          "text": "aerobic"
+        },
+        {
+          "answer_start": 612,
+          "text": "aerobic"
+        },
+        {
+          "answer_start": 612,
+          "text": "aerobic"
+        },
+        {
+          "answer_start": 612,
+          "text": "aerobic"
+        },
+        {
+          "answer_start": 612,
+          "text": "aerobic exercise"
+        }
+      ],
+      "original_question": "What type of exercise does research show receives a boost in performance from oxygen?",
+      "new_question": "What exercise receives boost performance",
+      "original_prediction": "aerobic",
+      "new_prediction": "aerobic exercise"
+    },
+    "5725e152271a42140099d2cd": {
+      "context": "Apollo 5 (AS-204) was the first unmanned test flight of LM in Earth orbit, launched from pad 37 on January 22, 1968, by the Saturn IB that would have been used for Apollo 1. The LM engines were successfully test-fired and restarted, despite a computer programming error which cut short the first descent stage firing. The ascent engine was fired in abort mode, known as a \"fire-in-the-hole\" test, where it was lit simultaneously with jettison of the descent stage. Although Grumman wanted a second unmanned test, George Low decided the next LM flight would be manned.",
+      "answers": [
+        {
+          "answer_start": 0,
+          "text": "Apollo 5"
+        },
+        {
+          "answer_start": 0,
+          "text": "Apollo 5"
+        },
+        {
+          "answer_start": 0,
+          "text": "Apollo 5"
+        },
+        {
+          "answer_start": 0,
+          "text": "Apollo 5"
+        },
+        {
+          "answer_start": 0,
+          "text": "Apollo 5"
+        }
+      ],
+      "original_question": "Which Apollo was the first testing of the LM, unmanned, in Earth's orbit?",
+      "new_question": "Which testing LM unmanned Earth's",
+      "original_prediction": "Apollo 5",
+      "new_prediction": "Apollo 5"
+    },
+    "572681c1dd62a815002e8796": {
+      "context": "Most Platyctenida have oval bodies that are flattened in the oral-aboral direction, with a pair of tentilla-bearing tentacles on the aboral surface. They cling to and creep on surfaces by everting the pharynx and using it as a muscular \"foot\". All but one of the known platyctenid species lack comb-rows. Platyctenids are usually cryptically colored, live on rocks, algae, or the body surfaces of other invertebrates, and are often revealed by their long tentacles with many sidebranches, seen streaming off the back of the ctenophore into the current.",
+      "answers": [
+        {
+          "answer_start": 89,
+          "text": "a pair of tentilla-bearing tentacles"
+        },
+        {
+          "answer_start": 99,
+          "text": "tentilla-bearing tentacles"
+        },
+        {
+          "answer_start": 89,
+          "text": "a pair of tentilla-bearing tentacles"
+        }
+      ],
+      "original_question": "What do most platyctenida have on their aboral surface?",
+      "new_question": "What do platyctenida aboral surface",
+      "original_prediction": "a pair of tentilla-bearing tentacles",
+      "new_prediction": "a pair of tentilla-bearing tentacles"
+    },
+    "5725fabc89a1e219009ac12a": {
+      "context": "As of the census of 2000, there were 427,652 people, 140,079 households, and 97,915 families residing in the city. The population density was 4,097.9 people per square mile (1,582.2/km²). There were 149,025 housing units at an average density of 1,427.9 square miles (3,698 km2). The racial makeup of the city was 50.2% White, 8.4% Black or African American, 1.6% Native American, 11.2% Asian (about a third of which is Hmong), 0.1% Pacific Islander, 23.4% from other races, and 5.2% from two or more races. Hispanic or Latino of any race were 39.9% of the population.",
+      "answers": [
+        {
+          "answer_start": 327,
+          "text": "8.4%"
+        },
+        {
+          "answer_start": 327,
+          "text": "8.4%"
+        },
+        {
+          "answer_start": 327,
+          "text": "8.4%"
+        }
+      ],
+      "original_question": "What was the percentage of Black or African-Americans living in the city?",
+      "new_question": "What percentage Black African-Americans living",
+      "original_prediction": "8.4%",
+      "new_prediction": "8.4%"
+    },
+    "5726378238643c19005ad314": {
+      "context": "Starting in 1965, Donald Davies at the National Physical Laboratory, UK, independently developed the same message routing methodology as developed by Baran. He called it packet switching, a more accessible name than Baran's, and proposed to build a nationwide network in the UK. He gave a talk on the proposal in 1966, after which a person from the Ministry of Defence (MoD) told him about Baran's work. A member of Davies' team (Roger Scantlebury) met Lawrence Roberts at the 1967 ACM Symposium on Operating System Principles and suggested it for use in the ARPANET.",
+      "answers": [
+        {
+          "answer_start": 170,
+          "text": "packet switching"
+        },
+        {
+          "answer_start": 170,
+          "text": "packet switching"
+        },
+        {
+          "answer_start": 170,
+          "text": "packet switching"
+        }
+      ],
+      "original_question": "What did Davies call the System ",
+      "new_question": "What did Davies call System",
+      "original_prediction": "packet switching",
+      "new_prediction": "packet switching"
+    },
+    "57267640f1498d1400e8e075": {
+      "context": "All of these processes do not necessarily occur in a single environment, and do not necessarily occur in a single order. The Hawaiian Islands, for example, consist almost entirely of layered basaltic lava flows. The sedimentary sequences of the mid-continental United States and the Grand Canyon in the southwestern United States contain almost-undeformed stacks of sedimentary rocks that have remained in place since Cambrian time. Other areas are much more geologically complex. In the southwestern United States, sedimentary, volcanic, and intrusive rocks have been metamorphosed, faulted, foliated, and folded. Even older rocks, such as the Acasta gneiss of the Slave craton in northwestern Canada, the oldest known rock in the world have been metamorphosed to the point where their origin is undiscernable without laboratory analysis. In addition, these processes can occur in stages. In many places, the Grand Canyon in the southwestern United States being a very visible example, the lower rock units were metamorphosed and deformed, and then deformation ended and the upper, undeformed units were deposited. Although any amount of rock emplacement and rock deformation can occur, and they can occur any number of times, these concepts provide a guide to understanding the geological history of an area.",
+      "answers": [
+        {
+          "answer_start": 645,
+          "text": "Acasta gneiss"
+        },
+        {
+          "answer_start": 645,
+          "text": "Acasta gneiss"
+        },
+        {
+          "answer_start": 645,
+          "text": "Acasta gneiss of the Slave craton in northwestern Canada"
+        }
+      ],
+      "original_question": "What is the oldest known rock in the world?",
+      "new_question": "What oldest known rock world",
+      "original_prediction": "Acasta gneiss",
+      "new_prediction": "Acasta gneiss"
+    },
+    "5726bc505951b619008f7c7d": {
+      "context": "The V&A holds over 19,000 items from the Islamic world, ranging from the early Islamic period (the 7th century) to the early 20th century. The Jameel Gallery of Islamic Art, opened in 2006, houses a representative display of 400 objects with the highlight being the Ardabil Carpet, the centrepiece of the gallery. The displays in this gallery cover objects from Spain, North Africa, the Middle East, Central Asia and Afghanistan. A masterpiece of Islamic art is a 10th-century Rock crystal ewer. Many examples of Qur'āns with exquisite calligraphy dating from various periods are on display. A 15th-century minbar from a Cairo mosque with ivory forming complex geometrical patterns inlaid in wood is one of the larger objects on display. Extensive examples of ceramics especially Iznik pottery, glasswork including 14th-century lamps from mosques and metalwork are on display. The collection of Middle Eastern and Persian rugs and carpets is amongst the finest in the world, many were part of the Salting Bequest of 1909. Examples of tile work from various buildings including a fireplace dated 1731 from Istanbul made of intricately decorated blue and white tiles and turquoise tiles from the exterior of buildings from Samarkand are also displayed.",
+      "answers": [
+        {
+          "answer_start": 1016,
+          "text": "1909"
+        },
+        {
+          "answer_start": 1016,
+          "text": "1909"
+        },
+        {
+          "answer_start": 1016,
+          "text": "1909"
+        }
+      ],
+      "original_question": "In which year was the Salting Bequest?",
+      "new_question": "In which year Salting Bequest",
+      "original_prediction": "1909",
+      "new_prediction": "1909"
+    },
+    "572749d7dd62a815002e9a91": {
+      "context": "For its part, the television network produced a few new hits during 1977: January saw the premiere of Roots, a miniseries based on an Alex Haley novel that was published the previous year; in September, The Love Boat, a comedy-drama anthology series produced by Aaron Spelling which was based around the crew of a cruise ship and featured three stories centered partly on the ship's various passengers; although critically lambasted, the series turned out to be a ratings success and lasted nine seasons. Roots went on to become one of the highest-rated programs in American television history, with unprecedented ratings for its finale. The success of Roots, Happy Days and The Love Boat allowed the network to take first place in the ratings for the first time in the 1976–77 season. On September 13, 1977, the network debuted Soap, a controversial soap opera parody which became known for being the first television series to feature an openly gay main character (played by a then-unknown Billy Crystal); it last ran on the network on April 20, 1981.",
+      "answers": [
+        {
+          "answer_start": 262,
+          "text": "Aaron Spelling"
+        },
+        {
+          "answer_start": 262,
+          "text": "Aaron Spelling"
+        },
+        {
+          "answer_start": 262,
+          "text": "Aaron Spelling"
+        }
+      ],
+      "original_question": "Who produced the comedy-drama The Love Boat?",
+      "new_question": "Who produced comedy-drama Love Boat",
+      "original_prediction": "Aaron Spelling",
+      "new_prediction": "Aaron Spelling"
+    },
+    "572a135daf94a219006aa7a0": {
+      "context": "Pathogens can rapidly evolve and adapt, and thereby avoid detection and neutralization by the immune system; however, multiple defense mechanisms have also evolved to recognize and neutralize pathogens. Even simple unicellular organisms such as bacteria possess a rudimentary immune system, in the form of enzymes that protect against bacteriophage infections. Other basic immune mechanisms evolved in ancient eukaryotes and remain in their modern descendants, such as plants and invertebrates. These mechanisms include phagocytosis, antimicrobial peptides called defensins, and the complement system. Jawed vertebrates, including humans, have even more sophisticated defense mechanisms, including the ability to adapt over time to recognize specific pathogens more efficiently. Adaptive (or acquired) immunity creates immunological memory after an initial response to a specific pathogen, leading to an enhanced response to subsequent encounters with that same pathogen. This process of acquired immunity is the basis of vaccination.",
+      "answers": [
+        {
+          "answer_start": 564,
+          "text": "defensins"
+        },
+        {
+          "answer_start": 564,
+          "text": "defensins"
+        },
+        {
+          "answer_start": 564,
+          "text": "defensins"
+        }
+      ],
+      "original_question": "What are antimicrobial peptides that evolved as immune defense in eukaryotes called?",
+      "new_question": "What antimicrobial peptides evolved eukaryotes",
+      "original_prediction": "defensins",
+      "new_prediction": "defensins"
+    },
+    "5729f1c13f37b319004785e9": {
+      "context": "In many countries, there is a Gender pay gap in favor of males in the labor market. Several factors other than discrimination may contribute to this gap. On average, women are more likely than men to consider factors other than pay when looking for work, and may be less willing to travel or relocate. Thomas Sowell, in his book Knowledge and Decisions, claims that this difference is due to women not taking jobs due to marriage or pregnancy, but income studies show that that does not explain the entire difference. A U.S. Census's report stated that in US once other factors are accounted for there is still a difference in earnings between women and men. The income gap in other countries ranges from 53% in Botswana to -40% in Bahrain.",
+      "answers": [
+        {
+          "answer_start": 166,
+          "text": "women"
+        },
+        {
+          "answer_start": 166,
+          "text": "women"
+        },
+        {
+          "answer_start": 166,
+          "text": "women"
+        }
+      ],
+      "original_question": "What gender is less willing to travel or relocate for work?",
+      "new_question": "What gender willing travel relocate",
+      "original_prediction": "women",
+      "new_prediction": "women"
+    },
+    "5729f24baf94a219006aa6df": {
+      "context": "Economist Simon Kuznets argued that levels of economic inequality are in large part the result of stages of development. According to Kuznets, countries with low levels of development have relatively equal distributions of wealth. As a country develops, it acquires more capital, which leads to the owners of this capital having more wealth and income and introducing inequality. Eventually, through various possible redistribution mechanisms such as social welfare programs, more developed countries move back to lower levels of inequality.",
+      "answers": [
+        {
+          "answer_start": 266,
+          "text": "more capital"
+        },
+        {
+          "answer_start": 266,
+          "text": "more capital"
+        },
+        {
+          "answer_start": 266,
+          "text": "more capital"
+        }
+      ],
+      "original_question": "What does a country acquire as it develops?",
+      "new_question": "What does country acquire develops",
+      "original_prediction": "more capital",
+      "new_prediction": "more capital"
+    },
+    "572953013f37b3190047824d": {
+      "context": "Chloroplasts' main role is to conduct photosynthesis, where the photosynthetic pigment chlorophyll captures the energy from sunlight and converts it and stores it in the energy-storage molecules ATP and NADPH while freeing oxygen from water. They then use the ATP and NADPH to make organic molecules from carbon dioxide in a process known as the Calvin cycle. Chloroplasts carry out a number of other functions, including fatty acid synthesis, much amino acid synthesis, and the immune response in plants. The number of chloroplasts per cell varies from 1 in algae up to 100 in plants like Arabidopsis and wheat.",
+      "answers": [
+        {
+          "answer_start": 27,
+          "text": "to conduct photosynthesis"
+        },
+        {
+          "answer_start": 30,
+          "text": "conduct photosynthesis"
+        },
+        {
+          "answer_start": 30,
+          "text": "conduct photosynthesis"
+        }
+      ],
+      "original_question": "What is the primary purpose of chloroplasts?",
+      "new_question": "What is primary purpose chloroplasts",
+      "original_prediction": "conduct photosynthesis",
+      "new_prediction": "to conduct photosynthesis"
+    },
+    "5730a314069b5314008321ee": {
+      "context": "According to geographic scholars under colonizing empires, the world could be split into climatic zones. These scholars believed that Northern Europe and the Mid-Atlantic temperate climate produced a hard-working, moral, and upstanding human being. Alternatively, tropical climates yielded lazy attitudes, sexual promiscuity, exotic culture, and moral degeneracy. The people of these climates were believed to be in need of guidance and intervention from the European empire to aid in the governing of a more evolved social structure; they were seen as incapable of such a feat. Similarly, orientalism is a view of a people based on their geographical location. ",
+      "answers": [
+        {
+          "answer_start": 590,
+          "text": "orientalism"
+        },
+        {
+          "answer_start": 590,
+          "text": "orientalism"
+        },
+        {
+          "answer_start": 590,
+          "text": "orientalism"
+        },
+        {
+          "answer_start": 590,
+          "text": "orientalism"
+        },
+        {
+          "answer_start": 590,
+          "text": "orientalism"
+        }
+      ],
+      "original_question": "What was a similar view about the Asian continent called?",
+      "new_question": "What similar view Asian continent",
+      "original_prediction": "orientalism",
+      "new_prediction": "orientalism"
+    },
+    "5733fb7bd058e614000b6700": {
+      "context": "Newcastle replaced him in January 1756 with Lord Loudoun, with Major General James Abercrombie as his second in command. Neither of these men had as much campaign experience as the trio of officers France sent to North America. French regular army reinforcements arrived in New France in May 1756, led by Major General Louis-Joseph de Montcalm and seconded by the Chevalier de Lévis and Colonel François-Charles de Bourlamaque, all experienced veterans from the War of the Austrian Succession. During that time in Europe, on May 18, 1756, England formally declared war on France, which expanded the war into Europe, which was later to be known as the Seven Years' War.",
+      "answers": [
+        {
+          "answer_start": 305,
+          "text": "Major General Louis-Joseph de Montcalm"
+        },
+        {
+          "answer_start": 305,
+          "text": "Major General Louis-Joseph de Montcalm"
+        },
+        {
+          "answer_start": 44,
+          "text": "Lord Loudoun"
+        },
+        {
+          "answer_start": 305,
+          "text": "Major General Louis-Joseph de Montcalm"
+        },
+        {
+          "answer_start": 305,
+          "text": "Major General Louis-Joseph de Montcalm"
+        }
+      ],
+      "original_question": "Who led New France reinforcements in 1756?",
+      "new_question": "Who led France reinforcements 1756",
+      "original_prediction": "Major General Louis-Joseph de Montcalm",
+      "new_prediction": "Major General Louis-Joseph de Montcalm"
+    },
+    "573750f61c45671900574468": {
+      "context": "Newton's Second Law asserts the direct proportionality of acceleration to force and the inverse proportionality of acceleration to mass. Accelerations can be defined through kinematic measurements. However, while kinematics are well-described through reference frame analysis in advanced physics, there are still deep questions that remain as to what is the proper definition of mass. General relativity offers an equivalence between space-time and mass, but lacking a coherent theory of quantum gravity, it is unclear as to how or whether this connection is relevant on microscales. With some justification, Newton's second law can be taken as a quantitative definition of mass by writing the law as an equality; the relative units of force and mass then are fixed.",
+      "answers": [
+        {
+          "answer_start": 174,
+          "text": "kinematic"
+        },
+        {
+          "answer_start": 174,
+          "text": "kinematic measurements"
+        },
+        {
+          "answer_start": 174,
+          "text": "kinematic"
+        },
+        {
+          "answer_start": 174,
+          "text": "kinematic"
+        },
+        {
+          "answer_start": 174,
+          "text": "kinematic"
+        }
+      ],
+      "original_question": "What kind of measurements define accelerlations?",
+      "new_question": "What kind measurements define accelerlations",
+      "original_prediction": "kinematic",
+      "new_prediction": "kinematic"
+    }
+  }
+}
